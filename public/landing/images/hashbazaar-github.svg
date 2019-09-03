@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 48.767">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="24.383" x2="50" y2="24.383" gradientUnits="userSpaceOnUse">
+      <stop offset="0.015" stop-color="#f7b917"/>
+      <stop offset="0.137" stop-color="#f7be1a"/>
+      <stop offset="0.288" stop-color="#f8ce22"/>
+      <stop offset="0.454" stop-color="#f9e72f"/>
+      <stop offset="0.488" stop-color="#f9ed32"/>
+      <stop offset="0.557" stop-color="#f9e12c"/>
+      <stop offset="0.714" stop-color="#f8cb20"/>
+      <stop offset="0.864" stop-color="#f7be19"/>
+      <stop offset="1" stop-color="#f7b917"/>
+    </linearGradient>
+  </defs>
+  <title>2Asset 7</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M25,0a25,25,0,0,0-7.906,48.719c1.25.218,1.718-.531,1.718-1.188,0-.593-.031-2.562-.031-4.656-6.281,1.156-7.906-1.531-8.406-2.938-.281-.718-1.5-2.937-2.563-3.531-.874-.468-2.124-1.625-.031-1.656,1.969-.031,3.375,1.812,3.844,2.562,2.25,3.782,5.844,2.719,7.281,2.063A5.26,5.26,0,0,1,20.5,36.031C14.938,35.406,9.125,33.25,9.125,23.687a9.728,9.728,0,0,1,2.563-6.718,8.987,8.987,0,0,1,.249-6.625s2.094-.657,6.875,2.562a23.567,23.567,0,0,1,12.5,0c4.781-3.25,6.875-2.562,6.875-2.562a8.989,8.989,0,0,1,.25,6.625A9.674,9.674,0,0,1,41,23.687c0,9.594-5.844,11.719-11.406,12.344a5.922,5.922,0,0,1,1.687,4.625c0,3.344-.031,6.031-.031,6.875,0,.657.469,1.438,1.719,1.188A25.013,25.013,0,0,0,25,0Z"/>
+    </g>
+  </g>
+</svg>

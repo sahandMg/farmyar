@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.414 40.903">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0e2738;
+        stroke-miterlimit: 10;
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="20.451" x2="42.414" y2="20.451" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e8a423"/>
+      <stop offset="0.022" stop-color="#e9a721"/>
+      <stop offset="0.254" stop-color="#f3c113"/>
+      <stop offset="0.492" stop-color="#fad408"/>
+      <stop offset="0.737" stop-color="#fedf02"/>
+      <stop offset="1" stop-color="#ffe300"/>
+    </linearGradient>
+  </defs>
+  <title>8Asset 5</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M41.438,10.966,39.812,9.339a1.637,1.637,0,0,0-2.309,0l-9.87,9.87-5-5.279L32.2,5.007a1.639,1.639,0,0,0,.08-2.308L30.713,1.017a1.637,1.637,0,0,0-2.307-.08l-9.6,8.952L16.369,7.316a14.008,14.008,0,0,0-6.85,20.792L1.029,35.87a1.636,1.636,0,0,0-.1,2.306l1.552,1.7a1.637,1.637,0,0,0,2.306.1l8.633-7.893a14.012,14.012,0,0,0,20.727-6l-2.683-2.833,9.977-9.977A1.636,1.636,0,0,0,41.438,10.966Z"/>
+    </g>
+  </g>
+</svg>
