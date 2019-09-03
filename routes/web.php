@@ -334,8 +334,6 @@ Route::group(['prefix'=> '{lang}'],function() {
 
     // ========================== Remote Pages Routes ===========================
 
-    Route::group(['prefix'=>'remote'],function(){
-
         Route::get('dashboard','Remote\RemoteController@dashboard')->name('remoteDashboard');
 
         Route::get('status',['as'=>'minerStatus','uses'=>'Remote\RemoteController@minerStatus']);
@@ -399,7 +397,7 @@ Route::group(['prefix'=> '{lang}'],function() {
 
             Route::get('email-verify', 'Remote\AuthController@VerifyUserPage')->name('RemoteVerifyUserPage');
 
-            Route::get('google/login', 'Remote\AuthController@redirectToProvider')->name('RemoteRedirectToProvider');
+            Route::get('google/login', 'Remote\AuthController@redirectToProvider')->name('redirectToProvider');
 
             Route::get('google/login/callback', 'Remote\AuthController@handleProviderCallback')->name('handleProviderCallbackRemote');
 
@@ -410,8 +408,5 @@ Route::group(['prefix'=> '{lang}'],function() {
             Route::get('password-reset', 'Remote\AuthController@passwordReset')->name('passwordReset');
 
         });
-
-
-    });
 
 });
