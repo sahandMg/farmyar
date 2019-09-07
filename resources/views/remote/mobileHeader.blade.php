@@ -3,7 +3,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="{{URL::asset('img/Logo_footer.png')}}" alt="HashBazaar" />
+                            <img src="{{URL::asset('img/farmyar.svg')}}" alt="HashBazaar" style="height: 51px;" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
