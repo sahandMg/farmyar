@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567943561917">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567943860779">
   <folder name="assets">
     <file name="logo-04.svg" crc="463331889" seo="true" mt="1567756331000"/>
   </folder>
@@ -169,5 +169,5 @@
     </file>
     <file name="group 119-u10040-fr.png" crc="440619420" ref="index"/>
   </folder>
-  <file name="index.html" crc="74499505" seo="true" mt="1567943473621" redirect="true"/>
+  <file name="index.html" crc="4097601779" seo="true" mt="1567943839821" redirect="true"/>
 </manifest>
