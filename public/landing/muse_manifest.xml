@@ -1,58 +1,35 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567507881719">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567757205137">
+  <folder name="assets">
+    <file name="logo-04.svg" crc="463331889" seo="true" mt="1567756331000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="3883928133"/>
-    <file name="index.css" crc="77120632" ref="index"/>
-    <file name="nomq_index.css" crc="456442097" ref="index"/>
+    <file name="index.css" crc="3922491088" ref="index"/>
+    <file name="nomq_index.css" crc="272703011" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="byekan.woff" crc="315374278"/>
     <file name="byekan.eot" crc="4054492400"/>
   </folder>
-  <folder name="assets">
-    <file name="logo.svg" crc="218083929" seo="true" mt="1564571325000"/>
-  </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="4232573551" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="3849126041" ref="index"/>
+    <file name="museconfig.js" crc="4163635208" ref="index"/>
     <file name="jquery.watch.js" crc="3844535323" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
     <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
     <file name="require.js" crc="4234670167" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="hashbazaar-windows.svg" crc="4184646506" seo="true" ref="index">
+    <file name="hashbazaar-windows.svg" crc="281102790" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="hashbazaar-linux.svg" crc="43880028" seo="true" ref="index">
+    <file name="hashbazaar_windows.svg" crc="4036610426" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="hashbazaar-android.svg" crc="4008363236" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="hashbazaar-github.svg" crc="4056531920" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="hashbazaar_free.svg" crc="3994995248" ref="index"/>
-    <file name="hashbazaar_windows.svg" crc="3844315715" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="hashbazaar-asic.svg" crc="3820841711" ref="index"/>
-    <file name="hashbazaar-asic_poster_u789.png" crc="3867325348" ref="index"/>
-    <file name="ok8nal0.jpg" crc="452550057" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="logo.svg" crc="218083929" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="logo_poster_.png" crc="98441013" ref="index"/>
     <file name="hashbazaar-twitter.svg" crc="3825294094" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -74,33 +51,113 @@
     <file name="hashbazaar-email_poster_u1560.png" crc="192586606" ref="index"/>
     <file name="hashbazaar-location.svg" crc="4087253132" ref="index"/>
     <file name="hashbazaar-location_poster_u1433.png" crc="49677214" ref="index"/>
-    <file name="hashbazaar-windows_poster_.png" crc="370219858" ref="index"/>
-    <file name="hashbazaar-linux_poster_.png" crc="95414655" ref="index"/>
-    <file name="hashbazaar-android_poster_.png" crc="487065429" ref="index"/>
-    <file name="hashbazaar-github_poster_.png" crc="467400590" ref="index"/>
-    <file name="hashbazaar_windows_poster_.png" crc="411481628" ref="index"/>
-    <file name="ok8nal0-u986-fr.jpg" crc="3889966237" ref="index"/>
+    <file name="hashbazaar-windows_poster_.png" crc="141642653" ref="index"/>
+    <file name="hashbazaar_windows_poster_.png" crc="230951316" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="5500a9d776d3c764285288da63cb7a9e-u2390-fr2.jpg" crc="3978663680" ref="index">
+    <file name="hashbazaar-hash.svg" crc="3993153546" ref="index" seo="true">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="hashbazaar-alarm.svg" crc="4085114690" ref="index"/>
-    <file name="hashbazaar-alarm_poster_u2843.png" crc="3885160811" ref="index"/>
-    <file name="hashbazaar_free_poster_u2211.png" crc="3799271748" ref="index"/>
-    <file name="hashbazaar-speed.svg" crc="4261621058" ref="index"/>
-    <file name="hashbazaar-speed_poster_u2789.png" crc="395891411" ref="index"/>
-    <file name="hashbazaar-temp.svg" crc="338901623" ref="index"/>
-    <file name="hashbazaar-temp_poster_u2815.png" crc="178835520" ref="index"/>
-    <file name="hashbazaar-hash.svg" crc="3890411535" ref="index"/>
-    <file name="hashbazaar-hash_poster_u2851.png" crc="4068696073" ref="index"/>
-    <file name="hashbazaar-clcok.svg" crc="4134213084" ref="index"/>
-    <file name="hashbazaar-clcok_poster_u2835.png" crc="13173647" ref="index"/>
-    <file name="screen shot 2019-09-02 at 70533 pm-crop-u2891.jpg" crc="146903920" seo="true" ref="index">
+    <file name="monitor.svg" crc="3769646142" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="screen shot 2019-09-02 at 70533 pm-crop-u28912.jpg" crc="3861515090" seo="true" ref="index">
+    <file name="monitor_poster_.png" crc="4100345434" ref="index"/>
+    <file name="android.svg" crc="160812988" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="android_poster_.png" crc="3832816048" ref="index"/>
+    <file name="linux.svg" crc="436351347" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linux_poster_.png" crc="92053937" ref="index"/>
+    <file name="github.svg" crc="4290482830" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="github_poster_.png" crc="86113131" ref="index"/>
+    <file name="hashbazaar-mine.svg" crc="479624146" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hashbazaar-mine_poster_.png" crc="3843972221" ref="index"/>
+    <file name="path-107.svg" crc="427690683" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="path 107_poster_.png" crc="204758048" ref="index"/>
+    <file name="cloud1.svg" crc="4127664655" ref="index"/>
+    <file name="cloud1_poster_u3478.png" crc="251357319" ref="index"/>
+    <file name="iphone.svg" crc="353415937" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iphone_poster_.png" crc="304285189" ref="index"/>
+    <file name="button.svg" crc="320603766" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="button_poster_.png" crc="76966738" ref="index"/>
+    <file name="hashbazaar-hash_poster_.png" crc="120107722" ref="index"/>
+    <file name="logo-04.svg" crc="463331889" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-04_poster_.png" crc="4078336048" ref="index"/>
+    <file name="path-34.svg" crc="3900308290" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="path 34_poster_.png" crc="4247970906" ref="index"/>
+    <file name="path-31.svg" crc="3800060405" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="path 31_poster_.png" crc="4200503132" ref="index"/>
+    <file name="group-37.svg" crc="516017443" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="group 37_poster_.png" crc="316134026" ref="index"/>
+    <file name="check.svg" crc="3797633560" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="check_poster_.png" crc="3950231838" ref="index"/>
   </folder>
-  <file name="index.html" crc="3989302301" seo="true" mt="1567507872399" redirect="true"/>
+  <file name="index.html" crc="228772020" seo="true" mt="1567757201625" redirect="true"/>
 </manifest>

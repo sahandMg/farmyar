@@ -281,7 +281,7 @@ class RemoteController extends Controller
         $this->validate($request,['name'=> 'required|alpha_num']);
         $remoteId = new RemoteId();
         $remoteId->name = $request->name;
-        $remoteId->code = strtoupper(uniqid());
+        $remoteId->code = strtoupper(str_random(5));
         $remoteId->user_id = Auth::guard('remote')->id();
         $remoteId->save();
         return redirect()->route('remoteDashboard',['locale'=>App::getLocale()]);

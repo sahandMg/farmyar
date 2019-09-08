@@ -17,10 +17,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>هش بازار | مانیتورینگ</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3883928133"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=77120632" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3922491088" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=456442097" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=272703011" id="nomq_pagesheet"/>
   <![endif]-->
     <!--HTML Widget code-->
   
@@ -43,8 +43,185 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <script src="https://cdn.jsdelivr.net/vivus/0.4.0/vivus.min.js"></script>
 
 <style>
+.tippy-touch{cursor:pointer!important}.tippy-popper{max-width:400px;-webkit-perspective:800px;perspective:800px;z-index:9999}.tippy-popper.html-template{max-width:96%;max-width:calc(100% - 20px)}.tippy-popper[x-placement^=top] [x-arrow]{position:absolute;width:0;height:0;border-top:7px solid #333;border-right:7px solid transparent;border-left:7px solid transparent;bottom:-7px}.tippy-popper[x-placement^=top] [x-arrow].arrow-small{border-top:5px solid #333;border-right:5px solid transparent;border-left:5px solid transparent;bottom:-5px}.tippy-popper[x-placement^=top] [x-arrow].arrow-big{border-top:9px solid #333;border-right:9px solid transparent;border-left:9px solid transparent;bottom:-9px}.tippy-popper[x-placement^=top] [x-circle]{-webkit-transform-origin:0 50%;transform-origin:0 50%}.tippy-popper[x-placement^=top] [x-circle].enter{opacity:1;-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper[x-placement^=top] [x-circle].leave{opacity:0;-webkit-transform:scale(.4) translate(-50%,-50%);transform:scale(.4) translate(-50%,-50%)}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow]{border-top:7px solid #fff;border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-top:5px solid #fff;border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-top:9px solid #fff;border-right:9px solid transparent;border-left:9px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-arrow]{border-top:7px solid rgba(0,0,0,.7);border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-top:5px solid rgba(0,0,0,.7);border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-top:9px solid rgba(0,0,0,.7);border-right:9px solid transparent;border-left:9px solid transparent}.tippy-popper[x-placement^=top] [data-animation=perspective]{-webkit-transform-origin:bottom;transform-origin:bottom}.tippy-popper[x-placement^=top] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateY(-10px) rotateX(0);transform:translateY(-10px) rotateX(0)}.tippy-popper[x-placement^=top] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateY(0) rotateX(90deg);transform:translateY(0) rotateX(90deg)}.tippy-popper[x-placement^=top] [data-animation=fade].enter{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=fade].leave{opacity:0;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift].enter{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift].leave{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=top] [data-animation=scale].enter{opacity:1;-webkit-transform:translateY(-10px) scale(1);transform:translateY(-10px) scale(1)}.tippy-popper[x-placement^=top] [data-animation=scale].leave{opacity:0;-webkit-transform:translateY(0) scale(0);transform:translateY(0) scale(0)}.tippy-popper[x-placement^=bottom] [x-arrow]{position:absolute;width:0;height:0;border-bottom:7px solid #333;border-right:7px solid transparent;border-left:7px solid transparent;top:-7px}.tippy-popper[x-placement^=bottom] [x-arrow].arrow-small{border-bottom:5px solid #333;border-right:5px solid transparent;border-left:5px solid transparent;top:-5px}.tippy-popper[x-placement^=bottom] [x-arrow].arrow-big{border-bottom:9px solid #333;border-right:9px solid transparent;border-left:9px solid transparent;top:-9px}.tippy-popper[x-placement^=bottom] [x-circle]{-webkit-transform-origin:0 -50%;transform-origin:0 -50%}.tippy-popper[x-placement^=bottom] [x-circle].enter{opacity:1;-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper[x-placement^=bottom] [x-circle].leave{opacity:0;-webkit-transform:scale(.4) translate(-50%);transform:scale(.4) translate(-50%)}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-arrow]{border-bottom:7px solid #fff;border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-bottom:5px solid #fff;border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-bottom:9px solid #fff;border-right:9px solid transparent;border-left:9px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-arrow]{border-bottom:7px solid rgba(0,0,0,.7);border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-bottom:5px solid rgba(0,0,0,.7);border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-bottom:9px solid rgba(0,0,0,.7);border-right:9px solid transparent;border-left:9px solid transparent}.tippy-popper[x-placement^=bottom] [data-animation=perspective]{-webkit-transform-origin:top;transform-origin:top}.tippy-popper[x-placement^=bottom] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateY(10px) rotateX(0);transform:translateY(10px) rotateX(0)}.tippy-popper[x-placement^=bottom] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateY(0) rotateX(-90deg);transform:translateY(0) rotateX(-90deg)}.tippy-popper[x-placement^=bottom] [data-animation=fade].enter{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=fade].leave{opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift].enter{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift].leave{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=bottom] [data-animation=scale].enter{opacity:1;-webkit-transform:translateY(10px) scale(1);transform:translateY(10px) scale(1)}.tippy-popper[x-placement^=bottom] [data-animation=scale].leave{opacity:0;-webkit-transform:translateY(0) scale(0);transform:translateY(0) scale(0)}.tippy-popper[x-placement^=left] [x-arrow]{position:absolute;width:0;height:0;border-left:7px solid #333;border-top:7px solid transparent;border-bottom:7px solid transparent;right:-7px;top:50%}.tippy-popper[x-placement^=left] [x-arrow].arrow-small{border-left:5px solid #333;border-top:5px solid transparent;border-bottom:5px solid transparent;right:-5px;top:50%}.tippy-popper[x-placement^=left] [x-arrow].arrow-big{border-left:9px solid #333;border-top:9px solid transparent;border-bottom:9px solid transparent;right:-9px;top:50%}.tippy-popper[x-placement^=left] [x-circle]{-webkit-transform-origin:50% 5%;transform-origin:50% 5%}.tippy-popper[x-placement^=left] [x-circle].enter{opacity:1;-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper[x-placement^=left] [x-circle].leave{opacity:0;-webkit-transform:scale(.4) translate(-50%,-33%);transform:scale(.4) translate(-50%,-33%)}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-arrow]{border-left:7px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-left:5px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-left:9px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-arrow]{border-left:7px solid rgba(0,0,0,.7);border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-left:5px solid rgba(0,0,0,.7);border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-left:9px solid rgba(0,0,0,.7);border-top:9px solid transparent;border-bottom:9px solid transparent}.tippy-popper[x-placement^=left] [data-animation=perspective]{-webkit-transform-origin:right;transform-origin:right}.tippy-popper[x-placement^=left] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateX(-10px) rotateY(0);transform:translateX(-10px) rotateY(0)}.tippy-popper[x-placement^=left] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateX(0) rotateY(-90deg);transform:translateX(0) rotateY(-90deg)}.tippy-popper[x-placement^=left] [data-animation=fade].enter{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=fade].leave{opacity:0;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift].enter{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift].leave{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=left] [data-animation=scale].enter{opacity:1;-webkit-transform:translateX(-10px) scale(1);transform:translateX(-10px) scale(1)}.tippy-popper[x-placement^=left] [data-animation=scale].leave{opacity:0;-webkit-transform:translateX(0) scale(0);transform:translateX(0) scale(0)}.tippy-popper[x-placement^=right] [x-arrow]{position:absolute;width:0;height:0;border-right:7px solid #333;border-top:7px solid transparent;border-bottom:7px solid transparent;left:-7px;top:50%}.tippy-popper[x-placement^=right] [x-arrow].arrow-small{border-right:5px solid #333;border-top:5px solid transparent;border-bottom:5px solid transparent;left:-5px;top:50%}.tippy-popper[x-placement^=right] [x-arrow].arrow-big{border-right:9px solid #333;border-top:9px solid transparent;border-bottom:9px solid transparent;left:-9px;top:50%}.tippy-popper[x-placement^=right] [x-circle]{-webkit-transform-origin:-50% 5%;transform-origin:-50% 5%}.tippy-popper[x-placement^=right] [x-circle].enter{opacity:1;-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper[x-placement^=right] [x-circle].leave{opacity:0;-webkit-transform:scale(.4) translate(-50%,-33%);transform:scale(.4) translate(-50%,-33%)}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-arrow]{border-right:7px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-right:5px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-right:9px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-arrow]{border-right:7px solid rgba(0,0,0,.7);border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-right:5px solid rgba(0,0,0,.7);border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-right:9px solid rgba(0,0,0,.7);border-top:9px solid transparent;border-bottom:9px solid transparent}.tippy-popper[x-placement^=right] [data-animation=perspective]{-webkit-transform-origin:left;transform-origin:left}.tippy-popper[x-placement^=right] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateX(10px) rotateY(0);transform:translateX(10px) rotateY(0)}.tippy-popper[x-placement^=right] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateX(0) rotateY(90deg);transform:translateX(0) rotateY(90deg)}.tippy-popper[x-placement^=right] [data-animation=fade].enter{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=fade].leave{opacity:0;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift].enter{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift].leave{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=right] [data-animation=scale].enter{opacity:1;-webkit-transform:translateX(10px) scale(1);transform:translateX(10px) scale(1)}.tippy-popper[x-placement^=right] [data-animation=scale].leave{opacity:0;-webkit-transform:translateX(0) scale(0);transform:translateX(0) scale(0)}.tippy-popper [x-circle]{background-color:#fff}.tippy-popper[data-animatefill]{background-color:transparent}.tippy-popper [x-arrow]{position:absolute;width:0;height:0}.tippy-popper .tippy-tooltip.transparent-theme{background-color:rgba(0,0,0,.8)}.tippy-popper .tippy-tooltip.transparent-theme[data-animatefill]{background-color:transparent}.tippy-popper .tippy-tooltip.light-theme{color:#203d5d;box-shadow:0 4px 20px 4px rgba(0,20,60,.1),0 4px 80px -8px rgba(0,20,60,.2);background-color:#fff}.tippy-popper .tippy-tooltip.light-theme[data-animatefill]{background-color:transparent}.tippy-tooltip{position:relative;color:#fff;border-radius:4px;font-size:.95rem;padding:.4rem .8rem;text-align:center;will-change:transform;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#333}.tippy-tooltip--small{padding:.25rem .5rem;font-size:.8rem}.tippy-tooltip--big{padding:.6rem 1.2rem;font-size:1.2rem}.tippy-tooltip[data-animatefill]{overflow:hidden;background-color:transparent}.tippy-tooltip[data-inertia]{-webkit-transition-timing-function:cubic-bezier(.53,1,.36,.85);transition-timing-function:cubic-bezier(.53,2,.36,.85)}.tippy-tooltip [x-circle]{position:absolute;will-change:transform;background-color:#333;border-radius:50%;width:120%;width:calc(100% + 2rem);-webkit-transition:all ease-out;transition:all ease-out;left:50%;z-index:-1;opacity:0;overflow:hidden}.tippy-tooltip [x-circle]:before{content:"";padding-top:100%;padding-top:calc(60% + 2rem);float:left}@media (max-width:500px){.tippy-popper{max-width:96%;max-width:calc(100% - 20px)}}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['B Yekan']
+    }
+  });
+</script>
+<style>
+.tippy-popper, .tippy-tooltip, .tippy-tooltip [x-arrow] {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+
+.tippy-tooltip.theme2-theme {
+  background-color: #0E1E28;
+  border: 0px solid #FFFFFF;
+  font-family: 'B Yekan', sans-serif;
+  font-weight: 400;
+}
+
+.tippy-popper[x-placement=top] .tippy-tooltip.theme2-theme [x-arrow] {
+  border-top-color: #0E1E28;
+}
+
+.tippy-popper[x-placement=bottom] .tippy-tooltip.theme2-theme [x-arrow] {
+  border-bottom-color: #0E1E28;
+}
+
+.tippy-popper[x-placement=left] .tippy-tooltip.theme2-theme [x-arrow] {
+  border-left-color: #0E1E28;
+}
+
+.tippy-popper[x-placement=right] .tippy-tooltip.theme2-theme [x-arrow] {
+  border-right-color: #0E1E28;
+}
+
+.tippy-tooltip.theme2-theme .tippy-tooltip-content {
+  color: #FFFFFF;
+}
+
+.tippy-tooltip.theme2-theme [x-circle] {
+  background-color: #0E1E28;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['B Yekan']
+    }
+  });
+</script>
+<style>
+.tippy-popper, .tippy-tooltip, .tippy-tooltip [x-arrow] {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+
+.tippy-tooltip.theme1-theme {
+  background-color: #0E1E28;
+  border: 0px solid #FFFFFF;
+  font-family: 'B Yekan', sans-serif;
+  font-weight: 400;
+}
+
+.tippy-popper[x-placement=top] .tippy-tooltip.theme1-theme [x-arrow] {
+  border-top-color: #0E1E28;
+}
+
+.tippy-popper[x-placement=bottom] .tippy-tooltip.theme1-theme [x-arrow] {
+  border-bottom-color: #0E1E28;
+}
+
+.tippy-popper[x-placement=left] .tippy-tooltip.theme1-theme [x-arrow] {
+  border-left-color: #0E1E28;
+}
+
+.tippy-popper[x-placement=right] .tippy-tooltip.theme1-theme [x-arrow] {
+  border-right-color: #0E1E28;
+}
+
+.tippy-tooltip.theme1-theme .tippy-tooltip-content {
+  color: #FFFFFF;
+}
+
+.tippy-tooltip.theme1-theme [x-circle] {
+  background-color: #0E1E28;
+}
+</style>
+
+<style>
+.gradient2 {
+  -webkit-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+   background-color: #dcb611;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjZDYwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjY2I5NjE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjZDYwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjY2I5NjE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==),
+        -webkit-gradient(radial, center center, 0, center center, 362,color-stop(0, rgb(236, 214, 10)),color-stop(1, rgb(203, 150, 24)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(center center, ellipse farthest-corner,rgb(236, 214, 10) 0%,rgb(203, 150, 24) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at center center,rgb(236, 214, 10) 0%,rgb(203, 150, 24) 100%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,rgb(236, 214, 10) 0%,rgb(203, 150, 24) 100%);
+}
+</style>
+
+<style>
+.gradient3 {
+  -webkit-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+  background-color: #898b89;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiNjYmNiY2IiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzQ2NGI0NyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiNjYmNiY2IiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzQ2NGI0NyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=),
+        -webkit-gradient(radial, left top, 0, left top, 723,color-stop(0, rgb(203, 203, 203)),color-stop(1, rgb(70, 75, 71)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(left top, ellipse farthest-corner,rgb(203, 203, 203) 0%,rgb(70, 75, 71) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at left top,rgb(203, 203, 203) 0%,rgb(70, 75, 71) 100%);
+    background-image: -ms-radial-gradient(left top, ellipse farthest-corner,rgb(203, 203, 203) 0%,rgb(70, 75, 71) 100%);
+}
+</style>
+
+<style>
+.gradient4 {
+  -webkit-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+     background-color: #ba4f17;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiM5YjNkMGMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2Q4NjAyMSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiM5YjNkMGMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2Q4NjAyMSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=),
+        -webkit-gradient(radial, left top, 0, left top, 723,color-stop(0, rgb(155, 61, 12)),color-stop(1, rgb(216, 96, 33)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-radial-gradient(left top, ellipse farthest-corner,rgb(155, 61, 12) 0%,rgb(216, 96, 33) 100%);
+    /* IE10+ */
+    background-image: repeating-radial-gradient(ellipse farthest-corner at left top,rgb(155, 61, 12) 0%,rgb(216, 96, 33) 100%);
+    background-image: -ms-repeating-radial-gradient(left top, ellipse farthest-corner,rgb(155, 61, 12) 0%,rgb(216, 96, 33) 100%);
+}
+</style>
+
+<style>
+.gradient5 {
+  -webkit-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
+  background-color: #1d9d07;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiMxYTdiMDkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzIwYmYwNSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiMxYTdiMDkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzIwYmYwNSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=),
+        -webkit-gradient(radial, left top, 0, left top, 723,color-stop(0, rgb(26, 123, 9)),color-stop(1, rgb(32, 191, 5)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(left top, ellipse farthest-corner,rgb(26, 123, 9) 0%,rgb(32, 191, 5) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at left top,rgb(26, 123, 9) 0%,rgb(32, 191, 5) 100%);
+    background-image: -ms-radial-gradient(left top, ellipse farthest-corner,rgb(26, 123, 9) 0%,rgb(32, 191, 5) 100%);
+ 
+}
+</style>
+
+<style>
 .svg1 path {
-   stroke: #FFFFFF !important;
+   stroke: #0E1E28 !important;
   //fill: #29AAE1 !important;
 }
 </style>
@@ -93,6 +270,29 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 }
 </style>
 
+<style>
+body {
+  overflow-x: hidden;
+}
+</style>
+
+<style>
+.gradient1 {
+  Enter Shadow Code from the Box Shadow Generator
+      background-color: #d08f11;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==),
+        -webkit-gradient(radial, center center, 0, center center, 362,color-stop(0, rgb(236, 165, 10)),color-stop(1, rgb(180, 120, 24)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at center center,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+}
+</style>
+
   <!--/*
 
 */
@@ -101,7 +301,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body>
 
   <div class="breakpoint active" id="bp_infinity" data-min-width="1281"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="gradient3 clearfix borderbox" id="page"><!-- group -->
     <div class="size_fixed grpelem shared_content" id="u128" data-content-guid="u128_content"><!-- custom html -->
      
 
@@ -110,493 +310,973 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      
 
     </div>
-    <div class="browser_width grpelem shared_content" id="u2875-bw" data-content-guid="u2875-bw_content">
-     <div id="u2875"><!-- simple frame --></div>
-    </div>
-    <div id="u846-wrapper" class="shared_content" data-content-guid="u846-wrapper_content">
-     <div id="u846"><!-- content -->
-      <div class="fluid_height_spacer"></div>
+    <div class="clearfix grpelem" id="pu2973"><!-- column -->
+     <div class="size_fixed colelem shared_content" id="u2973" data-content-guid="u2973_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u3679" data-content-guid="u3679_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u3711" data-content-guid="u3711_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u3727" data-content-guid="u3727_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u3757" data-content-guid="u3757_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u3773" data-content-guid="u3773_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fluid_width colelem shared_content" id="u4010" data-content-guid="u4010_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fluid_width colelem shared_content" id="u4065" data-content-guid="u4065_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fluid_width colelem shared_content" id="u4142" data-content-guid="u4142_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fluid_width colelem shared_content" id="u4185" data-content-guid="u4185_content"><!-- custom html -->
+      
+
      </div>
     </div>
-    <div class="clearfix grpelem" id="pu118"><!-- column -->
-     <div class="browser_width colelem" id="u118-bw">
-      <div class="museBGSize" id="u118"><!-- group -->
-       <div class="clearfix" id="u118_align_to_page">
-        <a class="anchor_item grpelem shared_content" id="accessibility" data-content-guid="accessibility_content"></a>
+    <div id="u3450-wrapper" class="shared_content" data-content-guid="u3450-wrapper_content">
+     <div class="clearfix" id="u3450"><!-- group -->
+      <div id="u846-wrapper">
+       <div id="u846"><!-- content -->
+        <div class="fluid_height_spacer"></div>
        </div>
       </div>
-     </div>
-     <div class="clearfix colelem" id="pu94"><!-- group -->
-      <div class="browser_width grpelem" id="u94-bw">
-       <div id="u94"><!-- group -->
-        <div class="clearfix" id="u94_align_to_page">
-         <a class="anchor_item grpelem shared_content" id="features" data-content-guid="features_content"></a>
-        </div>
-       </div>
+      <div id="u860-4-wrapper">
+       <a class="nonblock nontext anim_swing clearfix" id="u860-4" href="index.html#features"><!-- content --><p>ویژگی ها</p></a>
       </div>
-      <div class="browser_width grpelem" id="u305-bw">
-       <div id="u305"><!-- column -->
-        <div class="clearfix" id="u305_align_to_page">
-         <div class="clearfix colelem" id="pu448"><!-- group -->
-          <div class="museBGSize grpelem shared_content" id="u448" data-content-guid="u448_content"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-          <div class="museBGSize grpelem shared_content" id="u476" data-content-guid="u476_content"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-         </div>
-         <div class="clearfix colelem shared_content" id="pu350" data-content-guid="pu350_content"><!-- group -->
-          <div class="clearfix grpelem" id="u350"><!-- column -->
-           <div class="clearfix colelem" id="u352-4"><!-- content -->
-            <p id="u352-2">کنترل دمای ماینرها</p>
-           </div>
-           <div class="clearfix colelem" id="u351-5"><!-- content -->
-            <p>&nbsp;</p>
-            <p>از طریق فارم یار دمای تک تک دستگاه های در حال کار کردن به تفکیک قابل رویت است. همچنین میتوانید از طریق هیتمپ طراحی شده در پنل، اقدام به مکانیابی قسمتهایی از فارم که سیستم خنک کنندهی شما عملکرد ضعیفی دارد، نمایید.</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u490"><!-- column -->
-           <div class="clearfix colelem" id="u491-4"><!-- content -->
-            <p id="u491-2">کنترل سرعت فن ماینرها</p>
-           </div>
-           <div class="clearfix colelem" id="u492-5"><!-- content -->
-            <p>&nbsp;</p>
-            <p>از طریق فارم یار میتوانید سرعت فن تک تک ماینرها را رویت نمایید و در صورت مشاهده ی عملکرد ضعیف فن خنک کنندهی یک ماینر پیش از آسیب دیدن هش بردها اقدام به رفع نقص نمایید.</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u522"><!-- column -->
-           <div class="clearfix colelem" id="u523-4"><!-- content -->
-            <p id="u523-2">اشتراک رایگان</p>
-           </div>
-           <div class="clearfix colelem" id="u524-6"><!-- content -->
-            <p>&nbsp;</p>
-            <p>پس از نصب نرم افزار لازم است با توجه به تعداد ماینرهای مورد نظر خود، اقدام به خرید اشتراک نمایید. امکان بهره مندی از اشتراک رایگان برای هفته اول وجود دارد.</p>
-            <p>&nbsp;</p>
-           </div>
-          </div>
-         </div>
-         <div class="clearfix colelem" id="ppu672"><!-- group -->
-          <div class="clearfix grpelem" id="pu672"><!-- group -->
-           <div class="museBGSize grpelem shared_content" id="u672" data-content-guid="u672_content"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-           <div class="museBGSize grpelem shared_content" id="u2809" data-content-guid="u2809_content"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-          </div>
-          <div class="museBGSize grpelem shared_content" id="u628" data-content-guid="u628_content"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-          <div class="museBGSize grpelem shared_content" id="u2829" data-content-guid="u2829_content"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-         </div>
-         <div class="clearfix colelem shared_content" id="pu640" data-content-guid="pu640_content"><!-- group -->
-          <div class="clearfix grpelem" id="u640"><!-- column -->
-           <div class="clearfix colelem" id="u641-4"><!-- content -->
-            <p id="u641-2">نمایش مجموع واقعی هش ریت فارم</p>
-           </div>
-           <div class="clearfix colelem" id="u642-5"><!-- content -->
-            <p>&nbsp;</p>
-            <p>در پنل فارم یار، علاوه بر نمایش مجموع هش ریت اسمی فارم یا همان جمع هش ریت اعلامی توسط کارخانه های سازنده، امکان مشاهده ی مجموع هش ریت عملی فارم&nbsp; وجود دارد. ضمنا با توجه به امکان نمایش هش ریت واقعی هر ماینر به تفکیک، میتوانید اقدام به پیدا کردن ماینرهایی با عملکرد پایینتر از هش ریت اسمی نمایید.</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u2318"><!-- column -->
-           <div class="clearfix colelem" id="u2319-4"><!-- content -->
-            <p id="u2319-2">کنترل مدت زمان کارکرد ماینرها</p>
-           </div>
-           <div class="clearfix colelem" id="u2320-6"><!-- content -->
-            <p>&nbsp;</p>
-            <p>فارم یار، مدت زمان UP STREAM بودن هر ماینر را اندازه گیری و در پنل مدیریتی به نمایش می گذارد. در صورت رخداد هر مشکلی در مورد هر یک ازماینرها، عدم کارکرد آنها از این طریق قابل رویت است.</p>
-            <p>&nbsp;</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u656"><!-- column -->
-           <div class="clearfix colelem" id="u657-4"><!-- content -->
-            <p id="u657-2">سیستم هشدار عیب در فارم</p>
-           </div>
-           <div class="clearfix colelem" id="u658-5"><!-- content -->
-            <p>&nbsp;</p>
-            <p>در صورت بروز هر گونه عیبی که حضور فیزیکی شما را در محل فارم ایجاب میکند، فارم یار از طریق اپلیکیشن نصب شده بر روی گوشی، این مورد را به شما اطلاع میدهد تا بتوانید پیش از ایجاد خسارت از آن جلوگیری نمایید.</p>
-           </div>
-          </div>
-         </div>
-         <a class="anchor_item colelem shared_content" id="softwares" data-content-guid="softwares_content"></a>
-        </div>
-       </div>
+      <div id="u866-4-wrapper">
+       <a class="nonblock nontext anim_swing clearfix" id="u866-4" href="index.html#softwares"><!-- content --><p>نرم افزار ها</p></a>
       </div>
-     </div>
-     <div class="clearfix colelem" id="pu825"><!-- group -->
-      <div class="browser_width grpelem" id="u825-bw">
-       <div id="u825"><!-- column -->
-        <div class="clearfix" id="u825_align_to_page">
-         <div class="clearfix colelem shared_content" id="u835-4" data-content-guid="u835-4_content"><!-- content -->
-          <p>اشتراک سرویس</p>
-         </div>
-         <a class="anchor_item colelem shared_content" id="contact" data-content-guid="contact_content"></a>
-        </div>
-       </div>
+      <div id="u872-4-wrapper">
+       <a class="nonblock nontext anim_swing clearfix" id="u872-4" href="index.html#pricing"><!-- content --><p>قیمت</p></a>
       </div>
-      <div class="browser_width grpelem" id="u690-bw">
-       <div id="u690"><!-- column -->
-        <div class="clearfix" id="u690_align_to_page">
-         <div class="position_content" id="u690_position_content">
-          <div class="clearfix colelem shared_content" id="u696-4" data-content-guid="u696-4_content"><!-- content -->
-           <p>نرم افزارها</p>
-          </div>
-          <div class="clearfix colelem" id="pu727"><!-- group -->
-           <div class="clip_frame grpelem" id="u727"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u723" data-orig-src="images/hashbazaar_windows.svg?crc=3844315715" onload="this.style.height=(this.offsetWidth*104/104)+'px'" alt="" data-mu-svgfallback="images/hashbazaar_windows_poster_.png?crc=411481628" data-image-width="104" data-image-height="104" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="museBGSize grpelem shared_content" id="u785" data-content-guid="u785_content"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="pu737"><!-- group -->
-           <div class="clearfix grpelem shared_content" id="u737" data-content-guid="u737_content"><!-- group -->
-            <div class="clearfix grpelem" id="u738-5"><!-- content -->
-             <p><span id="u738">ا</span>گر در محل فارم خود کامپیوتر دارید، اقدام به دانلود فایل نصب ویندوز این نرم افزار از طریق پنل کاربری سایت نموده و نرم افزار را نصب نمایید. چگونگی نحوه ی نصب نرم افزار از طریق&nbsp; آموزش های موجود در پنل کاربری قابل دسترس است.</p>
-            </div>
-           </div>
-           <a class="anchor_item grpelem shared_content" id="pricing" data-content-guid="pricing_content"></a>
-           <div class="clearfix grpelem shared_content" id="u798-4" data-content-guid="u798-4_content"><!-- content -->
-            <p>اگر در محل فارم خود کامپیوتر ندارید، لازم است اقدام به تهیه ی مینی کامپیوتر نمایید.کانفیگ های مربوطه بر روی این مینی کامپیوتر انجام و نرم افزار بر روی آن نصب شده و صرفا لازم است آن را در محل فارم خود به مودم متصل نمایید.</p>
-           </div>
-           <div class="clearfix grpelem" id="u2785"><!-- group -->
-            <div class="clearfix grpelem" id="pu2717"><!-- group -->
-             <div class="rounded-corners grpelem" id="u2717"><!-- simple frame --></div>
-             <div class="rounded-corners clearfix grpelem" id="u2731"><!-- group -->
-              <div class="rounded-corners grpelem" id="u2735"><!-- simple frame --></div>
-             </div>
-             <div class="rounded-corners clearfix grpelem" id="u2713"><!-- group -->
-              <div class="rounded-corners grpelem" id="u2765"><!-- simple frame --></div>
-             </div>
-            </div>
-            <div class="clearfix grpelem" id="pu2725-4"><!-- group -->
-             <div class="clearfix grpelem shared_content" id="u2725-4" data-content-guid="u2725-4_content"><!-- content -->
-              <p id="u2725-2">استاندارد</p>
-             </div>
-             <div class="clearfix grpelem shared_content" id="u2741-4" data-content-guid="u2741-4_content"><!-- content -->
-              <p id="u2741-2">5000 تومان</p>
-             </div>
-             <div class="clearfix grpelem shared_content" id="u2747-4" data-content-guid="u2747-4_content"><!-- content -->
-              <p id="u2747-2">هر دستگاه</p>
-             </div>
-             <div class="clearfix grpelem shared_content" id="u2753-4" data-content-guid="u2753-4_content"><!-- content -->
-              <p id="u2753-2">در ماه</p>
-             </div>
-             <div class="clearfix grpelem shared_content" id="u2775-4" data-content-guid="u2775-4_content"><!-- content -->
-              <p id="u2775-2">خرید</p>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="clearfix colelem" id="pu986"><!-- group -->
-      <div class="browser_width grpelem shared_content" id="u986-bw" data-content-guid="u986-bw_content">
-       <div class="museBGSize" id="u986"><!-- simple frame --></div>
-      </div>
-      <div class="browser_width grpelem shared_content" id="u987-bw" data-content-guid="u987-bw_content">
-       <div id="u987"><!-- simple frame --></div>
-      </div>
-      <div class="browser_width grpelem" id="u1168-bw">
-       <div id="u1168"><!-- group -->
-        <div class="clearfix" id="u1168_align_to_page">
-         <div class="clearfix grpelem shared_content" id="pu1180" data-content-guid="pu1180_content"><!-- group -->
-          <div class="grpelem" id="u1180"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-          <div class="clearfix grpelem" id="u1181-4"><!-- content -->
-           <p>هش بازار سرویس ارائه خدمات ماینینگ ابری ( ماینینگ از راه دور ) است که کاربران آن قادرند بدون درگیری با چالش هایی نظیر هزینه های فرآیند واردات تجهیزات، تاخیرهای زمانی دریافت تجهیزات، راه اندازی سختافزار، صدای سرسام آور ماینینگ، گرمای قابل توجه ایجاد شده در اطراف تجهیزات و همچنین کندی، خرابی یا از کار افتادن دستگاه های ماینینگ، در صنعت ماینینگ وارد شوند و شروع به ماین کردن نمایند.</p>
-          </div>
-         </div>
-         <div class="clip_frame grpelem" id="u1178"><!-- svg -->
-          <img class="svg svg_mar temp_no_img_src" id="u1179" data-orig-src="images/logo.svg?crc=218083929" onload="this.style.height=(this.offsetWidth*57.84331273320852/237.25562171926373)+'px'" alt="" data-mu-svgfallback="images/logo_poster_.png?crc=98441013" data-image-width="237" data-image-height="58" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <a class="nonblock nontext clip_frame grpelem" id="u1173" href="https://www.instagram.com/hashbazaar/"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1174" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*60/60)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="60" data-image-height="60" src="images/blank.gif?crc=4208392903"/></a>
-         <a class="nonblock nontext clip_frame grpelem" id="u1171" href="https://www.linkedin.com/company/hashbazaar"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1172" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*60/60)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="60" data-image-height="60" src="images/blank.gif?crc=4208392903"/></a>
-         <a class="nonblock nontext clip_frame grpelem" id="u1169" href="https://twitter.com/Hashbazaar_CMC"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1170" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*60/60)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="60" data-image-height="60" src="images/blank.gif?crc=4208392903"/></a>
-         <div class="clearfix grpelem shared_content" id="pu1175-4" data-content-guid="pu1175-4_content"><!-- column -->
-          <div class="clearfix colelem" id="u1175-4"><!-- content -->
-           <p><span id="u1175">09371869568</span></p>
-          </div>
-          <div class="clearfix colelem" id="u1176-4"><!-- content -->
-           <p id="u1176-2">tech@hashbazaar.com</p>
-          </div>
-          <div class="clearfix colelem" id="u1177-4"><!-- content -->
-           <p>&nbsp;تهران، ولنجک، بلوار دانشجو دانشگاه شهید بهشتی، بالاتر از مسجد دانشگاه&nbsp; پارک علم و فناوری</p>
-          </div>
-         </div>
-         <div class="clearfix grpelem shared_content" id="pu1182" data-content-guid="pu1182_content"><!-- column -->
-          <div class="museBGSize colelem" id="u1182"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-          <div class="museBGSize colelem" id="u1184"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-          <div class="museBGSize colelem" id="u1183"><!-- content -->
-           <div class="fluid_height_spacer"></div>
-          </div>
-         </div>
-        </div>
-       </div>
+      <div id="u944-4-wrapper">
+       <a class="nonblock nontext anim_swing clearfix" id="u944-4" href="index.html#contact"><!-- content --><p>تماس با ما</p></a>
       </div>
      </div>
     </div>
-    <div class="clearfix grpelem" id="ppu2891"><!-- column -->
-     <div class="clearfix colelem" id="pu2891"><!-- group -->
-      <div class="clip_frame grpelem" id="u2891"><!-- image -->
-       <img class="block temp_no_img_src" id="u2891_img" data-orig-src="images/screen%20shot%202019-09-02%20at%2070533%20pm-crop-u2891.jpg?crc=146903920" alt="" data-image-width="1918" data-image-height="1042" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="grpelem shared_content" id="u2911" data-content-guid="u2911_content"><!-- simple frame --></div>
-      <div class="Heading clearfix grpelem shared_content" id="u310-5" data-content-guid="u310-5_content"><!-- content -->
-       <p>تمام آنچه که برای مدیریت فارم خود نیاز دارید از طریق فارم یار در دسترس شماست.</p>
-       <p>&nbsp;</p>
-      </div>
-      <div class="clearfix grpelem" id="u2694"><!-- group -->
-       <div class="clip_frame grpelem" id="u1962"><!-- svg -->
-        <img class="svg svg_mar temp_no_img_src" id="u1958" data-orig-src="images/hashbazaar-windows.svg?crc=4184646506" onload="this.style.height=(this.offsetWidth*42/42)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=370219858" data-image-width="42" data-image-height="42" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u2022"><!-- svg -->
-        <img class="svg svg_mar temp_no_img_src" id="u2018" data-orig-src="images/hashbazaar-linux.svg?crc=43880028" onload="this.style.height=(this.offsetWidth*41.854671280276804/35.07070707070707)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linux_poster_.png?crc=95414655" data-image-width="35" data-image-height="42" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u1976"><!-- svg -->
-        <img class="svg svg_mar temp_no_img_src" id="u1972" data-orig-src="images/hashbazaar-android.svg?crc=4008363236" onload="this.style.height=(this.offsetWidth*47.54334837739093/40.379282183537484)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-android_poster_.png?crc=487065429" data-image-width="40" data-image-height="48" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u1990"><!-- svg -->
-        <img class="svg svg_mar temp_no_img_src" id="u1986" data-orig-src="images/hashbazaar-github.svg?crc=4056531920" onload="this.style.height=(this.offsetWidth*49.71286745001031/50.36698412698412)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-github_poster_.png?crc=467400590" data-image-width="50" data-image-height="50" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-     </div>
-     <div class="clearfix colelem shared_content" id="u1134-4" data-content-guid="u1134-4_content"><!-- content -->
-      <p>با ما در ارتباط باشید</p>
-     </div>
-    </div>
-    <div id="u944-4-wrapper" class="shared_content" data-content-guid="u944-4-wrapper_content">
-     <a class="nonblock nontext anim_swing clearfix" id="u944-4" href="index.html#contact"><!-- content --><p>تماس با ما</p></a>
-    </div>
-    <div class="size_fluid_width grpelem shared_content" id="u124" data-content-guid="u124_content"><!-- custom html -->
-     
+    <div class="clearfix grpelem" id="ppu3028"><!-- column -->
+     <div class="clearfix colelem" id="pu3028"><!-- group -->
+      <div class="browser_width grpelem" id="u3028-bw">
+       <div class="gradient1" id="u3028"><!-- group -->
+        <div class="clearfix" id="u3028_align_to_page">
+         <div class="clearfix grpelem" id="pu3075"><!-- column -->
+          <div class="clip_frame colelem" id="u3075"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3071" data-orig-src="images/monitor.svg?crc=3769646142" onload="this.style.height=(this.offsetWidth*365/465)+'px'" alt="" data-mu-svgfallback="images/monitor_poster_.png?crc=4100345434" data-image-width="465" data-image-height="365" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clearfix colelem" id="pu3204"><!-- group -->
+           <div class="clip_frame grpelem" id="u3204"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u3200" data-orig-src="images/android.svg?crc=160812988" onload="this.style.height=(this.offsetWidth*49.11764705882351/37.388059701492544)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=3832816048" data-image-width="37" data-image-height="49" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="clip_frame grpelem" id="u5333"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u5329" data-orig-src="images/hashbazaar-windows.svg?crc=281102790" onload="this.style.height=(this.offsetWidth*39/39)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=141642653" data-image-width="39" data-image-height="39" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="clip_frame grpelem" id="u3222"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u3218" data-orig-src="images/linux.svg?crc=436351347" onload="this.style.height=(this.offsetWidth*40.117647058823515/33)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=92053937" data-image-width="33" data-image-height="40" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="clip_frame grpelem" id="u3210"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u3206" data-orig-src="images/github.svg?crc=4290482830" onload="this.style.height=(this.offsetWidth*35.279999999999994/36)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=86113131" data-image-width="36" data-image-height="35" src="images/blank.gif?crc=4208392903"/>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="pu5608"><!-- column -->
+          <div class="size_fluid_width colelem shared_content" id="u5608" data-content-guid="u5608_content"><!-- custom html -->
+           
 <div class="svg1" id="svg1" style="width:100%;height:100%;"></div>
 
-    </div>
-    <div id="u872-4-wrapper" class="shared_content" data-content-guid="u872-4-wrapper_content">
-     <a class="nonblock nontext anim_swing clearfix" id="u872-4" href="index.html#pricing"><!-- content --><p>قیمت</p></a>
-    </div>
-    <div class="size_fluid_width grpelem shared_content" id="u2180" data-content-guid="u2180_content"><!-- custom html -->
-     
+          </div>
+          <div class="size_fluid_width colelem shared_content" id="u2180" data-content-guid="u2180_content"><!-- custom html -->
+           
 <div class="st1">
 <span class="type1"></span>
 </div>
 
-    </div>
-    <div id="u866-4-wrapper" class="shared_content" data-content-guid="u866-4-wrapper_content">
-     <a class="nonblock nontext anim_swing clearfix" id="u866-4" href="index.html#softwares"><!-- content --><p>نرم افزار</p></a>
-    </div>
-    <div class="clearfix grpelem shared_content" id="u2678" data-content-guid="u2678_content"><!-- column -->
-     <div class="clearfix colelem" id="u988-4"><!-- content -->
-      <p>در صورت وجود هرگونه پرسش و یا مشکل با تیم پشتیبانی ما تماس بگیرید. کارشناسان پشتیبانی در تمامی روزهای هفته به صورت شبانه روز پاسخگوی شما خواهند بود.</p>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u97-4" data-content-guid="u97-4_content"><!-- content -->
+           <p id="u97-2">فارم یار، ابزاری برای نظارت و مدیریت مزارع ماینینگ</p>
+          </div>
+          <div class="clearfix colelem" id="pu5625"><!-- group -->
+           <div class="clearfix grpelem" id="u5625"><!-- group -->
+            <div class="rounded-corners clearfix grpelem" id="u3336"><!-- group -->
+             <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u3341-4" href="index.html#softwares" data-content-guid="u3341-4_content"><!-- content --><p>شروع مانیتورینگ !</p></a>
+            </div>
+           </div>
+           <div class="clearfix grpelem" id="u4441"><!-- group -->
+            <div class="rounded-corners clearfix grpelem" id="u3379"><!-- group -->
+             <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u3370-4" href="index.html#pricing" data-content-guid="u3370-4_content"><!-- content --><p>قیمت اشتراک</p></a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem" id="u3474-bw">
+       <div class="museBGSize" id="u3474"><!-- column -->
+        <div class="clearfix" id="u3474_align_to_page">
+         <div class="clearfix colelem" id="pu310-4"><!-- group -->
+          <div class="Heading clearfix grpelem shared_content" id="u310-4" data-content-guid="u310-4_content"><!-- content -->
+           <p id="u310-2">تمام آنچه که برای مدیریت فارم خود نیاز دارید از طریق فارم یار در دسترس شماست !</p>
+          </div>
+          <div class="grpelem" id="u3438"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix colelem" id="ppu102-4"><!-- group -->
+          <div class="clearfix grpelem" id="pu102-4"><!-- column -->
+           <div class="Heading clearfix colelem shared_content" id="u102-4" data-content-guid="u102-4_content"><!-- content -->
+            <p id="u102-2">از هر نقطه ای که هستید با تلفن همراه، فارم خود را کنترل و مدیریت کنید. فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
+           </div>
+           <div class="Heading clearfix colelem shared_content" id="u3429-4" data-content-guid="u3429-4_content"><!-- content -->
+            <p id="u3429-2">فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
+           </div>
+          </div>
+          <div class="clip_frame grpelem" id="u3458"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3454" data-orig-src="images/iphone.svg?crc=353415937" onload="this.style.height=(this.offsetWidth*242/157)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_.png?crc=304285189" data-image-width="157" data-image-height="242" src="images/blank.gif?crc=4208392903"/>
+          </div>
+         </div>
+         <a class="anchor_item colelem shared_content" id="features" data-content-guid="features_content"></a>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem" id="u3484-bw">
+       <div id="u3484"><!-- group -->
+        <div class="clearfix" id="u3484_align_to_page">
+         <div class="clearfix grpelem" id="pu3506"><!-- group -->
+          <div class="tooltip2 clip_frame grpelem" id="u3506"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3502" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="tooltip2 clearfix grpelem shared_content" id="u657-4" data-content-guid="u657-4_content"><!-- content -->
+           <p id="u657-2">سیستم هشدار عیب در فارم</p>
+          </div>
+          <div class="tooltip2 clip_frame grpelem" id="u5484"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u5480" data-orig-src="images/path-107.svg?crc=427690683" onload="this.style.height=(this.offsetWidth*59/59)+'px'" alt="" data-mu-svgfallback="images/path%20107_poster_.png?crc=204758048" data-image-width="59" data-image-height="59" src="images/blank.gif?crc=4208392903"/>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u3839"><!-- group -->
+          <div class="tooltip5 clip_frame grpelem" id="u3516"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3517" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="tooltip5 clearfix grpelem shared_content" id="u641-4" data-content-guid="u641-4_content"><!-- content -->
+           <p id="u641-2">نمایش مجموع واقعی هش ریت فارم</p>
+          </div>
+          <div class="tooltip5 clip_frame grpelem" id="u3747"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3743" data-orig-src="images/hashbazaar-hash.svg?crc=3993153546" onload="this.style.height=(this.offsetWidth*49/52)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-hash_poster_.png?crc=120107722" data-image-width="52" data-image-height="49" src="images/blank.gif?crc=4208392903"/>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="pu3492"><!-- column -->
+          <div class="clip_frame colelem" id="u3492"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3488" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*97/319)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="319" data-image-height="97" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clearfix colelem" id="pu3539"><!-- group -->
+           <div class="tooltip3 clip_frame grpelem" id="u3539"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u3540" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="tooltip3 clearfix grpelem shared_content" id="u352-4" data-content-guid="u352-4_content"><!-- content -->
+            <p id="u352-2">کنترل دمای ماینرها</p>
+           </div>
+           <div class="tooltip3 clip_frame grpelem" id="u5539"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u5535" data-orig-src="images/path-34.svg?crc=3900308290" onload="this.style.height=(this.offsetWidth*50/28)+'px'" alt="" data-mu-svgfallback="images/path%2034_poster_.png?crc=4247970906" data-image-width="28" data-image-height="50" src="images/blank.gif?crc=4208392903"/>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="pu3560"><!-- group -->
+          <div class="tooltip6 clip_frame grpelem" id="u3560"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3561" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="tooltip6 clearfix grpelem shared_content" id="u491-4" data-content-guid="u491-4_content"><!-- content -->
+           <p id="u491-2">کنترل سرعت فن ماینرها</p>
+          </div>
+          <div class="tooltip6 clip_frame grpelem" id="u5462"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u5458" data-orig-src="images/hashbazaar-mine.svg?crc=479624146" onload="this.style.height=(this.offsetWidth*61/54)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-mine_poster_.png?crc=3843972221" data-image-width="54" data-image-height="61" src="images/blank.gif?crc=4208392903"/>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="u3855"><!-- group -->
+          <div class="tooltip4 clip_frame grpelem" id="u3582"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3583" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="tooltip4 clip_frame grpelem" id="u3631"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3627" data-orig-src="images/path-31.svg?crc=3800060405" onload="this.style.height=(this.offsetWidth*50/50)+'px'" alt="" data-mu-svgfallback="images/path%2031_poster_.png?crc=4200503132" data-image-width="50" data-image-height="50" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="tooltip4 clearfix grpelem shared_content" id="u2319-4" data-content-guid="u2319-4_content"><!-- content -->
+           <p id="u2319-2">کنترل مدت زمان کارکرد ماینرها</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
-     <div class="clearfix colelem" id="u989-4"><!-- content -->
-      <p>شماره تماس 09371869568</p>
+     <div class="browser_width colelem" id="u305-bw">
+      <div id="u305"><!-- column -->
+       <div class="clearfix" id="u305_align_to_page">
+        <div class="position_content" id="u305_position_content">
+         <div class="clearfix colelem" id="pu3920-4"><!-- group -->
+          <div class="Heading clearfix grpelem shared_content" id="u3920-4" data-content-guid="u3920-4_content"><!-- content -->
+           <p id="u3920-2">نرم افزارهای پشتیبانی شده</p>
+          </div>
+          <div class="grpelem" id="u3926"><!-- simple frame --></div>
+          <a class="anchor_item grpelem shared_content" id="softwares" data-content-guid="softwares_content"></a>
+         </div>
+         <div class="clearfix colelem" id="pu3941"><!-- group -->
+          <div class="clip_frame grpelem" id="u3941"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3937" data-orig-src="images/hashbazaar_windows.svg?crc=4036610426" onload="this.style.height=(this.offsetWidth*143/148)+'px'" alt="" data-mu-svgfallback="images/hashbazaar_windows_poster_.png?crc=230951316" data-image-width="148" data-image-height="143" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clip_frame grpelem" id="u3935"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u3931" data-orig-src="images/group-37.svg?crc=516017443" onload="this.style.height=(this.offsetWidth*136/258)+'px'" alt="" data-mu-svgfallback="images/group%2037_poster_.png?crc=316134026" data-image-width="258" data-image-height="136" src="images/blank.gif?crc=4208392903"/>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="pu737"><!-- group -->
+          <div class="clearfix grpelem shared_content" id="u737" data-content-guid="u737_content"><!-- group -->
+           <div class="clearfix grpelem" id="u738-5"><!-- content -->
+            <p id="u738-3"><span id="u738">ا</span>گر در محل فارم خود کامپیوتر دارید، اقدام به دانلود فایل نصب ویندوز این نرم افزار از طریق پنل کاربری سایت نموده و نرم افزار را نصب نمایید. چگونگی نحوه ی نصب نرم افزار از طریق&nbsp; آموزش های موجود در پنل کاربری قابل دسترس است.</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem shared_content" id="u798-4" data-content-guid="u798-4_content"><!-- content -->
+           <p id="u798-2">اگر در محل فارم خود کامپیوتر ندارید، لازم است اقدام به تهیه ی مینی کامپیوتر نمایید.کانفیگ های مربوطه بر روی این مینی کامپیوتر انجام و نرم افزار بر روی آن نصب شده و صرفا لازم است آن را در محل فارم خود به مودم متصل نمایید. جهت خرید با ما تماس بگیرید.</p>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="ppricing"><!-- group -->
+          <a class="anchor_item grpelem shared_content" id="pricing" data-content-guid="pricing_content"></a>
+          <div class="clearfix grpelem" id="u5557"><!-- group -->
+           <div class="rounded-corners grpelem shared_content" id="u4952" data-content-guid="u4952_content"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4956"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4964"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4973"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4979"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4985"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4991"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u4997"><!-- simple frame --></div>
+           <div class="rounded-corners grpelem" id="u5003"><!-- simple frame --></div>
+           <div class="rounded-corners clearfix grpelem shared_content" id="u5009" data-content-guid="u5009_content"><!-- group -->
+            <div class="rounded-corners grpelem" id="u5015"><!-- simple frame --></div>
+           </div>
+           <div class="rounded-corners grpelem shared_content" id="u4960" data-content-guid="u4960_content"><!-- simple frame --></div>
+          </div>
+          <div class="grpelem" id="u4226"><!-- simple frame --></div>
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
-     <div class="clearfix colelem" id="u990-4"><!-- content -->
-      <p>ایمیل : tech@hashbazaar.com</p>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu860-4"><!-- group -->
-     <div id="u860-4-wrapper" class="shared_content" data-content-guid="u860-4-wrapper_content">
-      <a class="nonblock nontext anim_swing clearfix" id="u860-4" href="index.html#features"><!-- content --><p>ویژگی ها</p></a>
-     </div>
-     <div id="u878-4-wrapper" class="shared_content" data-content-guid="u878-4-wrapper_content">
-      <a class="nonblock nontext anim_swing clearfix" id="u878-4" href="index.html#accessibility"><!-- content --><p>دسترسی ها</p></a>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu97-4"><!-- column -->
-     <div class="Heading clearfix colelem shared_content" id="u97-4" data-content-guid="u97-4_content"><!-- content -->
-      <p id="u97-2">فارم یار، ابزاری برای نظارت و مدیریت مزارع ماینینگ</p>
-     </div>
-     <div class="Heading clearfix colelem shared_content" id="u102-4" data-content-guid="u102-4_content"><!-- content -->
-      <p id="u102-2">از هر نقطه ای که هستید با تلفن همراه، فارم خود را کنترل و مدیریت کنید. فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu850-4"><!-- group -->
-     <div id="u850-4-wrapper" class="shared_content" data-content-guid="u850-4-wrapper_content">
-      <a class="nonblock nontext clearfix" id="u850-4" href="https://farmyarapp.ir/fa/authorizing"><!-- content --><p>ثبت نام</p></a>
-     </div>
-     <div id="u854-4-wrapper" class="shared_content" data-content-guid="u854-4-wrapper_content">
-      <a class="nonblock nontext clearfix" id="u854-4" href="https://farmyarapp.ir/fa/authorizing"><!-- content --><p>ورود</p></a>
-     </div>
-     <div id="u898-4-wrapper" class="shared_content" data-content-guid="u898-4-wrapper_content">
-      <div class="clearfix" id="u898-4"><!-- content -->
-       <p>صفحه اصلی</p>
+     <div class="browser_width colelem" id="u4924-bw">
+      <div class="image1" id="u4924"><!-- group -->
+       <div class="clearfix" id="u4924_align_to_page">
+        <div class="gradient2 clearfix grpelem" id="u4006"><!-- column -->
+         <div class="position_content" id="u4006_position_content">
+          <div class="clearfix colelem" id="u4020"><!-- group -->
+           <div class="Heading clearfix grpelem shared_content" id="u4034-4" data-content-guid="u4034-4_content"><!-- content -->
+            <p id="u4034-2">طرح طلایی</p>
+           </div>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4220-6" data-content-guid="u4220-6_content"><!-- content -->
+           <p>۸۰۰۰ تومان</p>
+           <p>به ازای هر ماینر</p>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4249-4" data-content-guid="u4249-4_content"><!-- content -->
+           <p id="u4249-2">مدت&nbsp; اشتراک ۱ سال</p>
+          </div>
+          <div class="clearfix colelem" id="u4283"><!-- group -->
+           <div class="clip_frame grpelem" id="u4259"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4255" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4269-4" data-content-guid="u4269-4_content"><!-- content -->
+            <p id="u4269-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4313"><!-- group -->
+           <div class="clip_frame grpelem" id="u4314"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4315" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4316-4" data-content-guid="u4316-4_content"><!-- content -->
+            <p id="u4316-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4365"><!-- group -->
+           <div class="clip_frame grpelem" id="u4366"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4367" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4368-4" data-content-guid="u4368-4_content"><!-- content -->
+            <p id="u4368-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u5351"><!-- group -->
+           <div class="rounded-corners clearfix grpelem" id="u4447"><!-- group -->
+            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u4446-4" href="index.html#softwares" data-content-guid="u4446-4_content"><!-- content --><p id="u4446-2">خرید اشتراک</p></a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="gradient3 clearfix grpelem" id="u4118"><!-- column -->
+         <div class="position_content" id="u4118_position_content">
+          <div class="clearfix colelem" id="u4113"><!-- group -->
+           <div class="Heading clearfix grpelem shared_content" id="u4136-4" data-content-guid="u4136-4_content"><!-- content -->
+            <p id="u4136-2">طرح نقره ای</p>
+           </div>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4461-6" data-content-guid="u4461-6_content"><!-- content -->
+           <p>۵۰۰۰ تومان</p>
+           <p>به ازای هر ماینر</p>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4467-4" data-content-guid="u4467-4_content"><!-- content -->
+           <p id="u4467-2">مدت&nbsp; اشتراک ۶ ماه</p>
+          </div>
+          <div class="clearfix colelem" id="u4472"><!-- group -->
+           <div class="clip_frame grpelem" id="u4473"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4474" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4475-4" data-content-guid="u4475-4_content"><!-- content -->
+            <p id="u4475-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4497"><!-- group -->
+           <div class="clip_frame grpelem" id="u4499"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4500" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4498-4" data-content-guid="u4498-4_content"><!-- content -->
+            <p id="u4498-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4522"><!-- group -->
+           <div class="clip_frame grpelem" id="u4523"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4524" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4525-4" data-content-guid="u4525-4_content"><!-- content -->
+            <p id="u4525-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u5397"><!-- group -->
+           <div class="rounded-corners clearfix grpelem" id="u5399"><!-- group -->
+            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u5398-4" href="index.html#softwares" data-content-guid="u5398-4_content"><!-- content --><p id="u5398-2">خرید اشتراک</p></a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="gradient4 clearfix grpelem" id="u4124"><!-- column -->
+         <div class="position_content" id="u4124_position_content">
+          <div class="clearfix colelem" id="u4130"><!-- group -->
+           <div class="Heading clearfix grpelem shared_content" id="u4108-4" data-content-guid="u4108-4_content"><!-- content -->
+            <p id="u4108-2">طرح برنزی</p>
+           </div>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4562-6" data-content-guid="u4562-6_content"><!-- content -->
+           <p>۱۰۰۰ تومان</p>
+           <p>به ازای هر ماینر</p>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4563-4" data-content-guid="u4563-4_content"><!-- content -->
+           <p id="u4563-2">مدت&nbsp; اشتراک ۱ ماه</p>
+          </div>
+          <div class="clearfix colelem" id="u4564"><!-- group -->
+           <div class="clip_frame grpelem" id="u4565"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4566" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4567-4" data-content-guid="u4567-4_content"><!-- content -->
+            <p id="u4567-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4572"><!-- group -->
+           <div class="clip_frame grpelem" id="u4573"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4574" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4575-4" data-content-guid="u4575-4_content"><!-- content -->
+            <p id="u4575-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4568"><!-- group -->
+           <div class="clip_frame grpelem" id="u4569"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4570" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4571-4" data-content-guid="u4571-4_content"><!-- content -->
+            <p id="u4571-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u5418"><!-- group -->
+           <div class="rounded-corners clearfix grpelem" id="u5420"><!-- group -->
+            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u5419-4" href="index.html#softwares" data-content-guid="u5419-4_content"><!-- content --><p id="u5419-2">خرید اشتراک</p></a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="gradient5 clearfix grpelem" id="u4169"><!-- column -->
+         <div class="position_content" id="u4169_position_content">
+          <div class="clearfix colelem" id="u4180"><!-- group -->
+           <div class="Heading clearfix grpelem shared_content" id="u4175-4" data-content-guid="u4175-4_content"><!-- content -->
+            <p id="u4175-2">رایگان</p>
+           </div>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4764-6" data-content-guid="u4764-6_content"><!-- content -->
+           <p>۰ تومان</p>
+           <p>به ازای هر ماینر</p>
+          </div>
+          <div class="Heading clearfix colelem shared_content" id="u4669-4" data-content-guid="u4669-4_content"><!-- content -->
+           <p id="u4669-2">مدت&nbsp; اشتراک ۱ هفته</p>
+          </div>
+          <div class="clearfix colelem" id="u4674"><!-- group -->
+           <div class="clip_frame grpelem" id="u4676"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4677" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4675-4" data-content-guid="u4675-4_content"><!-- content -->
+            <p id="u4675-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4699"><!-- group -->
+           <div class="clip_frame grpelem" id="u4701"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4702" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4700-4" data-content-guid="u4700-4_content"><!-- content -->
+            <p id="u4700-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u4724"><!-- group -->
+           <div class="clip_frame grpelem" id="u4726"><!-- svg -->
+            <img class="svg svg_mar temp_no_img_src" id="u4727" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="Heading clearfix grpelem shared_content" id="u4725-4" data-content-guid="u4725-4_content"><!-- content -->
+            <p id="u4725-2">option1</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="u5434"><!-- group -->
+           <div class="rounded-corners clearfix grpelem" id="u5435"><!-- group -->
+            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u5436-4" href="index.html#softwares" data-content-guid="u5436-4_content"><!-- content --><p id="u5436-2">خرید اشتراک</p></a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
       </div>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="4501" data-content-above-spacer="4501" data-content-below-spacer="0"></div>
+    <div class="clearfix grpelem" id="pu4794-4"><!-- column -->
+     <div class="Heading clearfix colelem shared_content" id="u4794-4" data-content-guid="u4794-4_content"><!-- content -->
+      <p id="u4794-2">خرید اشتراک فارم یار</p>
+     </div>
+     <div class="clearfix colelem" id="pu4820"><!-- group -->
+      <div class="browser_width grpelem" id="u4820-bw">
+       <div id="u4820"><!-- column -->
+        <div class="clearfix" id="u4820_align_to_page">
+         <div class="clearfix colelem" id="pcontact"><!-- group -->
+          <a class="anchor_item grpelem shared_content" id="contact" data-content-guid="contact_content"></a>
+          <div class="clearfix grpelem shared_content" id="u1134-4" data-content-guid="u1134-4_content"><!-- content -->
+           <p id="u1134-2">با ما در ارتباط باشید</p>
+          </div>
+          <div class="grpelem shared_content" id="u4840" data-content-guid="u4840_content"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix colelem shared_content" id="u988-4" data-content-guid="u988-4_content"><!-- content -->
+          <p id="u988-2">در صورت وجود هرگونه پرسش و یا مشکل با تیم پشتیبانی ما تماس بگیرید. کارشناسان پشتیبانی در تمامی روزهای هفته به صورت شبانه روز پاسخگوی شما خواهند بود.</p>
+         </div>
+         <div class="clearfix colelem shared_content" id="u989-4" data-content-guid="u989-4_content"><!-- content -->
+          <p id="u989-2">شماره تماس 09371869568</p>
+         </div>
+         <div class="clearfix colelem shared_content" id="u990-4" data-content-guid="u990-4_content"><!-- content -->
+          <p id="u990-2">ایمیل : support@farmyarapp.ir</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u5246"><!-- group -->
+       <div class="rounded-corners grpelem" id="u5189"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5206"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5184"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5194"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5200"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5216"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5179"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5211"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u5174"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem shared_content" id="u5168" data-content-guid="u5168_content"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem" id="u1168-bw">
+       <div id="u1168"><!-- group -->
+        <div class="clearfix" id="u1168_align_to_page">
+         <div class="clearfix grpelem" id="ppu1180"><!-- column -->
+          <div class="clearfix colelem shared_content" id="pu1180" data-content-guid="pu1180_content"><!-- group -->
+           <div class="grpelem" id="u1180"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
+           <div class="clearfix grpelem" id="u1181-5"><!-- content -->
+            <p id="u1181-2">فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
+            <p id="u1181-3">&nbsp;</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="pu1173"><!-- group -->
+           <a class="nonblock nontext clip_frame grpelem" id="u1173" href="https://www.instagram.com/hashbazaar/"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1174" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575762)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+           <a class="nonblock nontext clip_frame grpelem" id="u1171" href="https://www.linkedin.com/company/hashbazaar"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1172" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575762)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+           <a class="nonblock nontext clip_frame grpelem" id="u1169" href="https://twitter.com/Hashbazaar_CMC"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1170" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575751)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+          </div>
+         </div>
+         <div class="clip_frame grpelem" id="u4824"><!-- svg -->
+          <img class="svg svg_mar temp_no_img_src" id="u4825" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*69/227)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="227" data-image-height="69" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clearfix grpelem" id="pu4864-4"><!-- column -->
+          <div class="clearfix colelem shared_content" id="u4864-4" data-content-guid="u4864-4_content"><!-- content -->
+           <p id="u4864-2">دسترسی سریع</p>
+          </div>
+          <div class="clearfix colelem shared_content" id="u4870-4" data-content-guid="u4870-4_content"><!-- content -->
+           <p id="u4870-2">فارم یار</p>
+          </div>
+          <div class="clearfix colelem shared_content" id="u4894-4" data-content-guid="u4894-4_content"><!-- content -->
+           <p id="u4894-2">نرم افزار ها</p>
+          </div>
+          <div class="clearfix colelem shared_content" id="u4876-4" data-content-guid="u4876-4_content"><!-- content -->
+           <p id="u4876-2">ویژگی ها</p>
+          </div>
+          <div class="clearfix colelem shared_content" id="u4882-4" data-content-guid="u4882-4_content"><!-- content -->
+           <p id="u4882-2">قیمت اشتراک</p>
+          </div>
+          <div class="clearfix colelem shared_content" id="u4888-4" data-content-guid="u4888-4_content"><!-- content -->
+           <p id="u4888-2">ارتباط</p>
+          </div>
+         </div>
+         <div class="clearfix grpelem" id="pu4900-4"><!-- column -->
+          <div class="clearfix colelem shared_content" id="u4900-4" data-content-guid="u4900-4_content"><!-- content -->
+           <p id="u4900-2">راه های ارتباطی</p>
+          </div>
+          <div class="clearfix colelem" id="pu1175-4"><!-- group -->
+           <div class="clearfix grpelem shared_content" id="u1175-4" data-content-guid="u1175-4_content"><!-- content -->
+            <p id="u1175-2"><span id="u1175">09371869568</span></p>
+           </div>
+           <div class="museBGSize grpelem shared_content" id="u1182" data-content-guid="u1182_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="pu1176-4"><!-- group -->
+           <div class="clearfix grpelem shared_content" id="u1176-4" data-content-guid="u1176-4_content"><!-- content -->
+            <p id="u1176-2">support@farmyarapp.ir</p>
+           </div>
+           <div class="museBGSize grpelem shared_content" id="u1184" data-content-guid="u1184_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="pu1177-4"><!-- group -->
+           <div class="clearfix grpelem shared_content" id="u1177-4" data-content-guid="u1177-4_content"><!-- content -->
+            <p id="u1177-2">&nbsp;تهران، ولنجک، بلوار دانشجو دانشگاه شهید بهشتی، بالاتر از مسجد دانشگاه&nbsp; پارک علم و فناوری</p>
+           </div>
+           <div class="museBGSize grpelem shared_content" id="u1183" data-content-guid="u1183_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix grpelem" id="pu3983"><!-- column -->
+     <div class="size_fixed colelem shared_content" id="u3983" data-content-guid="u3983_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u5601" data-content-guid="u5601_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fluid_width colelem shared_content" id="u3032" data-content-guid="u3032_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="size_fixed colelem shared_content" id="u5282" data-content-guid="u5282_content"><!-- custom html -->
+      
+
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="4108" data-content-above-spacer="4108" data-content-below-spacer="0"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1280" data-max-width="1280"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+   <div class="gradient3 clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u128_content"><!-- placeholder node --></span>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u123_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu118"><!-- group -->
-     <div class="browser_width grpelem temp_no_id" data-orig-id="u118-bw">
-      <div class="museBGSize temp_no_id" data-orig-id="u118"><!-- simple frame --></div>
+    <div class="browser_width grpelem temp_no_id" data-orig-id="u3028-bw">
+     <div class="gradient1 temp_no_id" data-orig-id="u3028"><!-- group -->
+      <div class="clearfix temp_no_id" data-orig-id="u3028_align_to_page">
+       <div class="clearfix grpelem temp_no_id" data-orig-id="pu3075"><!-- column -->
+        <div class="clip_frame colelem temp_no_id" data-orig-id="u3075"><!-- svg -->
+         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/monitor.svg?crc=3769646142" onload="this.style.height=(this.offsetWidth*301/366)+'px'" alt="" data-mu-svgfallback="images/monitor_poster_.png?crc=4100345434" data-image-width="366" data-image-height="301" data-orig-id="u3071" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu3204"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3204"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/android.svg?crc=160812988" onload="this.style.height=(this.offsetWidth*45.13684210526321/34.3578947368421)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=3832816048" data-image-width="34" data-image-height="45" data-orig-id="u3200" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u5333"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-windows.svg?crc=281102790" onload="this.style.height=(this.offsetWidth*26.273684210526312/26.273684210526312)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=141642653" data-image-width="26" data-image-height="26" data-orig-id="u5329" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3222"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/linux.svg?crc=436351347" onload="this.style.height=(this.offsetWidth*41.76842105263154/34.3578947368421)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=92053937" data-image-width="34" data-image-height="42" data-orig-id="u3218" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3210"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/github.svg?crc=4290482830" onload="this.style.height=(this.offsetWidth*33.010526315789434/33.68421052631578)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=86113131" data-image-width="34" data-image-height="33" data-orig-id="u3206" src="images/blank.gif?crc=4208392903"/>
+         </div>
+        </div>
+       </div>
+       <span class="size_fixed grpelem placeholder" data-placeholder-for="u2973_content"><!-- placeholder node --></span>
+       <div class="clearfix grpelem temp_no_id" data-orig-id="pu5625"><!-- group -->
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u5625"><!-- column -->
+         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u3341-4_content"><!-- placeholder node --></span>
+         <div class="rounded-corners colelem temp_no_id" data-orig-id="u3336"><!-- simple frame --></div>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u4441"><!-- column -->
+         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u3370-4_content"><!-- placeholder node --></span>
+         <div class="rounded-corners colelem temp_no_id" data-orig-id="u3379"><!-- simple frame --></div>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u5351"><!-- column -->
+         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u4446-4_content"><!-- placeholder node --></span>
+         <div class="rounded-corners colelem temp_no_id" data-orig-id="u4447"><!-- simple frame --></div>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u5397"><!-- column -->
+         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u5398-4_content"><!-- placeholder node --></span>
+         <div class="rounded-corners colelem temp_no_id" data-orig-id="u5399"><!-- simple frame --></div>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u5418"><!-- column -->
+         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u5419-4_content"><!-- placeholder node --></span>
+         <div class="rounded-corners colelem temp_no_id" data-orig-id="u5420"><!-- simple frame --></div>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u5434"><!-- column -->
+         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u5436-4_content"><!-- placeholder node --></span>
+         <div class="rounded-corners colelem temp_no_id" data-orig-id="u5435"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
      </div>
-     <span class="browser_width grpelem placeholder" data-placeholder-for="u2875-bw_content"><!-- placeholder node --></span>
     </div>
-    <span class="placeholder" data-placeholder-for="u846-wrapper_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu94"><!-- column -->
-     <div class="browser_width colelem temp_no_id" data-orig-id="u94-bw">
-      <div class="temp_no_id" data-orig-id="u94"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u94_align_to_page">
-        <span class="Heading clearfix colelem placeholder" data-placeholder-for="u97-4_content"><!-- placeholder node --></span>
-        <div class="clearfix colelem temp_no_id" data-orig-id="pu2891"><!-- group -->
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u2891"><!-- image -->
-          <img class="block temp_no_id temp_no_img_src" data-orig-src="images/screen%20shot%202019-09-02%20at%2070533%20pm-crop-u28912.jpg?crc=3861515090" alt="" data-image-width="1240" data-image-height="674" data-orig-id="u2891_img" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <span class="grpelem placeholder" data-placeholder-for="u2911_content"><!-- placeholder node --></span>
-         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u102-4_content"><!-- placeholder node --></span>
-         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u310-5_content"><!-- placeholder node --></span>
-         <div class="clearfix grpelem temp_no_id" data-orig-id="u2694"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u1962"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-windows.svg?crc=4184646506" onload="this.style.height=(this.offsetWidth*27.151515151515166/27.151515151515152)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=370219858" data-image-width="27" data-image-height="27" data-orig-id="u1958" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u2022"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-linux.svg?crc=43880028" onload="this.style.height=(this.offsetWidth*27.057565272098227/22.671972247729844)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linux_poster_.png?crc=95414655" data-image-width="23" data-image-height="27" data-orig-id="u2018" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u1976"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-android.svg?crc=4008363236" onload="this.style.height=(this.offsetWidth*30.735093900535656/26.103778381276733)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-android_poster_.png?crc=487065429" data-image-width="26" data-image-height="31" data-orig-id="u1972" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u1990"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-github.svg?crc=4056531920" onload="this.style.height=(this.offsetWidth*32.137611280814816/32.56047458714126)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-github_poster_.png?crc=467400590" data-image-width="33" data-image-height="32" data-orig-id="u1986" src="images/blank.gif?crc=4208392903"/>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u305-bw">
-      <div class="temp_no_id" data-orig-id="u305"><!-- column -->
+    <span class="placeholder" data-placeholder-for="u3450-wrapper_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem" id="pu305"><!-- group -->
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u305-bw">
+      <div class="temp_no_id" data-orig-id="u305"><!-- group -->
        <div class="clearfix temp_no_id" data-orig-id="u305_align_to_page">
-        <div class="position_content" id="u305_position_content">
-         <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
-         <div class="clearfix colelem" id="pu2809"><!-- group -->
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2809_content"><!-- placeholder node --></span>
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u672_content"><!-- placeholder node --></span>
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u476_content"><!-- placeholder node --></span>
+        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3941"><!-- svg -->
+         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar_windows.svg?crc=4036610426" onload="this.style.height=(this.offsetWidth*96.33684210526324/99.7052631578947)+'px'" alt="" data-mu-svgfallback="images/hashbazaar_windows_poster_.png?crc=230951316" data-image-width="100" data-image-height="96" data-orig-id="u3937" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix grpelem" id="pu3935"><!-- column -->
+         <div class="clip_frame colelem temp_no_id" data-orig-id="u3935"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/group-37.svg?crc=516017443" onload="this.style.height=(this.offsetWidth*91.621052631579/173.8105263157895)+'px'" alt="" data-mu-svgfallback="images/group%2037_poster_.png?crc=316134026" data-image-width="174" data-image-height="92" data-orig-id="u3931" src="images/blank.gif?crc=4208392903"/>
          </div>
-         <span class="clearfix colelem placeholder" data-placeholder-for="pu350_content"><!-- placeholder node --></span>
-         <div class="clearfix colelem" id="pu628"><!-- group -->
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u628_content"><!-- placeholder node --></span>
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u2829_content"><!-- placeholder node --></span>
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u448_content"><!-- placeholder node --></span>
-         </div>
-         <span class="clearfix colelem placeholder" data-placeholder-for="pu640_content"><!-- placeholder node --></span>
+         <span class="tooltip2 clearfix colelem placeholder" data-placeholder-for="u657-4_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu825"><!-- group -->
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u825-bw">
-       <div class="temp_no_id" data-orig-id="u825"><!-- column -->
-        <div class="clearfix temp_no_id" data-orig-id="u825_align_to_page">
-         <span class="clearfix colelem placeholder" data-placeholder-for="u835-4_content"><!-- placeholder node --></span>
-         <div class="clearfix colelem temp_no_id" data-orig-id="u2785"><!-- group -->
-          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u2717"><!-- group -->
-           <span class="clearfix grpelem placeholder" data-placeholder-for="u2725-4_content"><!-- placeholder node --></span>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u3474-bw">
+      <div class="museBGSize temp_no_id" data-orig-id="u3474"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u3474_align_to_page">
+        <span class="Heading clearfix colelem placeholder" data-placeholder-for="u97-4_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="u3438"><!-- group -->
+         <div class="clearfix grpelem temp_no_id" data-orig-id="u3926"><!-- group -->
+          <div class="clearfix grpelem temp_no_id" data-orig-id="u4226"><!-- group -->
+           <span class="grpelem placeholder" data-placeholder-for="u4840_content"><!-- placeholder node --></span>
           </div>
-          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u2731"><!-- group -->
-           <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u2735"><!-- column -->
-            <span class="clearfix colelem placeholder" data-placeholder-for="u2741-4_content"><!-- placeholder node --></span>
-            <span class="clearfix colelem placeholder" data-placeholder-for="u2747-4_content"><!-- placeholder node --></span>
-            <span class="clearfix colelem placeholder" data-placeholder-for="u2753-4_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+        <div class="clip_frame colelem temp_no_id" data-orig-id="u3458"><!-- svg -->
+         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/iphone.svg?crc=353415937" onload="this.style.height=(this.offsetWidth*163.03157894736833/105.76842105263154)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_.png?crc=304285189" data-image-width="106" data-image-height="163" data-orig-id="u3454" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu102-4"><!-- group -->
+         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u102-4_content"><!-- placeholder node --></span>
+         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u3429-4_content"><!-- placeholder node --></span>
+        </div>
+        <span class="Heading clearfix colelem placeholder" data-placeholder-for="u310-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u3484-bw">
+      <div class="temp_no_id" data-orig-id="u3484"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u3484_align_to_page">
+        <div class="position_content" id="u3484_position_content">
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu3492"><!-- group -->
+          <div class="clip_frame grpelem temp_no_id" data-orig-id="u3492"><!-- svg -->
+           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*65.34736842105258/214.90526315789478)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="215" data-image-height="65" data-orig-id="u3488" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u3920-4_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4034-4_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4108-4_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4175-4_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4136-4_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4220-6_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4461-6_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4249-4_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4467-4_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem" id="pfeatures"><!-- group -->
+          <span class="anchor_item grpelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
+          <div class="tooltip6 clip_frame grpelem temp_no_id" data-orig-id="u3560"><!-- svg -->
+           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3561" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <span class="tooltip6 clearfix grpelem placeholder" data-placeholder-for="u491-4_content"><!-- placeholder node --></span>
+          <div class="tooltip3 clip_frame grpelem temp_no_id" data-orig-id="u3539"><!-- svg -->
+           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3540" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <span class="tooltip3 clearfix grpelem placeholder" data-placeholder-for="u352-4_content"><!-- placeholder node --></span>
+          <div class="tooltip2 clip_frame grpelem temp_no_id" data-orig-id="u3506"><!-- svg -->
+           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.42105263157893)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3502" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clearfix grpelem temp_no_id" data-orig-id="u3855"><!-- group -->
+           <div class="tooltip4 clip_frame grpelem temp_no_id" data-orig-id="u3582"><!-- svg -->
+            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3583" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <span class="tooltip4 clearfix grpelem placeholder" data-placeholder-for="u2319-4_content"><!-- placeholder node --></span>
+           <div class="tooltip4 clip_frame grpelem temp_no_id" data-orig-id="u3631"><!-- svg -->
+            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/path-31.svg?crc=3800060405" onload="this.style.height=(this.offsetWidth*33.68421052631584/33.68421052631584)+'px'" alt="" data-mu-svgfallback="images/path%2031_poster_.png?crc=4200503132" data-image-width="34" data-image-height="34" data-orig-id="u3627" src="images/blank.gif?crc=4208392903"/>
            </div>
           </div>
-          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u2713"><!-- group -->
-           <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u2765"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u2775-4_content"><!-- placeholder node --></span>
+          <div class="clearfix grpelem temp_no_id" data-orig-id="u3839"><!-- column -->
+           <div class="tooltip5 clip_frame colelem temp_no_id" data-orig-id="u3516"><!-- svg -->
+            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3517" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <div class="tooltip5 clip_frame colelem temp_no_id" data-orig-id="u3747"><!-- svg -->
+            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-hash.svg?crc=3993153546" onload="this.style.height=(this.offsetWidth*33.01052631578955/35.031578947368416)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-hash_poster_.png?crc=120107722" data-image-width="35" data-image-height="33" data-orig-id="u3743" src="images/blank.gif?crc=4208392903"/>
+           </div>
+           <span class="tooltip5 clearfix colelem placeholder" data-placeholder-for="u641-4_content"><!-- placeholder node --></span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu5608"><!-- column -->
+     <span class="size_fluid_width colelem placeholder" data-placeholder-for="u5608_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu5246"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u5246"><!-- group -->
+       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5189"><!-- group -->
+        <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5206"><!-- group -->
+         <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5184"><!-- group -->
+          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5194"><!-- group -->
+           <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5200"><!-- group -->
+            <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5216"><!-- group -->
+             <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5179"><!-- group -->
+              <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5211"><!-- group -->
+               <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5174"><!-- group -->
+                <span class="rounded-corners grpelem placeholder" data-placeholder-for="u5168_content"><!-- placeholder node --></span>
+               </div>
+              </div>
+             </div>
+            </div>
            </div>
           </div>
          </div>
         </div>
        </div>
       </div>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u690-bw">
-       <div class="temp_no_id" data-orig-id="u690"><!-- column -->
-        <div class="clearfix temp_no_id" data-orig-id="u690_align_to_page">
-         <span class="anchor_item colelem placeholder" data-placeholder-for="softwares_content"><!-- placeholder node --></span>
-         <span class="clearfix colelem placeholder" data-placeholder-for="u696-4_content"><!-- placeholder node --></span>
-         <div class="clearfix colelem temp_no_id" data-orig-id="pu727"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u727"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar_windows.svg?crc=3844315715" onload="this.style.height=(this.offsetWidth*83.33020344287952/83.33020344287952)+'px'" alt="" data-mu-svgfallback="images/hashbazaar_windows_poster_.png?crc=411481628" data-image-width="83" data-image-height="83" data-orig-id="u723" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <span class="museBGSize grpelem placeholder" data-placeholder-for="u785_content"><!-- placeholder node --></span>
-         </div>
-         <div class="clearfix colelem temp_no_id" data-orig-id="pu737"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u4924-bw">
+       <div class="image1 temp_no_id" data-orig-id="u4924"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u4924_align_to_page">
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pu737"><!-- group -->
           <span class="clearfix grpelem placeholder" data-placeholder-for="u737_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u798-4_content"><!-- placeholder node --></span>
+          <div class="gradient2 clearfix grpelem temp_no_id" data-orig-id="u4006"><!-- group -->
+           <div class="gradient3 clearfix grpelem temp_no_id" data-orig-id="u4118"><!-- group -->
+            <div class="gradient4 clearfix grpelem temp_no_id" data-orig-id="u4124"><!-- group -->
+             <div class="gradient5 grpelem temp_no_id" data-orig-id="u4169"><!-- simple frame --></div>
+            </div>
+           </div>
+           <div class="grpelem temp_no_id" data-orig-id="u4020"><!-- simple frame --></div>
+           <div class="clearfix grpelem temp_no_id" data-orig-id="u4113"><!-- group -->
+            <div class="clearfix grpelem temp_no_id" data-orig-id="u4130"><!-- group -->
+             <div class="grpelem temp_no_id" data-orig-id="u4180"><!-- simple frame --></div>
+            </div>
+           </div>
+          </div>
          </div>
-         <span class="anchor_item colelem placeholder" data-placeholder-for="pricing_content"><!-- placeholder node --></span>
+         <span class="anchor_item grpelem placeholder" data-placeholder-for="softwares_content"><!-- placeholder node --></span>
+         <span class="anchor_item grpelem placeholder" data-placeholder-for="pricing_content"><!-- placeholder node --></span>
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u798-4_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4283"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4269-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4259"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4255" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4472"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4475-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4473"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4474" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4365"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4368-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4366"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4367" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4522"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4525-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4523"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4524" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4313"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4316-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4314"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4315" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4497"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4498-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4499"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4500" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4562-6_content"><!-- placeholder node --></span>
+      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4764-6_content"><!-- placeholder node --></span>
+      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4563-4_content"><!-- placeholder node --></span>
+      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4669-4_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4564"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4567-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4565"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4566" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4674"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4675-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4676"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4677" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4568"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4571-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4569"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4570" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4724"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4725-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4726"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4727" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4572"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4575-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4573"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4574" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u4699"><!-- column -->
+       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4700-4_content"><!-- placeholder node --></span>
+       <div class="clip_frame colelem temp_no_id" data-orig-id="u4701"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4702" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clip_frame grpelem temp_no_id" data-orig-id="u4824"><!-- svg -->
+       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*65/215)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="215" data-image-height="65" data-orig-id="u4825" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u5557"><!-- group -->
+       <span class="rounded-corners grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
+       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4956"><!-- group -->
+        <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4964"><!-- group -->
+         <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4973"><!-- group -->
+          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4979"><!-- group -->
+           <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4985"><!-- group -->
+            <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4991"><!-- group -->
+             <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4997"><!-- group -->
+              <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5003"><!-- group -->
+               <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u5009_content"><!-- placeholder node --></span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <span class="rounded-corners grpelem placeholder" data-placeholder-for="u4960_content"><!-- placeholder node --></span>
+      </div>
+      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4794-4_content"><!-- placeholder node --></span>
+      <div class="tooltip6 clip_frame grpelem temp_no_id" data-orig-id="u5462"><!-- svg -->
+       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-mine.svg?crc=479624146" onload="this.style.height=(this.offsetWidth*41.09473684210525/36.378947368420995)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-mine_poster_.png?crc=3843972221" data-image-width="36" data-image-height="41" data-orig-id="u5458" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="tooltip2 clip_frame grpelem temp_no_id" data-orig-id="u5484"><!-- svg -->
+       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/path-107.svg?crc=427690683" onload="this.style.height=(this.offsetWidth*39.74736842105267/39.74736842105264)+'px'" alt="" data-mu-svgfallback="images/path%20107_poster_.png?crc=204758048" data-image-width="40" data-image-height="40" data-orig-id="u5480" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="tooltip3 clip_frame grpelem temp_no_id" data-orig-id="u5539"><!-- svg -->
+       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/path-34.svg?crc=3900308290" onload="this.style.height=(this.offsetWidth*33.68421052631584/18.863157894736787)+'px'" alt="" data-mu-svgfallback="images/path%2034_poster_.png?crc=4247970906" data-image-width="19" data-image-height="34" data-orig-id="u5535" src="images/blank.gif?crc=4208392903"/>
+      </div>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu986"><!-- group -->
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u986-bw_content"><!-- placeholder node --></span>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u987-bw_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u4820-bw">
+      <div class="temp_no_id" data-orig-id="u4820"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u4820_align_to_page">
+        <div class="position_content" id="u4820_position_content">
+         <div class="clearfix colelem temp_no_id" data-orig-id="pcontact"><!-- group -->
+          <span class="anchor_item grpelem placeholder" data-placeholder-for="contact_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u1134-4_content"><!-- placeholder node --></span>
+         </div>
+         <span class="clearfix colelem placeholder" data-placeholder-for="u988-4_content"><!-- placeholder node --></span>
+         <span class="clearfix colelem placeholder" data-placeholder-for="u989-4_content"><!-- placeholder node --></span>
+         <span class="clearfix colelem placeholder" data-placeholder-for="u990-4_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
      </div>
      <div class="browser_width colelem temp_no_id" data-orig-id="u1168-bw">
       <div class="temp_no_id" data-orig-id="u1168"><!-- group -->
        <div class="clearfix temp_no_id" data-orig-id="u1168_align_to_page">
         <span class="clearfix grpelem placeholder" data-placeholder-for="pu1180_content"><!-- placeholder node --></span>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u1178"><!-- svg -->
-         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo.svg?crc=218083929" onload="this.style.height=(this.offsetWidth*37.39365671641787/153.37737161649375)+'px'" alt="" data-mu-svgfallback="images/logo_poster_.png?crc=98441013" data-image-width="153" data-image-height="37" data-orig-id="u1179" src="images/blank.gif?crc=4208392903"/>
-        </div>
         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.instagram.com/hashbazaar/" data-orig-id="u1173"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*38.78787878787898/38.78787878787875)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="39" data-image-height="39" data-orig-id="u1174" src="images/blank.gif?crc=4208392903"/></a>
         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.linkedin.com/company/hashbazaar" data-orig-id="u1171"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*38.78787878787898/38.78787878787875)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="39" data-image-height="39" data-orig-id="u1172" src="images/blank.gif?crc=4208392903"/></a>
         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://twitter.com/Hashbazaar_CMC" data-orig-id="u1169"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*38.78787878787898/38.78787878787875)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="39" data-image-height="39" data-orig-id="u1170" src="images/blank.gif?crc=4208392903"/></a>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="pu1175-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="pu1182_content"><!-- placeholder node --></span>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="pu1175-4"><!-- column -->
+         <span class="clearfix colelem placeholder" data-placeholder-for="u1175-4_content"><!-- placeholder node --></span>
+         <span class="clearfix colelem placeholder" data-placeholder-for="u1176-4_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu1177-4"><!-- group -->
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u1177-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4864-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4900-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4870-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4894-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4876-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4882-4_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u4888-4_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="pu1182"><!-- column -->
+         <span class="museBGSize colelem placeholder" data-placeholder-for="u1182_content"><!-- placeholder node --></span>
+         <span class="museBGSize colelem placeholder" data-placeholder-for="u1184_content"><!-- placeholder node --></span>
+         <span class="museBGSize colelem placeholder" data-placeholder-for="u1183_content"><!-- placeholder node --></span>
+        </div>
        </div>
       </div>
      </div>
     </div>
-    <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u2180_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem" id="pu872-4"><!-- group -->
-     <span class="placeholder" data-placeholder-for="u872-4-wrapper_content"><!-- placeholder node --></span>
-     <span class="placeholder" data-placeholder-for="u944-4-wrapper_content"><!-- placeholder node --></span>
-    </div>
-    <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u124_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu860-4"><!-- group -->
-     <span class="placeholder" data-placeholder-for="u860-4-wrapper_content"><!-- placeholder node --></span>
-     <span class="placeholder" data-placeholder-for="u866-4-wrapper_content"><!-- placeholder node --></span>
-    </div>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="u2678_content"><!-- placeholder node --></span>
-    <span class="anchor_item grpelem placeholder" data-placeholder-for="accessibility_content"><!-- placeholder node --></span>
-    <span class="anchor_item grpelem placeholder" data-placeholder-for="contact_content"><!-- placeholder node --></span>
-    <span class="placeholder" data-placeholder-for="u878-4-wrapper_content"><!-- placeholder node --></span>
-    <span class="placeholder" data-placeholder-for="u898-4-wrapper_content"><!-- placeholder node --></span>
-    <span class="clearfix grpelem placeholder" data-placeholder-for="u1134-4_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu850-4"><!-- group -->
-     <span class="placeholder" data-placeholder-for="u850-4-wrapper_content"><!-- placeholder node --></span>
-     <span class="placeholder" data-placeholder-for="u854-4-wrapper_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3983"><!-- column -->
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u3983_content"><!-- placeholder node --></span>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u5601_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu2180"><!-- group -->
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u2180_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u3032_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4010_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4065_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4142_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4185_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu3679"><!-- group -->
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3679_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3711_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3727_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3757_content"><!-- placeholder node --></span>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3773_content"><!-- placeholder node --></span>
+     </div>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u5282_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="4069" data-content-above-spacer="4069" data-content-below-spacer="0"></div>
    </div>
   </div>
   <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
+  <script src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
@@ -609,6 +1289,31 @@ Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+(function(){
+	try{
+
+require(['https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.min.js'], function() {
+$('a').removeClass('anim_swing');
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top -100
+        }, 1000, 'linear');
+        return false;
+      }
+    }
+  });
+});
+
+	}
+	catch(e)
+	{
+		Muse.Assert.fail('Error with Widget:Anchor Point Scrolling (1.1) ParamHTMLOnDocReady Handler ' + e.toString());
+	}
+})();/* Widget:Anchor Point Scrolling (1.1) */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -616,55 +1321,190 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
 </script>
   <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=3849126041" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=4163635208" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
   
   <!--HTML Widget code-->
   
 <script src="https://cdn.jsdelivr.net/jquery.typed.js/1.1.4/typed.min.js"></script>
 
 <script>
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):e.Tippy=t()}(this,function(){"use strict";function e(e){var t=!1,n=0,i=document.createElement("span");return new MutationObserver(function(){e(),t=!1}).observe(i,{attributes:!0}),function(){t||(t=!0,i.setAttribute("x-index",n),n+=1)}}function t(e){var t=!1;return function(){t||(t=!0,setTimeout(function(){t=!1,e()},ye))}}function n(e){return""!==e&&!isNaN(parseFloat(e))&&isFinite(e)}function i(e,t){Object.keys(t).forEach(function(i){var r="";-1!==["width","height","top","right","bottom","left"].indexOf(i)&&n(t[i])&&(r="px"),e.style[i]=t[i]+r})}function r(e){for(var t=[!1,"ms","webkit","moz","o"],n=e.charAt(0).toUpperCase()+e.slice(1),i=0;i<t.length-1;i++){var r=t[i],o=r?""+r+n:e;if(void 0!==window.document.body.style[o])return o}return null}function o(e){var t=e.nodeName;return"BODY"!==t&&("HTML"===t||e.firstElementChild.offsetParent===e)}function s(e){return null!==e.parentNode?s(e.parentNode):e}function a(e){var t=e&&e.offsetParent,n=t&&t.nodeName;return n&&"BODY"!==n&&"HTML"!==n?t:window.document.documentElement}function p(e,t){if(!(e&&e.nodeType&&t&&t.nodeType))return window.document.documentElement;var n=e.compareDocumentPosition(t)&Node.DOCUMENT_POSITION_FOLLOWING,i=n?e:t,r=n?t:e,l=document.createRange();l.setStart(i,0),l.setEnd(r,0);var f=l.commonAncestorContainer;if(e!==f&&t!==f||i.contains(r))return o(f)?f:a(f);var d=s(e);return d.host?p(d.host,t):p(e,s(t).host)}function l(e,t){if(1!==e.nodeType)return[];var n=window.getComputedStyle(e,null);return t?n[t]:n}function f(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"top",n="top"===t?"scrollTop":"scrollLeft",i=e.nodeName;if("BODY"===i||"HTML"===i){var r=window.document.documentElement;return(window.document.scrollingElement||r)[n]}return e[n]}function d(e,t){var n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],i=f(t,"top"),r=f(t,"left"),o=n?-1:1;return e.top+=i*o,e.bottom+=i*o,e.left+=r*o,e.right+=r*o,e}function c(e){return"HTML"===e.nodeName?e:e.parentNode||e.host}function u(e){if(!e||-1!==["HTML","BODY","#document"].indexOf(e.nodeName))return window.document.body;var t=l(e),n=t.overflow,i=t.overflowX;return/(auto|scroll)/.test(n+t.overflowY+i)?e:u(c(e))}function h(e,t){var n="x"===t?"Left":"Top",i="Left"===n?"Right":"Bottom";return+e["border"+n+"Width"].split("px")[0]+ +e["border"+i+"Width"].split("px")[0]}function m(){var e=window.document.body,t=window.document.documentElement;return{height:Math.max(e.scrollHeight,e.offsetHeight,t.clientHeight,t.scrollHeight,t.offsetHeight),width:Math.max(e.scrollWidth,e.offsetWidth,t.clientWidth,t.scrollWidth,t.offsetWidth)}}function v(e){return ke({},e,{right:e.left+e.width,bottom:e.top+e.height})}function g(e){var t={};if(Me())try{t=e.getBoundingClientRect();var n=f(e,"top"),i=f(e,"left");t.top+=n,t.left+=i,t.bottom+=n,t.right+=i}catch(e){}else t=e.getBoundingClientRect();var r={left:t.left,top:t.top,width:t.right-t.left,height:t.bottom-t.top},o="HTML"===e.nodeName?m():{},s=o.width||e.clientWidth||r.right-r.left,a=o.height||e.clientHeight||r.bottom-r.top,p=e.offsetWidth-s,d=e.offsetHeight-a;if(p||d){var c=l(e);p-=h(c,"x"),d-=h(c,"y"),r.width-=p,r.height-=d}return v(r)}function b(e,t){var n=Me(),i="HTML"===t.nodeName,r=g(e),o=g(t),s=u(e),a=v({top:r.top-o.top,left:r.left-o.left,width:r.width,height:r.height});if(i||"BODY"===t.nodeName){var p=l(t),f=n&&i?0:+p.borderTopWidth.split("px")[0],c=n&&i?0:+p.borderLeftWidth.split("px")[0],h=n&&i?0:+p.marginTop.split("px")[0],m=n&&i?0:+p.marginLeft.split("px")[0];a.top-=f-h,a.bottom-=f-h,a.left-=c-m,a.right-=c-m,a.marginTop=h,a.marginLeft=m}return t.contains(s)&&(n||"BODY"!==s.nodeName)&&(a=d(a,t)),a}function w(e,t,n){return b(n,p(t,n))}function y(e){var t=window.getComputedStyle(e),n=parseFloat(t.marginTop)+parseFloat(t.marginBottom),i=parseFloat(t.marginLeft)+parseFloat(t.marginRight);return{width:e.offsetWidth+i,height:e.offsetHeight+n}}function E(e){var t={left:"right",right:"left",bottom:"top",top:"bottom"};return e.replace(/left|right|bottom|top/g,function(e){return t[e]})}function O(e,t,n,i){i=i.split("-")[0];var r=y(t),o={position:e,width:r.width,height:r.height},s=-1!==["right","left"].indexOf(i),a=s?"top":"left",p=s?"left":"top",l=s?"height":"width",f=s?"width":"height";return o[a]=n[a]+n[l]/2-r[l]/2,o[p]=i===p?n[p]-r[f]:n[E(p)],o}function x(e){var t={};return e&&"[object Function]"===t.toString.call(e)}function L(e,t,n,i){var r="BODY"===e.nodeName,o=r?window:e;o.addEventListener(t,n,{passive:!0}),r||L(u(o.parentNode),t,n,i),i.push(o)}function T(e,t,n,i){n.updateBound=i,window.addEventListener("resize",n.updateBound,{passive:!0});var r=u(e);return L(r,"scroll",n.updateBound,n.scrollParents),n.scrollElement=r,n.eventsEnabled=!0,n}function A(e,t){return window.removeEventListener("resize",t.updateBound),t.scrollParents.forEach(function(e){e.removeEventListener("scroll",t.updateBound)}),t.updateBound=null,t.scrollParents=[],t.scrollElement=null,t.eventsEnabled=!1,t}function k(e,t){return Array.prototype.find?e.find(t):e.filter(t)[0]}function C(e,t,n){if(Array.prototype.findIndex)return e.findIndex(function(e){return e[t]===n});var i=k(e,function(e){return e[t]===n});return e.indexOf(i)}function M(e,t,n){return(void 0===n?e:e.slice(0,C(e,"name",n))).forEach(function(e){e.function&&console.warn("`modifier.function` is deprecated, use `modifier.fn`!");var n=e.function||e.fn;e.enabled&&x(n)&&(t=n(t,e))}),t}function S(e,t){return e.some(function(e){var n=e.name;return e.enabled&&n===t})}function H(e){var t=window.document.documentElement,n=b(e,t),i=Math.max(t.clientWidth,window.innerWidth||0),r=Math.max(t.clientHeight,window.innerHeight||0),o=f(t),s=f(t,"left");return v({top:o-n.top+n.marginTop,left:s-n.left+n.marginLeft,width:i,height:r})}function D(e){var t=e.nodeName;return"BODY"!==t&&"HTML"!==t&&("fixed"===l(e,"position")||D(c(e)))}function I(e,t,n,i){var r={top:0,left:0},o=p(e,t);if("viewport"===i)r=H(o);else{var s=void 0;"scrollParent"===i?(s=u(c(e)),"BODY"===s.nodeName&&(s=window.document.documentElement)):s="window"===i?window.document.documentElement:i;var a=b(s,o);if("HTML"!==s.nodeName||D(o))r=a;else{var l=m(),f=l.height,d=l.width;r.top+=a.top-a.marginTop,r.bottom=f+a.top,r.left+=a.left-a.marginLeft,r.right=d+a.left}}return r.left+=n,r.top+=n,r.right-=n,r.bottom-=n,r}function N(e,t,n,i,r){if(-1===e.indexOf("auto"))return e;var o=I(n,i,0,r),s={top:t.top-o.top,right:o.right-t.right,bottom:o.bottom-t.bottom,left:t.left-o.left},a=Object.keys(s).sort(function(e,t){return s[t]-s[e]})[0],p=e.split("-")[1];return a+(p?"-"+p:"")}function W(e,t){Object.keys(t).forEach(function(n){!1!==t[n]?e.setAttribute(n,t[n]):e.removeAttribute(n)})}function B(e,t){var n={position:e.offsets.popper.position},o={"x-placement":e.placement},s=Math.round(e.offsets.popper.left),a=Math.round(e.offsets.popper.top),p=r("transform");return t.gpuAcceleration&&p?(n[p]="translate3d("+s+"px, "+a+"px, 0)",n.top=0,n.left=0,n.willChange="transform"):(n.left=s,n.top=a,n.willChange="top, left"),i(e.instance.popper,ke({},n,e.styles)),W(e.instance.popper,ke({},o,e.attributes)),e.offsets.arrow&&i(e.arrowElement,e.offsets.arrow),e}function F(e,t,n,i,r){var o=w(r,t,e),s=N(n.placement,o,t,e,n.modifiers.flip.boundariesElement);return t.setAttribute("x-placement",s),n}function P(e,t,n){var i=k(e,function(e){return e.name===t}),r=!!i&&e.some(function(e){return e.name===n&&e.enabled&&e.order<i.order});if(!r){var o="`"+t+"`",s="`"+n+"`";console.warn(s+" modifier is required by "+o+" modifier in order to work, be sure to include it before "+o+"!")}return r}function U(e,t){if(!P(e.instance.modifiers,"arrow","keepTogether"))return e;var n=t.element;if("string"==typeof n){if(!(n=e.instance.popper.querySelector(n)))return e}else if(!e.instance.popper.contains(n))return console.warn("WARNING: `arrow.element` must be child of its popper element!"),e;var i=e.placement.split("-")[0],r=v(e.offsets.popper),o=e.offsets.reference,s=-1!==["left","right"].indexOf(i),a=s?"height":"width",p=s?"top":"left",l=s?"left":"top",f=s?"bottom":"right",d=y(n)[a];o[f]-d<r[p]&&(e.offsets.popper[p]-=r[p]-(o[f]-d)),o[p]+d>r[f]&&(e.offsets.popper[p]+=o[p]+d-r[f]);var c=o[p]+o[a]/2-d/2,u=c-v(e.offsets.popper)[p];return u=Math.max(Math.min(r[a]-d,u),0),e.arrowElement=n,e.offsets.arrow={},e.offsets.arrow[p]=u,e.offsets.arrow[l]="",e}function j(e){return"end"===e?"start":"start"===e?"end":e}function q(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=He.indexOf(e),i=He.slice(n+1).concat(He.slice(0,n));return t?i.reverse():i}function Y(e,t){if(S(e.instance.modifiers,"inner"))return e;if(e.flipped&&e.placement===e.originalPlacement)return e;var n=I(e.instance.popper,e.instance.reference,t.padding,t.boundariesElement),i=e.placement.split("-")[0],r=E(i),o=e.placement.split("-")[1]||"",s=[];switch(t.behavior){case De.FLIP:s=[i,r];break;case De.CLOCKWISE:s=q(i);break;case De.COUNTERCLOCKWISE:s=q(i,!0);break;default:s=t.behavior}return s.forEach(function(a,p){if(i!==a||s.length===p+1)return e;i=e.placement.split("-")[0],r=E(i);var l=v(e.offsets.popper),f=e.offsets.reference,d=Math.floor,c="left"===i&&d(l.right)>d(f.left)||"right"===i&&d(l.left)<d(f.right)||"top"===i&&d(l.bottom)>d(f.top)||"bottom"===i&&d(l.top)<d(f.bottom),u=d(l.left)<d(n.left),h=d(l.right)>d(n.right),m=d(l.top)<d(n.top),g=d(l.bottom)>d(n.bottom),b="left"===i&&u||"right"===i&&h||"top"===i&&m||"bottom"===i&&g,w=-1!==["top","bottom"].indexOf(i),y=!!t.flipVariations&&(w&&"start"===o&&u||w&&"end"===o&&h||!w&&"start"===o&&m||!w&&"end"===o&&g);(c||b||y)&&(e.flipped=!0,(c||b)&&(i=s[p+1]),y&&(o=j(o)),e.placement=i+(o?"-"+o:""),e.offsets.popper=O(e.instance.state.position,e.instance.popper,e.offsets.reference,e.placement),e=M(e.instance.modifiers,e,"flip"))}),e}function R(e){var t=v(e.offsets.popper),n=e.offsets.reference,i=e.placement.split("-")[0],r=Math.floor,o=-1!==["top","bottom"].indexOf(i),s=o?"right":"bottom",a=o?"left":"top",p=o?"width":"height";return t[s]<r(n[a])&&(e.offsets.popper[a]=r(n[a])-t[p]),t[a]>r(n[s])&&(e.offsets.popper[a]=r(n[s])),e}function z(e,t,n,i){var r=e.match(/((?:\-|\+)?\d*\.?\d*)(.*)/),o=+r[1],s=r[2];if(!o)return e;if(0===s.indexOf("%")){var a=void 0;switch(s){case"%p":a=n;break;case"%":case"%r":default:a=i}return v(a)[t]/100*o}if("vh"===s||"vw"===s){return("vh"===s?Math.max(document.documentElement.clientHeight,window.innerHeight||0):Math.max(document.documentElement.clientWidth,window.innerWidth||0))/100*o}return o}function _(e,t,i,r){var o=[0,0],s=-1!==["right","left"].indexOf(r),a=e.split(/(\+|\-)/).map(function(e){return e.trim()}),p=a.indexOf(k(a,function(e){return-1!==e.search(/,|\s/)}));a[p]&&-1===a[p].indexOf(",")&&console.warn("Offsets separated by white space(s) are deprecated, use a comma (,) instead.");var l=-1!==p?[a.slice(0,p).concat([a[p].split(/\s*,\s*|\s+/)[0]]),[a[p].split(/\s*,\s*|\s+/)[1]].concat(a.slice(p+1))]:[a];return l=l.map(function(e,n){var r=(1===n?!s:s)?"height":"width",o=!1;return e.reduce(function(e,t){return""===e[e.length-1]&&-1!==["+","-"].indexOf(t)?(e[e.length-1]=t,o=!0,e):o?(e[e.length-1]+=t,o=!1,e):e.concat(t)},[]).map(function(e){return z(e,r,t,i)})}),l.forEach(function(e,t){e.forEach(function(i,r){n(i)&&(o[t]+=i*("-"===e[r-1]?-1:1))})}),o}function X(e,t){var i=t.offset,r=e.placement,o=e.offsets,s=o.popper,a=o.reference,p=r.split("-")[0],l=void 0;return l=n(+i)?[+i,0]:_(i,s,a,p),"left"===p?(s.top+=l[0],s.left-=l[1]):"right"===p?(s.top+=l[0],s.left+=l[1]):"top"===p?(s.left+=l[0],s.top-=l[1]):"bottom"===p&&(s.left+=l[0],s.top+=l[1]),e.popper=s,e}function K(e,t){var n=t.boundariesElement||a(e.instance.popper),i=I(e.instance.popper,e.instance.reference,t.padding,n);t.boundaries=i;var r=t.priority,o=v(e.offsets.popper),s={primary:function(e){var n=o[e];return o[e]<i[e]&&!t.escapeWithReference&&(n=Math.max(o[e],i[e])),Ae({},e,n)},secondary:function(e){var n="right"===e?"left":"top",r=o[n];return o[e]>i[e]&&!t.escapeWithReference&&(r=Math.min(o[n],i[e]-("right"===e?o.width:o.height))),Ae({},n,r)}};return r.forEach(function(e){var t=-1!==["left","top"].indexOf(e)?"primary":"secondary";o=ke({},o,s[t](e))}),e.offsets.popper=o,e}function G(e){var t=e.placement,n=t.split("-")[0],i=t.split("-")[1];if(i){var r=e.offsets.reference,o=v(e.offsets.popper),s=-1!==["bottom","top"].indexOf(n),a=s?"left":"top",p=s?"width":"height",l={start:Ae({},a,r[a]),end:Ae({},a,r[a]+r[p]-o[p])};e.offsets.popper=ke({},o,l[i])}return e}function J(e){if(!P(e.instance.modifiers,"hide","preventOverflow"))return e;var t=e.offsets.reference,n=k(e.instance.modifiers,function(e){return"preventOverflow"===e.name}).boundaries;if(t.bottom<n.top||t.left>n.right||t.top>n.bottom||t.right<n.left){if(!0===e.hide)return e;e.hide=!0,e.attributes["x-out-of-boundaries"]=""}else{if(!1===e.hide)return e;e.hide=!1,e.attributes["x-out-of-boundaries"]=!1}return e}function V(e){var t=e.placement,n=t.split("-")[0],i=v(e.offsets.popper),r=v(e.offsets.reference),o=-1!==["left","right"].indexOf(n),s=-1===["top","left"].indexOf(n);return i[o?"left":"top"]=r[t]-(s?i[o?"width":"height"]:0),e.placement=E(t),e.offsets.popper=v(i),e}function Q(){Ue.touchUser=!0,/(iPad|iPhone|iPod)/g.test(navigator.userAgent)&&!window.MSStream&&document.body.classList.add("tippy-touch"),document.removeEventListener("touchstart",Q)}function Z(e){var t=te(e.target,Re.el),n=te(e.target,Re.popper);if(n){if(je.refs[je.poppers.indexOf(n)].settings.interactive)return}if(t){var i=je.refs[je.els.indexOf(t)];if(!0!==i.settings.hideOnClick||Ue.touchUser||clearTimeout(i.popper.getAttribute("data-delay")),!i.settings.multiple&&Ue.touchUser||!i.settings.multiple&&-1!==i.settings.trigger.indexOf("click"))return ve(i);if(!0!==i.settings.hideOnClick||-1!==i.settings.trigger.indexOf("click"))return}!te(e.target,Re.controller)&&document.body.querySelector(Re.popper)&&ve()}function $(e){for(var t=[!1,"webkit"],n=e.charAt(0).toUpperCase()+e.slice(1),i=0;i<t.length;i++){var r=t[i],o=r?""+r+n:e;if(void 0!==window.document.body.style[o])return o}return null}function ee(e){return e.replace(/-.+/,"")}function te(e,t){return Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.webkitMatchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||function(e){for(var t=(this.document||this.ownerDocument).querySelectorAll(e),n=t.length;--n>=0&&t.item(n)!==this;);return n>-1}),Element.prototype.closest||(Element.prototype.closest=function(e){for(var t=this;t;){if(t.matches(e))return t;t=t.parentElement}}),e.closest(t)}function ne(e){var t=e.settings,n=e.popper.querySelector(Re.tooltip),i=Pe({placement:t.position},t.popperOptions||{},{modifiers:Pe({},t.popperOptions?t.popperOptions.modifiers:{},{flip:Pe({padding:parseInt(t.distance)+5},t.popperOptions&&t.popperOptions.modifiers?t.popperOptions.modifiers.flip:{}),offset:Pe({offset:parseInt(t.offset)},t.popperOptions&&t.popperOptions.modifiers?t.popperOptions.modifiers.offset:{})}),onUpdate:function(){n.style.top="",n.style.bottom="",n.style.left="",n.style.right="",n.style[ee(e.popper.getAttribute("x-placement"))]=-(t.distance-10)+"px"}});return new We(e.el,e.popper,i)}function ie(e,t,n){var i=document.createElement("div");i.setAttribute("class","tippy-popper"),i.setAttribute("role","tooltip"),i.setAttribute("aria-hidden","true"),i.setAttribute("id","tippy-tooltip-"+e);var r=document.createElement("div");if(r.setAttribute("class","tippy-tooltip tippy-tooltip--"+n.size+" "+n.theme+"-theme leave"),r.setAttribute("data-animation",n.animation),n.arrow){var o=document.createElement("div");o.setAttribute("class","arrow-"+n.arrowSize),o.setAttribute("x-arrow",""),r.appendChild(o)}if(n.animateFill){r.setAttribute("data-animatefill","");var s=document.createElement("div");s.setAttribute("class","leave"),s.setAttribute("x-circle",""),r.appendChild(s)}n.inertia&&r.setAttribute("data-inertia","");var a=document.createElement("div");if(a.setAttribute("class","tippy-tooltip-content"),n.html){var p=void 0;n.html instanceof Element?(a.innerHTML=n.html.innerHTML,p=n.html.id||"tippy-html-template"):(a.innerHTML=document.getElementById(n.html.replace("#","")).innerHTML,p=n.html),i.classList.add("html-template"),i.setAttribute("tabindex","0"),r.setAttribute("data-template-id",p)}else a.innerHTML=t;return r.style[ee(n.position)]=-(n.distance-10)+"px",r.appendChild(a),i.appendChild(r),i}function re(e,t,n){var i=[];return"manual"===e?i:(t.addEventListener(e,n.handleTrigger),i.push({event:e,handler:n.handleTrigger}),"mouseenter"===e&&(t.addEventListener("mouseleave",n.handleMouseleave),i.push({event:"mouseleave",handler:n.handleMouseleave})),"focus"===e&&(t.addEventListener("blur",n.handleBlur),i.push({event:"blur",handler:n.handleBlur})),i)}function oe(e){je.refs.push(e),je.els.push(e.el),je.poppers.push(e.popper)}function se(e){var t=e.getAttribute("title");e.setAttribute("data-original-title",t||"html"),e.removeAttribute("title")}function ae(e){var t=e.getBoundingClientRect();return t.top>=0&&t.left>=0&&t.bottom<=(window.innerHeight||document.documentElement.clientHeight)&&t.right<=(window.innerWidth||document.documentElement.clientWidth)}function pe(e){var t=je.refs[je.els.indexOf(this)],n=ee(t.popper.getAttribute("x-placement")),i=Math.round(t.popper.offsetWidth/2),r=Math.round(t.popper.offsetHeight/2),o=e.pageX-i,s=e.pageY-2.5*r;"left"===n?(o=e.pageX-2*i-15,s=e.pageY-r):"right"===n?(o=e.pageX+r,s=e.pageY-r):"bottom"===n&&(s=e.pageY+r/1.5),t.popper.style[$("transform")]="translate3d("+o+"px, "+s+"px, 0)"}function le(e,t){t?window.getComputedStyle(t)[$("transform")]:window.getComputedStyle(e).opacity}function fe(e,t){e.forEach(function(e){e&&t(e.classList)})}function de(e,t){e.forEach(function(e){e&&(e.hasAttribute("x-circle")&&(t/=1.25),e.style[$("transitionDuration")]=t+"ms")})}function ce(e,t){setTimeout(function(){var n=e.settings.position!==e.popper.getAttribute("x-placement");!e.flipped&&n?(e.flipped=!0,t()):e.flipped&&!n&&(e.flipped=!1,t())},0)}function ue(e,t,n){var i=e.popper.querySelector(Re.tooltip),r=!1,o=function e(t){t.target===i&&(r=!0,i.removeEventListener("webkitTransitionEnd",e),i.removeEventListener("transitionend",e),n())};i.addEventListener("webkitTransitionEnd",o),i.addEventListener("transitionend",o),clearTimeout(e.transitionendTimeout),e.transitionendTimeout=setTimeout(function(){r||n()},t)}function he(e,t){var n=e.style.visibility;return"show"===t?"visible"===n:"hidden"===n}function me(e){if(document.body.appendChild(e.popper),e.popperInstance){e.popperInstance.update();var t=0;!function n(){setTimeout(function(){e.popperInstance.scheduleUpdate(),t<50&&window.innerWidth<=e.popper.getBoundingClientRect().right&&n()},0),t++}(),e.settings.followCursor||e.popperInstance.enableEventListeners()}else e.popperInstance=ne(e),e.settings.followCursor&&!Ue.touchUser&&(e.el.addEventListener("mousemove",pe),e.popperInstance.disableEventListeners())}function ve(e){je.refs.forEach(function(t){if(document.body.contains(t.popper)){var n=!0===t.settings.hideOnClick,i=!e||t.popper!==e.popper;n&&i&&t.tippyInstance.hide(t.popper,t.settings.hideDuration)}})}for(var ge=["native code","[object MutationObserverConstructor]"],be="undefined"!=typeof window,we=["Edge","Trident","Firefox"],ye=0,Ee=0;Ee<we.length;Ee+=1)if(be&&navigator.userAgent.indexOf(we[Ee])>=0){ye=1;break}var Oe=be&&function(e){return ge.some(function(t){return(e||"").toString().indexOf(t)>-1})}(window.MutationObserver),xe=Oe?e:t,Le=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")},Te=function(){function e(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(t,n,i){return n&&e(t.prototype,n),i&&e(t,i),t}}(),Ae=function(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e},ke=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var i in n)Object.prototype.hasOwnProperty.call(n,i)&&(e[i]=n[i])}return e},Ce=void 0,Me=function(){return void 0===Ce&&(Ce=-1!==navigator.appVersion.indexOf("MSIE 10")),Ce},Se=["auto-start","auto","auto-end","top-start","top","top-end","right-start","right","right-end","bottom-end","bottom","bottom-start","left-end","left","left-start"],He=Se.slice(3),De={FLIP:"flip",CLOCKWISE:"clockwise",COUNTERCLOCKWISE:"counterclockwise"},Ie={shift:{order:100,enabled:!0,fn:G},offset:{order:200,enabled:!0,fn:X,offset:0},preventOverflow:{order:300,enabled:!0,fn:K,priority:["left","right","top","bottom"],padding:5,boundariesElement:"scrollParent"},keepTogether:{order:400,enabled:!0,fn:R},arrow:{order:500,enabled:!0,fn:U,element:"[x-arrow]"},flip:{order:600,enabled:!0,fn:Y,behavior:"flip",padding:5,boundariesElement:"viewport"},inner:{order:700,enabled:!1,fn:V},hide:{order:800,enabled:!0,fn:J},applyStyle:{order:900,enabled:!0,fn:B,onLoad:F,gpuAcceleration:!0}},Ne={placement:"bottom",eventsEnabled:!0,removeOnDestroy:!1,onCreate:function(){},onUpdate:function(){},modifiers:Ie},We=function(){function e(t,n){var r=this,o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};Le(this,e),this.scheduleUpdate=function(){return requestAnimationFrame(r.update)},this.update=xe(this.update.bind(this)),this.options=ke({},e.Defaults,o),this.state={isDestroyed:!1,isCreated:!1,scrollParents:[]},this.reference=t.jquery?t[0]:t,this.popper=n.jquery?n[0]:n,i(this.popper,{position:"absolute"}),this.modifiers=Object.keys(e.Defaults.modifiers).map(function(t){return ke({name:t},e.Defaults.modifiers[t])}),this.modifiers=this.modifiers.map(function(e){var t=o.modifiers&&o.modifiers[e.name]||{};return ke({},e,t)}),o.modifiers&&(this.options.modifiers=ke({},e.Defaults.modifiers,o.modifiers),Object.keys(o.modifiers).forEach(function(t){if(void 0===e.Defaults.modifiers[t]){var n=o.modifiers[t];n.name=t,r.modifiers.push(n)}})),this.modifiers=this.modifiers.sort(function(e,t){return e.order-t.order}),this.modifiers.forEach(function(e){e.enabled&&x(e.onLoad)&&e.onLoad(r.reference,r.popper,r.options,e,r.state)}),this.update();var s=this.options.eventsEnabled;s&&this.enableEventListeners(),this.state.eventsEnabled=s}return Te(e,[{key:"update",value:function(){if(!this.state.isDestroyed){var e={instance:this,styles:{},attributes:{},flipped:!1,offsets:{}};e.offsets.reference=w(this.state,this.popper,this.reference),e.placement=N(this.options.placement,e.offsets.reference,this.popper,this.reference,this.options.modifiers.flip.boundariesElement),e.originalPlacement=e.placement,e.offsets.popper=O(this.state,this.popper,e.offsets.reference,e.placement),e.offsets.popper.position="absolute",e=M(this.modifiers,e),this.state.isCreated?this.options.onUpdate(e):(this.state.isCreated=!0,this.options.onCreate(e))}}},{key:"destroy",value:function(){return this.state.isDestroyed=!0,S(this.modifiers,"applyStyle")&&(this.popper.removeAttribute("x-placement"),this.popper.style.left="",this.popper.style.position="",this.popper.style.top="",this.popper.style[r("transform")]=""),this.disableEventListeners(),this.options.removeOnDestroy&&this.popper.parentNode.removeChild(this.popper),this}},{key:"enableEventListeners",value:function(){this.state.eventsEnabled||(this.state=T(this.reference,this.options,this.state,this.scheduleUpdate))}},{key:"disableEventListeners",value:function(){this.state.eventsEnabled&&(window.cancelAnimationFrame(this.scheduleUpdate),this.state=A(this.reference,this.state))}}]),e}();We.Utils=("undefined"!=typeof window?window:global).PopperUtils,We.placements=Se,We.Defaults=Ne;var Be=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")},Fe=function(){function e(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(t,n,i){return n&&e(t.prototype,n),i&&e(t,i),t}}(),Pe=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var i in n)Object.prototype.hasOwnProperty.call(n,i)&&(e[i]=n[i])}return e},Ue={touchUser:!1,idCounter:0},je={refs:[],els:[],poppers:[]},qe={html:!1,position:"top",animation:"shift",animateFill:!0,arrow:!1,arrowSize:"regular",delay:0,hideDelay:0,trigger:"mouseenter focus",duration:375,hideDuration:375,interactive:!1,theme:"dark",size:"regular",distance:10,offset:0,hideOnClick:!0,multiple:!1,followCursor:!1,inertia:!1,transitionFlip:!0,popperOptions:{}},Ye=Object.keys(qe),Re={popper:".tippy-popper",tooltip:".tippy-tooltip",content:".tippy-tooltip-content",circle:"[x-circle]",arrow:"[x-arrow]",el:"[data-tooltipped]",controller:"[data-tippy-controller]"};return document.addEventListener&&(document.addEventListener("click",Z),document.addEventListener("touchstart",Q)),function(){function e(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};if(Be(this,e),"addEventListener"in window&&!/MSIE 9/i.test(navigator.userAgent)&&!window.operamini){this.settings=Pe(JSON.parse(JSON.stringify(qe)),n),this.callbacks={wait:n.wait,beforeShown:n.beforeShown||new Function,shown:n.shown||new Function,beforeHidden:n.beforeHidden||new Function,hidden:n.hidden||new Function};var i=t instanceof Element?[t]:[].slice.call(document.querySelectorAll(t));this._createTooltips(i)}}return Fe(e,[{key:"_applyIndividualSettings",value:function(e){var t=this,n={};return Ye.forEach(function(i){var r=e.getAttribute("data-"+i.toLowerCase())||t.settings[i];"false"===r&&(r=!1),n[i]=r}),n.arrow&&(n.animateFill=!1),Pe({},this.settings,n)}},{key:"_getEventListenerHandlers",value:function(e,t,n){var i=this,r=function(){clearTimeout(t.getAttribute("data-delay")),clearTimeout(t.getAttribute("data-hidedelay"))},o=function(){if(r(),"visible"!==t.style.visibility)if(n.delay){var e=setTimeout(function(){return i.show(t,n.duration)},n.delay);t.setAttribute("data-delay",e)}else i.show(t,n.duration)},s=function(e){return i.callbacks.wait?i.callbacks.wait(o,e):o()},a=function(){if(r(),n.hideDelay){var e=setTimeout(function(){return i.hide(t,n.hideDuration)},n.hideDelay);t.setAttribute("data-hidedelay",e)}else i.hide(t,n.hideDuration)};return{handleTrigger:function(e){var i="click"===e.type,r="visible"===t.style.visibility,o="persistent"!==n.hideOnClick;i&&r&&o?a():s(e)},handleMouseleave:function(i){if(n.interactive){var r=function i(r){var o=te(r.target,Re.popper)===t,s=te(r.target,Re.el)===e,p=-1!==n.trigger.indexOf("click");if(!(o||s||p)){var l=t.getBoundingClientRect();Math.abs(r.clientY-l.bottom)>=2&&Math.abs(r.clientY-l.top)>=2&&Math.abs(r.clientX-l.left)>=2&&Math.abs(r.clientX-l.right)>=2&&(document.removeEventListener("mousemove",i),a())}};return document.addEventListener("mousemove",r)}a()},handleBlur:function(e){!Ue.touchUser&&e.relatedTarget&&(te(e.relatedTarget,Re.popper)||a())}}}},{key:"_createTooltips",value:function(t){var n=this;t.forEach(function(e){var t=n._applyIndividualSettings(e),i=e.title;if(i||t.html){var r=Ue.idCounter;e.setAttribute("data-tooltipped",""),e.setAttribute("aria-describedby","tippy-tooltip-"+r),se(e);var o=ie(r,i,t),s=n._getEventListenerHandlers(e,o,t),a=[];t.trigger.trim().split(" ").forEach(function(t){return a=a.concat(re(t,e,s))}),oe({id:r,el:e,popper:o,settings:t,listeners:a,tippyInstance:n}),Ue.idCounter++}}),e.store=je}},{key:"getPopperElement",value:function(e){try{return je.refs[je.els.indexOf(e)].popper}catch(e){throw new Error("[Tippy error]: Element does not exist in any Tippy instances")}}},{key:"getTooltippedElement",value:function(e){try{return je.refs[je.poppers.indexOf(e)].el}catch(e){throw new Error("[Tippy error]: Popper does not exist in any Tippy instances")}}},{key:"show",value:function(e){var t=this,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.settings.duration,i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2],r=je.refs[je.poppers.indexOf(e)],o=e.querySelector(Re.tooltip),s=e.querySelector(Re.circle);i&&(this.callbacks.beforeShown(),ce(r,function(){t.hide(e,0,!1),setTimeout(function(){r.hidden||t.show(e,n,!1)},0)})),document.body.contains(e)||me(r),r.settings.interactive&&r.el.classList.add("active"),r.hidden=!1,r.popper.style.visibility="visible",r.popper.setAttribute("aria-hidden","false"),le(o,s),fe([o,s],function(e){e.remove("leave"),e.add("enter")}),de([o,s],n),ue(r,n,function(){he(e,"show")&&!r.onShownFired&&(r.settings.transitionFlip||o.classList.add("tippy-notransition"),r.settings.interactive&&e.focus(),r.onShownFired=!0,i&&t.callbacks.shown())})}},{key:"hide",value:function(e){var t=this,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:this.settings.duration,i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2],r=je.refs[je.poppers.indexOf(e)],o=e.querySelector(Re.tooltip),s=e.querySelector(Re.circle);e.querySelector(Re.content);i&&(this.callbacks.beforeHidden(),r.hidden=!0,r.el.classList.remove("active"),r.onShownFired=!1,r.settings.transitionFlip||o.classList.remove("tippy-notransition"),r.flipped=r.settings.position!==e.getAttribute("x-placement")),e.style.visibility="hidden",e.setAttribute("aria-hidden","true"),n===qe.hideDuration?n=parseInt(o.style[$("transitionDuration")]):de([o,s],n),fe([o,s],function(e){e.remove("enter"),e.add("leave")}),r.settings.html&&-1!==r.settings.trigger.indexOf("click")&&ae(r.el)&&r.el.focus(),ue(r,n,function(){he(e,"hide")&&document.body.contains(e)&&(r.popperInstance.disableEventListeners(),document.body.removeChild(e),i&&t.callbacks.hidden())})}},{key:"destroy",value:function(e){var t=je.poppers.indexOf(e),n=je.refs[t];n.listeners.forEach(function(e){return n.el.removeEventListener(e.event,e.handler)}),n.el.removeAttribute("data-tooltipped"),n.el.removeAttribute("aria-describedby"),n.popperInstance&&n.popperInstance.destroy(),je.refs.splice(t,1),je.els.splice(t,1),je.poppers.splice(t,1)}},{key:"update",value:function(e){var t=je.refs[je.poppers.indexOf(e)],n=e.querySelector(Re.content),i=t.settings.html;i?n.innerHTML=i instanceof Element?i.innerHTML:document.getElementById(i.replace("#","")).innerHTML:(n.innerHTML=t.el.getAttribute("title")||t.el.getAttribute("data-original-title"),se(t.el))}}]),e}()});
+</script>
+
+<script>
+$('.tooltip2').prop('title', 'در صورت بروز هر گونه عیبی که حضور فیزیکی شما را در محل فارم ایجاب میکند، فارم یار از طریق اپلیکیشن نصب شده بر روی گوشی، این مورد را به شما اطلاع میدهد تا بتوانید پیش از ایجاد خسارت از آن جلوگیری نمایید');
+new Tippy('.tooltip2', {
+    position: 'top',
+    trigger: 'mouseenter',
+    interactive: false,
+    delay: 0,
+    animation: 'scale',
+    arrow: true,
+    arrowSize: 'regular',
+    animateFill: false,
+    duration: 400,
+    hideDuration: 0,
+    size: 'regular',
+    theme: 'theme2',
+    distance: 10,
+    offset: 0,
+    hideOnClick: true,
+    multiple: true,
+    followCursor: false,
+    inertia: false
+})
+</script>
+
+<script>
+$('.tooltip3').prop('title', 'از طریق فارم یار دمای تک تک دستگاه های در حال کار کردن به تفکیک قابل رویت است. همچنین میتوانید از طریق هیتمپ طراحی شده در پنل، اقدام به مکانیابی قسمتهایی از فارم که سیستم خنک کنندهی شما عملکرد ضعیفی دارد، نمایید');
+new Tippy('.tooltip3', {
+    position: 'top',
+    trigger: 'mouseenter',
+    interactive: false,
+    delay: 0,
+    animation: 'scale',
+    arrow: true,
+    arrowSize: 'regular',
+    animateFill: false,
+    duration: 400,
+    hideDuration: 0,
+    size: 'regular',
+    theme: 'theme1',
+    distance: 10,
+    offset: 0,
+    hideOnClick: true,
+    multiple: true,
+    followCursor: false,
+    inertia: false
+})
+</script>
+
+<script>
+$('.tooltip4').prop('title', 'فارم یار، مدت زمان UP STREAM بودن هر ماینر را اندازه گیری و در پنل مدیریتی به نمایش می گذارد. در صورت رخداد هر مشکلی در مورد هر یک ازماینرها، عدم کارکرد آنها از این طریق قابل رویت است');
+new Tippy('.tooltip4', {
+    position: 'top',
+    trigger: 'mouseenter',
+    interactive: false,
+    delay: 0,
+    animation: 'scale',
+    arrow: true,
+    arrowSize: 'regular',
+    animateFill: false,
+    duration: 400,
+    hideDuration: 0,
+    size: 'regular',
+    theme: 'theme1',
+    distance: 10,
+    offset: 0,
+    hideOnClick: true,
+    multiple: true,
+    followCursor: false,
+    inertia: false
+})
+</script>
+
+<script>
+$('.tooltip5').prop('title', 'در پنل فارم یار، علاوه بر نمایش مجموع هش ریت اسمی فارم یا همان جمع هش ریت اعلامی توسط کارخانه های سازنده، امکان مشاهده ی مجموع هش ریت عملی فارم  وجود دارد. ضمنا با توجه به امکان نمایش هش ریت واقعی هر ماینر به تفکیک، میتوانید اقدام به پیدا کردن ماینرهایی با عملکرد پایینتر از هش ریت اسمی نمایید');
+new Tippy('.tooltip5', {
+    position: 'top',
+    trigger: 'mouseenter',
+    interactive: false,
+    delay: 0,
+    animation: 'scale',
+    arrow: true,
+    arrowSize: 'regular',
+    animateFill: false,
+    duration: 400,
+    hideDuration: 0,
+    size: 'regular',
+    theme: 'theme1',
+    distance: 10,
+    offset: 0,
+    hideOnClick: true,
+    multiple: true,
+    followCursor: false,
+    inertia: false
+})
+</script>
+
+<script>
+$('.tooltip6').prop('title', 'از طریق فارم یار میتوانید سرعت فن تک تک ماینرها را رویت نمایید و در صورت مشاهده ی عملکرد ضعیف فن خنک کنندهی یک ماینر پیش از آسیب دیدن هش بردها اقدام به رفع نقص نمایید');
+new Tippy('.tooltip6', {
+    position: 'top',
+    trigger: 'mouseenter',
+    interactive: false,
+    delay: 0,
+    animation: 'scale',
+    arrow: true,
+    arrowSize: 'regular',
+    animateFill: false,
+    duration: 400,
+    hideDuration: 0,
+    size: 'regular',
+    theme: 'theme1',
+    distance: 10,
+    offset: 0,
+    hideOnClick: true,
+    multiple: true,
+    followCursor: false,
+    inertia: false
+})
+</script>
+
+<script>
 $(".svg1").css({"fill-opacity": "0"});
- $(".svg1").css("stroke-width", "0.8");
+ $(".svg1").css("stroke-width", "0.5");
 
 setTimeout(function(){
 var svg1 = new Vivus('svg1', {
 type: 'delayed',
-duration: 100,
-delay: 50,
+duration: 200,
+delay: 100,
 start: 'autostart',
 forceRender: false,
 animTimingFunction: Vivus.EASE,
 pathTimingFunction: Vivus.EASE,
-file: 'assets/logo.svg'
+file: 'assets/logo-04.svg'
 },
 function(obj){
  $(".svg1").css({"fill-opacity": "0"});
- $(".svg1").animate({"fill-opacity": "1"}, 200);
+ $(".svg1").animate({"fill-opacity": "1"}, 1000);
 //$(".svg1").animate({"stroke-width": "0"}, 1000);
 });
 
 //$(".svg1").click(function(){
- $(".svg1").css("stroke-width", "0.8");
+ $(".svg1").css("stroke-width", "0.5");
 //$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
 
 //$(".svg1").mouseenter(function(){
- $(".svg1").css("stroke-width", "0.8");
+ $(".svg1").css("stroke-width", "0.5");
 //$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
 
 $(".play").click(function(){svg1.play();});
 $(".pause").click(function(){svg1.stop();});
 $(".restart").click(function(){
- $(".svg1").css("stroke-width", "0.8");
+ $(".svg1").css("stroke-width", "0.5");
 $(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
 
 //$(window).resize(function(){
- $(".svg1").css("stroke-width", "0.8");
+ $(".svg1").css("stroke-width", "0.5");
 //$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
-},50);
+},0);
 </script>
 
 <script>
 $(function(){$('.type1').typed({strings:['فارم یار، مدیریت مزارع ماینینگ'],typeSpeed:55,startDelay: 500,backSpeed:30,backDelay:500,loop:false,showCursor:true,cursorChar:'|'});});
+</script>
+
+<script>
+$(function() {
+  var $body = $(document);
+  $body.bind('scroll', function() {
+      if ($body.scrollLeft() !== 0) {
+          $body.scrollLeft(0);
+      }
+  });
+});
 </script>
 
    </body>

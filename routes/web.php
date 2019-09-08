@@ -30,9 +30,8 @@ use Spatie\Sitemap\SitemapGenerator;
 use Symfony\Component\DomCrawler\Crawler;
 use Psr\Http\Message\ResponseInterface;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
-use Illuminate\Http\File;
 use Illuminate\Support\Facades\Storage;
-
+use Illuminate\Support\Facades\File;
 
 Route::get('create-sitemap',function(){
 
@@ -127,7 +126,10 @@ Route::get('qr',function(){
 
 Route::get('test',function (){
 
-    dd('salam');
+    // dd(Storage::directories('public'));
+    $storagePath = storage_path('app/public/landing/index.html');
+
+        return File::get($storagePath);
 
 });
 

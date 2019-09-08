@@ -89,7 +89,7 @@
     </div>
 
    <div id="pools">
-    
+
    </div>
 
    <br/>
@@ -101,7 +101,7 @@
         <input type="text" name="name" class="form-control" style="margin-right: 1%;">
         <button class="btn btn-success" style="margin-right: 2%;">ایجاد</button>
        </div>
-      </form> 
+      </form>
       <br/>
        @if(count($farms) > 0)
            <h3 class="text-center">فارم های ماینینگ شما</h3>
@@ -158,7 +158,7 @@
            <label>Secret :</label>
            <input type="text" name="secret" required class="form-control">
           </div>
-          <div class="text-center"> 
+          <div class="text-center">
             <button class="btn btn-success">ثبت</button>
           </div>
         </form>
@@ -171,7 +171,7 @@
            <label>نام کاربری در سایت <span class="englishFont">F2pool</span> را وارد کنید.</label>
            <input type="text" name="username" required class="form-control">
           </div>
-          <div class="text-center"> 
+          <div class="text-center">
             <button class="btn btn-success">ثبت</button>
           </div>
         </form>
@@ -189,9 +189,9 @@
                 </div>
             </form>
         <br/>
-        
+
     </div>
-   </div> 
+   </div>
     <br/>
    <br/><br/>
     <style type="text/css">
@@ -242,7 +242,7 @@ selectPool.addEventListener("change", function() {
 
         axios.post('{{route('getPoolData',['locale'=>App::getLocale()])}}').then(function (response) {
             console.log("axios message")
-            
+
             if(response.data['code'] == 200){
               console.log(response.data['message']);
                var data = response.data['message'];

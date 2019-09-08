@@ -1,60 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42.664 42.924">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 101.979 101.387">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6 {
+      .cls-1, .cls-2 {
         fill: none;
-      }
-
-      .cls-2, .cls-3, .cls-5, .cls-6 {
-        stroke-miterlimit: 10;
+        stroke: #311476;
+        stroke-width: 2px;
       }
 
       .cls-2 {
-        stroke: url(#linear-gradient);
+        stroke-miterlimit: 10;
       }
 
       .cls-3 {
-        stroke: url(#linear-gradient-2);
-      }
-
-      .cls-4 {
         clip-path: url(#clip-path);
       }
-
-      .cls-5 {
-        stroke: url(#linear-gradient-3);
-      }
-
-      .cls-6 {
-        stroke: url(#linear-gradient-4);
-      }
     </style>
-    <linearGradient id="linear-gradient" x1="44.196" y1="18.21" x2="18.961" y2="3.64" gradientUnits="userSpaceOnUse">
-      <stop offset="0.015" stop-color="#f7b917"/>
-      <stop offset="0.137" stop-color="#f7be1a"/>
-      <stop offset="0.288" stop-color="#f8ce22"/>
-      <stop offset="0.454" stop-color="#f9e72f"/>
-      <stop offset="0.488" stop-color="#f9ed32"/>
-      <stop offset="0.557" stop-color="#f9e12c"/>
-      <stop offset="0.714" stop-color="#f8cb20"/>
-      <stop offset="0.864" stop-color="#f7be19"/>
-      <stop offset="1" stop-color="#f7b917"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="19.549" y1="18.467" x2="-0.474" y2="6.906" xlink:href="#linear-gradient"/>
     <clipPath id="clip-path">
-      <rect class="cls-1" x="0.5" y="0.574" width="41.664" height="41.769"/>
+      <path id="Path_68" data-name="Path 68" class="cls-1" d="M0,0H99.979V100.231H0Z"/>
     </clipPath>
-    <linearGradient id="linear-gradient-3" x1="20.106" y1="35.875" x2="-1.033" y2="23.67" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-4" x1="44.943" y1="38.967" x2="18.22" y2="23.539" xlink:href="#linear-gradient"/>
   </defs>
-  <title>2Asset 4</title>
-  <g id="Layer_2" data-name="Layer 2">
-    <g id="Layer_1-2" data-name="Layer 1">
-      <path class="cls-2" d="M19.586,3.852Q30.859,2.127,42.159.574q.008,9.9.005,19.792c-7.525.029-15.049.143-22.578.167q-.008-8.346,0-16.681Z"/>
-      <path class="cls-3" d="M.5,6.515c5.659-.874,11.342-1.628,17.024-2.338q.008,8.208.01,16.413c-5.678,0-11.356.081-17.034.067V6.515Z"/>
-      <g class="cls-4">
-        <path class="cls-5" d="M.5,22.379c5.673-.019,11.346.072,17.02.062,0,5.488.014,10.975,0,16.462C11.856,38.063,6.178,37.328.5,36.56V22.379Z"/>
-        <path class="cls-6" d="M19.552,22.6H42.159q.015,9.87,0,19.744c-7.515-1.126-15.044-2.171-22.573-3.192q-.015-8.274-.034-16.552Z"/>
+  <g id="hashbazaar_windows" transform="translate(0.5 0.582)">
+    <g id="Layer_1" data-name="Layer 1" transform="translate(0.5 0.574)">
+      <path id="Path_22" data-name="Path 22" class="cls-2" d="M19.592,8.44Q46.643,4.3,73.759.574q.019,23.757.012,47.494c-18.057.07-36.112.343-54.179.4q-.019-20.027,0-40.029Z" transform="translate(26.208 -0.574)"/>
+      <path id="Path_23" data-name="Path 23" class="cls-2" d="M.5,9.787c13.58-2.1,27.217-3.907,40.852-5.61q.019,19.7.024,39.385c-13.625,0-27.25.194-40.876.161Z" transform="translate(-0.5 4.469)"/>
+      <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-3">
+        <path id="Path_24" data-name="Path 24" class="cls-2" d="M.5,22.383c13.613-.046,27.226.173,40.842.149,0,13.169.034,26.336,0,39.5C27.75,60.019,14.125,58.255.5,56.412Z" transform="translate(-0.5 29.942)"/>
+        <path id="Path_25" data-name="Path 25" class="cls-2" d="M19.552,22.6H73.8q.036,23.685,0,47.379c-18.033-2.7-36.1-5.21-54.167-7.66Q19.6,42.464,19.552,22.6Z" transform="translate(26.166 30.255)"/>
       </g>
     </g>
   </g>
