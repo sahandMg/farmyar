@@ -29,22 +29,22 @@ class LanguageMiddleware
             $country = 'ir';
         }
 
-            // if (Session::has('locale')) {
-            //     App::setLocale(Session::get('locale'));
+            if (Session::has('locale')) {
+                App::setLocale(Session::get('locale'));
 
-            // } else {
-            //     session(['locale' => App::getLocale()]);
-            // }
-            // $lang = ['fa', 'en'];
-            // if (in_array($request->segment(1), $lang)) {
-            //     App::setLocale($request->segment(1));
-            //     session(['locale' => App::getLocale()]);
-            // } // if there is no lang on url
-            // else {
-            //     session(['locale' => App::getLocale()]);
-            //     return redirect(session('locale') . $request->getRequestUri());
+            } else {
+                session(['locale' => App::getLocale()]);
+            }
+            $lang = ['fa', 'en'];
+            if (in_array($request->segment(1), $lang)) {
+                App::setLocale($request->segment(1));
+                session(['locale' => App::getLocale()]);
+            } // if there is no lang on url
+            else {
+                session(['locale' => App::getLocale()]);
+                return redirect(session('locale') . $request->getRequestUri());
 
-            // }
+            }
 
         return $next($request);
 
