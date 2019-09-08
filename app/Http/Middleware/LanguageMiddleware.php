@@ -42,7 +42,7 @@ class LanguageMiddleware
             } // if there is no lang on url
             else {
                 session(['locale' => App::getLocale()]);
-                return redirect(session('locale') . $request->getRequestUri());
+                return redirect(App::getLocale() . $request->getRequestUri());
 
             }
 

@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 
 class RedirectIfAuthenticated
@@ -30,7 +31,7 @@ class RedirectIfAuthenticated
 
         if(Auth::guard('remote')->check()){
 
-            return redirect()->route('remoteDashboard',['locale'=>session('locale')]);
+            return redirect()->route('remoteDashboard',['locale'=>App::getLocale()]);
         }
 
         return $next($request);

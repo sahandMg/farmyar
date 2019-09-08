@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="22f86b9e-592a-4318-b8e2-b34fca9391ba" name="farmyar" url="http://193.176.241.212">
+        <fileTransfer host="193.176.241.212" port="22" rootFolder="/var/www/html/farmyar" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -210,6 +210,12 @@ Route::group(['prefix'=> '{lang}'],function() {
 
     })->name('refreshCaptcha');
 
+    Route::get('/', function (){
+
+        return redirect('/landing');
+    })->name('index');
+
+
     // Route::get('/', 'PageController@index')->name('index');
     Route::post('shared-order','PageController@shareOrder')->name('shareOrder');
 
