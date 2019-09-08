@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567944190828">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567947180852">
   <folder name="assets">
     <file name="logo-04.svg" crc="463331889" seo="true" mt="1567756331000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3883928133"/>
-    <file name="index.css" crc="3974391606" ref="index"/>
-    <file name="nomq_index.css" crc="4240028258" ref="index"/>
+    <file name="index.css" crc="64177408" ref="index"/>
+    <file name="nomq_index.css" crc="3919074775" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="byekan.woff" crc="315374278"/>
@@ -169,5 +169,5 @@
     </file>
     <file name="group 119-u10040-fr.png" crc="434187936" ref="index"/>
   </folder>
-  <file name="index.html" crc="3889476035" seo="true" mt="1567944169831" redirect="true"/>
+  <file name="index.html" crc="215163739" seo="true" mt="1567947162575" redirect="true"/>
 </manifest>
