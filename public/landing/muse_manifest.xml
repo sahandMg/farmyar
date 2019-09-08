@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567947180852">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1567951103618">
   <folder name="assets">
     <file name="logo-04.svg" crc="463331889" seo="true" mt="1567756331000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3883928133"/>
-    <file name="index.css" crc="64177408" ref="index"/>
-    <file name="nomq_index.css" crc="3919074775" ref="index"/>
+    <file name="index.css" crc="4151053732" ref="index"/>
+    <file name="nomq_index.css" crc="281218837" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="byekan.woff" crc="315374278"/>
@@ -34,15 +34,24 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="hashbazaar-twitter_poster_.png" crc="191952573" ref="index"/>
     <file name="hashbazaar-linkedin.svg" crc="464571133" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="hashbazaar-linkedin_poster_.png" crc="4065801677" ref="index"/>
     <file name="hashbazaar-instagram.svg" crc="388965492" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -61,6 +70,9 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="monitor.svg" crc="3769646142" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -91,6 +103,9 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="iphone_poster_.png" crc="304285189" ref="index"/>
     <file name="button.svg" crc="320603766" ref="index">
@@ -112,9 +127,18 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="logo-04_poster_.png" crc="4078336048" ref="index"/>
     <file name="2asset-1.svg" crc="37190500" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -142,8 +166,14 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="hashbazaar-windows2.svg" crc="267752047" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -152,13 +182,22 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="github2.svg" crc="4125461017" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="iphone2.svg" crc="3946419038" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -169,5 +208,5 @@
     </file>
     <file name="group 119-u10040-fr.png" crc="434187936" ref="index"/>
   </folder>
-  <file name="index.html" crc="215163739" seo="true" mt="1567947162575" redirect="true"/>
+  <file name="index.html" crc="4037818024" seo="true" mt="1567951046232" redirect="true"/>
 </manifest>
