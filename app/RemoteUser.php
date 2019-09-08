@@ -18,10 +18,10 @@ class RemoteUser extends Authenticatable implements MustVerifyEmail
         return $this->hasMany(RemoteData::class,'remote_id');
     }
 
-    public function user(){
+    // public function user(){
 
-        return $this->hasMany(RemoteId::class,'user_id');
-    }
+    //     return $this->hasMany(RemoteId::class,'user_id');
+    // }
 
     public function antpools(){
 

@@ -171,9 +171,13 @@ class RemoteController extends Controller
             return ['code'=>500,'message'=>'provide an id'];
         }else{
             $id = $request->id;
-            $antpools = RemoteUser::where('id',$id)->first()->antpools;
-            $f2pools = RemoteUser::where('id',$id)->first()->f2pools;
-            $slushpools = RemoteUser::where('id',$id)->first()->slushpools;
+            $remoteIdUser = RemoteId::where('code',$id)->first();
+            if(is_null($remoteIdUser)){
+                return ['code'=>500,'message'=>'Wrong id'];
+            }
+            $antpools = $remoteIdUser->user->antpools;
+            $f2pools = $remoteIdUser->user->f2pools;
+            $slushpools = $remoteIdUser->user->slushpools;
             $pools = [];
             try {
 
@@ -188,7 +192,7 @@ class RemoteController extends Controller
                         $f2poolInst->hash_rate = number_format($miningData['message']['hashrate'] / 86400 / pow(10, 7), 3);
                         $f2poolInst->paid = $miningData['message']['paid'];
                         $f2poolInst->value = $miningData['message']['value'];
-                        $f2poolInst->user_id = $id;
+                        $f2poolInst->user_id = $remoteIdUser->user_id;
                         $f2poolInst->save();
                     }
                     $f2_pool_data = DB::connection('mysql')->table('f2_pool_data')->orderBy('id','desc')->first();
@@ -207,7 +211,7 @@ class RemoteController extends Controller
                         $antpoolInst->paid = $miningData['data']['paidOut'];
                         $antpoolInst->settleTime = $miningData['data']['settleTime'];
                         $antpoolInst->hashes_last_day = number_format($hashRateData['data']['last1d'] / pow(10, 6), 1);
-                        $antpoolInst->user_id = $id;
+                        $antpoolInst->user_id = $remoteIdUser->user_id;
                         $antpoolInst->save();
                     }
                     $ant_pool_data = DB::connection('mysql')->table('ant_pool_data')->orderBy('id','desc')->first();
@@ -278,7 +282,7 @@ class RemoteController extends Controller
 
     public function RegisterFarm(Request $request){
 
-        $this->validate($request,['name'=> 'required|alpha_num']);
+        $this->validate($request,['name'=> 'required']);
         $remoteId = new RemoteId();
         $remoteId->name = $request->name;
         $remoteId->code = strtoupper(str_random(5));

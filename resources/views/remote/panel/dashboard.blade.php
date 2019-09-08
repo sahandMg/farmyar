@@ -158,6 +158,10 @@
            <label>Secret :</label>
            <input type="text" name="secret" required class="form-control">
           </div>
+          <div class="form-group">
+            <label>User ID :</label>
+            <input type="text" name="user_id" required class="form-control">
+           </div>
           <div class="text-center">
             <button class="btn btn-success">ثبت</button>
           </div>
@@ -242,7 +246,7 @@ selectPool.addEventListener("change", function() {
 
         axios.post('{{route('getPoolData',['locale'=>App::getLocale()])}}').then(function (response) {
             console.log("axios message")
-
+            console.log(response.data)
             if(response.data['code'] == 200){
               console.log(response.data['message']);
                var data = response.data['message'];

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1645.555 994.906">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e96e05;
+      }
+
+      .cls-2 {
+        fill: #b63100;
+      }
+
+      .cls-3 {
+        fill: #0097b3;
+      }
+    </style>
+  </defs>
+  <title>2Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" x="-58.748" y="342.17" width="1252.05" height="49.062" rx="10" transform="translate(-104.165 292.952) rotate(-26.611)"/>
+        <rect class="cls-1" x="1145.952" y="21.486" width="122.795" height="49.062" rx="10" transform="translate(107.289 545.693) rotate(-26.611)"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="1043.741" y="175.675" width="122.795" height="49.062" rx="10" transform="translate(27.393 516.242) rotate(-26.611)"/>
+        <rect class="cls-2" x="1163.18" y="93.667" width="211.286" height="49.062" rx="10" transform="translate(81.468 580.875) rotate(-26.611)"/>
+        <rect class="cls-2" x="-9.795" y="457.091" width="1106.48" height="49.062" rx="10" transform="translate(-158.167 294.45) rotate(-26.611)"/>
+      </g>
+      <g>
+        <rect class="cls-3" x="1184.285" y="158.659" width="320.721" height="49.062" rx="10" transform="translate(60.388 621.724) rotate(-26.611)"/>
+        <rect class="cls-3" x="31.447" y="539.408" width="1106.48" height="49.062" rx="10" transform="translate(-190.671 321.645) rotate(-26.611)"/>
+        <circle class="cls-3" cx="1113.419" cy="299.038" r="24.531"/>
+        <circle class="cls-3" cx="1168.312" cy="271.535" r="24.531"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="844.513" y="324.492" width="749.366" height="49.062" rx="10" transform="translate(-27.184 583.098) rotate(-26.611)"/>
+        <rect class="cls-1" x="91.605" y="701.708" width="749.366" height="49.062" rx="10" transform="translate(-275.914 285.802) rotate(-26.611)"/>
+        <circle class="cls-1" cx="838.209" cy="539.902" r="24.531"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="875.173" y="412.111" width="749.366" height="49.062" rx="10" transform="translate(-63.184 606.114) rotate(-26.611)"/>
+        <rect class="cls-2" x="132.847" y="784.026" width="749.366" height="49.062" rx="10" transform="translate(-308.418 312.997) rotate(-26.611)"/>
+        <circle class="cls-2" cx="878.693" cy="622.599" r="24.531"/>
+        <circle class="cls-2" cx="1621.019" cy="250.684" r="24.531"/>
+      </g>
+    </g>
+  </g>
+</svg>

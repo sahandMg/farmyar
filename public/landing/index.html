@@ -11,19 +11,70 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>هش بازار | مانیتورینگ</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3883928133"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3922491088" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=260767133" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=272703011" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4186044786" id="nomq_pagesheet"/>
   <![endif]-->
     <!--HTML Widget code-->
   
+<style>
+.svg1 path {
+   stroke: #0E1E28 !important;
+  //fill: #29AAE1 !important;
+}
+</style>
+
+<style>
+.st1 {
+  font-size: 16px;
+  text-align: center;
+}
+.type1 {
+  font-family: inherit;
+  color: #FFFFFF;
+  font-size: 3.3em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.st1 .typed-cursor {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #0E1E28;
+    opacity: 1;
+    -webkit-animation: blink 300ms infinite;
+    -moz-animation: blink 300ms infinite;
+    animation: blink 300ms infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+</style>
+
 <style>
 .gs {
   background-color: #0E1E28;
@@ -143,6 +194,46 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </style>
 
 <style>
+body {
+  overflow-x: hidden;
+}
+</style>
+
+<style>
+.gradient1 {
+  Enter Shadow Code from the Box Shadow Generator
+      background-color: #d08f11;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==),
+        -webkit-gradient(radial, center center, 0, center center, 362,color-stop(0, rgb(236, 165, 10)),color-stop(1, rgb(180, 120, 24)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at center center,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+}
+</style>
+
+<style>
+.gradient6 {
+  Enter Shadow Code from the Box Shadow Generator
+      background-color: #d08f11;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==),
+        -webkit-gradient(radial, center center, 0, center center, 362,color-stop(0, rgb(236, 165, 10)),color-stop(1, rgb(180, 120, 24)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at center center,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
+}
+</style>
+
+<style>
 .gradient2 {
   -webkit-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
@@ -219,80 +310,6 @@ box-shadow: 2px 7px 10px -3px rgba(0,0,0,0.75);
 }
 </style>
 
-<style>
-.svg1 path {
-   stroke: #0E1E28 !important;
-  //fill: #29AAE1 !important;
-}
-</style>
-
-<style>
-.st1 {
-  font-size: 16px;
-  text-align: center;
-}
-.type1 {
-  font-family: inherit;
-  color: #FFFFFF;
-  font-size: 3.5em;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1;
-}
-
-.st1 .typed-cursor {
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #0E1E28;
-    opacity: 1;
-    -webkit-animation: blink 300ms infinite;
-    -moz-animation: blink 300ms infinite;
-    animation: blink 300ms infinite;
-    animation-direction: alternate;
-}
-
-@keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes blink {
-    100% {
-        opacity: 0;
-    }
-}
-</style>
-
-<style>
-body {
-  overflow-x: hidden;
-}
-</style>
-
-<style>
-.gradient1 {
-  Enter Shadow Code from the Box Shadow Generator
-      background-color: #d08f11;
-    /* IE9, iOS 3.2+ */
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
-    /* Android 2.3- hack (needed for the actual radial gradient) */
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwLjcxMDY3ODExODY1NDc2JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VjYTUwYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjQ3ODE4IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==),
-        -webkit-gradient(radial, center center, 0, center center, 362,color-stop(0, rgb(236, 165, 10)),color-stop(1, rgb(180, 120, 24)));
-    /* Android 2.3 */
-    background-image: -webkit-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
-    /* IE10+ */
-    background-image: radial-gradient(ellipse farthest-corner at center center,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
-    background-image: -ms-radial-gradient(center center, ellipse farthest-corner,rgb(236, 165, 10) 0%,rgb(180, 120, 24) 100%);
-}
-</style>
-
   <!--/*
 
 */
@@ -300,80 +317,9 @@ body {
  </head>
  <body>
 
-  <div class="breakpoint active" id="bp_infinity" data-min-width="1281"><!-- responsive breakpoint node -->
-   <div class="gradient3 clearfix borderbox" id="page"><!-- group -->
-    <div class="size_fixed grpelem shared_content" id="u128" data-content-guid="u128_content"><!-- custom html -->
-     
-
-    </div>
-    <div class="size_fixed grpelem shared_content" id="u123" data-content-guid="u123_content"><!-- custom html -->
-     
-
-    </div>
-    <div class="clearfix grpelem" id="pu2973"><!-- column -->
-     <div class="size_fixed colelem shared_content" id="u2973" data-content-guid="u2973_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u3679" data-content-guid="u3679_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u3711" data-content-guid="u3711_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u3727" data-content-guid="u3727_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u3757" data-content-guid="u3757_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u3773" data-content-guid="u3773_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fluid_width colelem shared_content" id="u4010" data-content-guid="u4010_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fluid_width colelem shared_content" id="u4065" data-content-guid="u4065_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fluid_width colelem shared_content" id="u4142" data-content-guid="u4142_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fluid_width colelem shared_content" id="u4185" data-content-guid="u4185_content"><!-- custom html -->
-      
-
-     </div>
-    </div>
-    <div id="u3450-wrapper" class="shared_content" data-content-guid="u3450-wrapper_content">
-     <div class="clearfix" id="u3450"><!-- group -->
-      <div id="u846-wrapper">
-       <div id="u846"><!-- content -->
-        <div class="fluid_height_spacer"></div>
-       </div>
-      </div>
-      <div id="u860-4-wrapper">
-       <a class="nonblock nontext anim_swing clearfix" id="u860-4" href="index.html#features"><!-- content --><p>ویژگی ها</p></a>
-      </div>
-      <div id="u866-4-wrapper">
-       <a class="nonblock nontext anim_swing clearfix" id="u866-4" href="index.html#softwares"><!-- content --><p>نرم افزار ها</p></a>
-      </div>
-      <div id="u872-4-wrapper">
-       <a class="nonblock nontext anim_swing clearfix" id="u872-4" href="index.html#pricing"><!-- content --><p>قیمت</p></a>
-      </div>
-      <div id="u944-4-wrapper">
-       <a class="nonblock nontext anim_swing clearfix" id="u944-4" href="index.html#contact"><!-- content --><p>تماس با ما</p></a>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="ppu3028"><!-- column -->
+  <div class="breakpoint active" id="bp_infinity" data-min-width="1401"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="position_content" id="page_position_content">
      <div class="clearfix colelem" id="pu3028"><!-- group -->
       <div class="browser_width grpelem" id="u3028-bw">
        <div class="gradient1" id="u3028"><!-- group -->
@@ -382,18 +328,18 @@ body {
           <div class="clip_frame colelem" id="u3075"><!-- svg -->
            <img class="svg svg_mar temp_no_img_src" id="u3071" data-orig-src="images/monitor.svg?crc=3769646142" onload="this.style.height=(this.offsetWidth*365/465)+'px'" alt="" data-mu-svgfallback="images/monitor_poster_.png?crc=4100345434" data-image-width="465" data-image-height="365" src="images/blank.gif?crc=4208392903"/>
           </div>
-          <div class="clearfix colelem" id="pu3204"><!-- group -->
-           <div class="clip_frame grpelem" id="u3204"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u3200" data-orig-src="images/android.svg?crc=160812988" onload="this.style.height=(this.offsetWidth*49.11764705882351/37.388059701492544)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=3832816048" data-image-width="37" data-image-height="49" src="images/blank.gif?crc=4208392903"/>
+          <div class="clearfix colelem shared_content" id="pu6060" data-content-guid="pu6060_content"><!-- group -->
+           <div class="museBGSize grpelem shared_content" id="u6060" data-content-guid="u6060_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
            </div>
-           <div class="clip_frame grpelem" id="u5333"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u5329" data-orig-src="images/hashbazaar-windows.svg?crc=281102790" onload="this.style.height=(this.offsetWidth*39/39)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=141642653" data-image-width="39" data-image-height="39" src="images/blank.gif?crc=4208392903"/>
+           <div class="museBGSize grpelem shared_content" id="u6072" data-content-guid="u6072_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
            </div>
-           <div class="clip_frame grpelem" id="u3222"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u3218" data-orig-src="images/linux.svg?crc=436351347" onload="this.style.height=(this.offsetWidth*40.117647058823515/33)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=92053937" data-image-width="33" data-image-height="40" src="images/blank.gif?crc=4208392903"/>
+           <div class="museBGSize grpelem shared_content" id="u6084" data-content-guid="u6084_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
            </div>
-           <div class="clip_frame grpelem" id="u3210"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u3206" data-orig-src="images/github.svg?crc=4290482830" onload="this.style.height=(this.offsetWidth*35.279999999999994/36)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=86113131" data-image-width="36" data-image-height="35" src="images/blank.gif?crc=4208392903"/>
+           <div class="museBGSize grpelem shared_content" id="u6096" data-content-guid="u6096_content"><!-- content -->
+            <div class="fluid_height_spacer"></div>
            </div>
           </div>
          </div>
@@ -413,37 +359,77 @@ body {
           <div class="Heading clearfix colelem shared_content" id="u97-4" data-content-guid="u97-4_content"><!-- content -->
            <p id="u97-2">فارم یار، ابزاری برای نظارت و مدیریت مزارع ماینینگ</p>
           </div>
-          <div class="clearfix colelem" id="pu5625"><!-- group -->
-           <div class="clearfix grpelem" id="u5625"><!-- group -->
-            <div class="rounded-corners clearfix grpelem" id="u3336"><!-- group -->
-             <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u3341-4" href="index.html#softwares" data-content-guid="u3341-4_content"><!-- content --><p>شروع مانیتورینگ !</p></a>
-            </div>
-           </div>
-           <div class="clearfix grpelem" id="u4441"><!-- group -->
-            <div class="rounded-corners clearfix grpelem" id="u3379"><!-- group -->
-             <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u3370-4" href="index.html#pricing" data-content-guid="u3370-4_content"><!-- content --><p>قیمت اشتراک</p></a>
-            </div>
-           </div>
+          <div class="clearfix colelem shared_content" id="pu3341-4" data-content-guid="pu3341-4_content"><!-- group -->
+           <a class="nonblock nontext rounded-corners clearfix grpelem shared_content" id="u3341-4" href="https://farmyarapp.ir/fa/authorizing" data-content-guid="u3341-4_content"><!-- content --><p id="u3341-2">شروع مانیتورینگ !</p></a>
+           <a class="nonblock nontext anim_swing rounded-corners clearfix grpelem shared_content" id="u3370-4" href="index.html#pricing" data-content-guid="u3370-4_content"><!-- content --><p>قیمت اشتراک</p></a>
           </div>
          </div>
         </div>
        </div>
       </div>
+      <div class="size_fixed grpelem shared_content" id="u128" data-content-guid="u128_content"><!-- custom html -->
+       
+
+      </div>
+      <div class="size_fixed grpelem shared_content" id="u123" data-content-guid="u123_content"><!-- custom html -->
+       
+
+      </div>
+      <div class="clearfix grpelem" id="pu2973"><!-- column -->
+       <div class="size_fixed colelem shared_content" id="u2973" data-content-guid="u2973_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed colelem shared_content" id="u3679" data-content-guid="u3679_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed colelem shared_content" id="u3711" data-content-guid="u3711_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed colelem shared_content" id="u3727" data-content-guid="u3727_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed colelem shared_content" id="u3757" data-content-guid="u3757_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed colelem shared_content" id="u3773" data-content-guid="u3773_content"><!-- custom html -->
+        
+
+       </div>
+      </div>
+      <div class="clearfix grpelem shared_content" id="pu3983" data-content-guid="pu3983_content"><!-- column -->
+       <div class="size_fixed colelem shared_content" id="u3983" data-content-guid="u3983_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fixed colelem shared_content" id="u5601" data-content-guid="u5601_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fluid_width colelem shared_content" id="u3032" data-content-guid="u3032_content"><!-- custom html -->
+        
+
+       </div>
+      </div>
       <div class="browser_width grpelem" id="u3474-bw">
        <div class="museBGSize" id="u3474"><!-- column -->
         <div class="clearfix" id="u3474_align_to_page">
-         <div class="clearfix colelem" id="pu310-4"><!-- group -->
-          <div class="Heading clearfix grpelem shared_content" id="u310-4" data-content-guid="u310-4_content"><!-- content -->
+         <div class="clearfix colelem shared_content" id="u7396" data-content-guid="u7396_content"><!-- group -->
+          <div class="Heading clearfix grpelem" id="u310-4"><!-- content -->
            <p id="u310-2">تمام آنچه که برای مدیریت فارم خود نیاز دارید از طریق فارم یار در دسترس شماست !</p>
           </div>
           <div class="grpelem" id="u3438"><!-- simple frame --></div>
          </div>
          <div class="clearfix colelem" id="ppu102-4"><!-- group -->
-          <div class="clearfix grpelem" id="pu102-4"><!-- column -->
-           <div class="Heading clearfix colelem shared_content" id="u102-4" data-content-guid="u102-4_content"><!-- content -->
+          <div class="clearfix grpelem shared_content" id="pu102-4" data-content-guid="pu102-4_content"><!-- column -->
+           <div class="Heading clearfix colelem" id="u102-4"><!-- content -->
             <p id="u102-2">از هر نقطه ای که هستید با تلفن همراه، فارم خود را کنترل و مدیریت کنید. فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
            </div>
-           <div class="Heading clearfix colelem shared_content" id="u3429-4" data-content-guid="u3429-4_content"><!-- content -->
+           <div class="Heading clearfix colelem" id="u3429-4"><!-- content -->
             <p id="u3429-2">فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
            </div>
           </div>
@@ -458,832 +444,596 @@ body {
       <div class="browser_width grpelem" id="u3484-bw">
        <div id="u3484"><!-- group -->
         <div class="clearfix" id="u3484_align_to_page">
-         <div class="clearfix grpelem" id="pu3506"><!-- group -->
-          <div class="tooltip2 clip_frame grpelem" id="u3506"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3502" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
+         <div class="clearfix grpelem shared_content" id="u10260" data-content-guid="u10260_content"><!-- group -->
+          <div class="museBGSize grpelem" id="u5719"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
-          <div class="tooltip2 clearfix grpelem shared_content" id="u657-4" data-content-guid="u657-4_content"><!-- content -->
+          <div class="museBGSize grpelem" id="u5691"><!-- content -->
+           <div class="fluid_height_spacer"></div>
+          </div>
+          <div class="clearfix grpelem" id="u657-4"><!-- content -->
            <p id="u657-2">سیستم هشدار عیب در فارم</p>
           </div>
-          <div class="tooltip2 clip_frame grpelem" id="u5484"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u5480" data-orig-src="images/path-107.svg?crc=427690683" onload="this.style.height=(this.offsetWidth*59/59)+'px'" alt="" data-mu-svgfallback="images/path%20107_poster_.png?crc=204758048" data-image-width="59" data-image-height="59" src="images/blank.gif?crc=4208392903"/>
+          <div class="tooltip2 rgba-background grpelem" id="u5875"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
          </div>
-         <div class="clearfix grpelem" id="u3839"><!-- group -->
-          <div class="tooltip5 clip_frame grpelem" id="u3516"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3517" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="tooltip5 clearfix grpelem shared_content" id="u641-4" data-content-guid="u641-4_content"><!-- content -->
-           <p id="u641-2">نمایش مجموع واقعی هش ریت فارم</p>
-          </div>
-          <div class="tooltip5 clip_frame grpelem" id="u3747"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3743" data-orig-src="images/hashbazaar-hash.svg?crc=3993153546" onload="this.style.height=(this.offsetWidth*49/52)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-hash_poster_.png?crc=120107722" data-image-width="52" data-image-height="49" src="images/blank.gif?crc=4208392903"/>
+         <div class="clearfix grpelem shared_content" id="u10270" data-content-guid="u10270_content"><!-- group -->
+          <div class="tooltip5 museBGSize clearfix grpelem" id="u5809"><!-- group -->
+           <div class="museBGSize grpelem" id="u5795"><!-- simple frame --></div>
+           <div class="clearfix grpelem" id="u641-4"><!-- content -->
+            <p id="u641-2">نمایش مجموع واقعی هش ریت فارم</p>
+           </div>
+           <div class="tooltip5 rgba-background grpelem" id="u5932"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
           </div>
          </div>
          <div class="clearfix grpelem" id="pu3492"><!-- column -->
           <div class="clip_frame colelem" id="u3492"><!-- svg -->
            <img class="svg svg_mar temp_no_img_src" id="u3488" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*97/319)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="319" data-image-height="97" src="images/blank.gif?crc=4208392903"/>
           </div>
-          <div class="clearfix colelem" id="pu3539"><!-- group -->
-           <div class="tooltip3 clip_frame grpelem" id="u3539"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u3540" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="tooltip3 clearfix grpelem shared_content" id="u352-4" data-content-guid="u352-4_content"><!-- content -->
+          <div class="museBGSize clearfix colelem shared_content" id="u5759" data-content-guid="u5759_content"><!-- group -->
+           <div class="clearfix grpelem" id="u352-4"><!-- content -->
             <p id="u352-2">کنترل دمای ماینرها</p>
            </div>
-           <div class="tooltip3 clip_frame grpelem" id="u5539"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u5535" data-orig-src="images/path-34.svg?crc=3900308290" onload="this.style.height=(this.offsetWidth*50/28)+'px'" alt="" data-mu-svgfallback="images/path%2034_poster_.png?crc=4247970906" data-image-width="28" data-image-height="50" src="images/blank.gif?crc=4208392903"/>
+           <div class="museBGSize grpelem" id="u5765"><!-- simple frame --></div>
+           <div class="tooltip3 rgba-background grpelem" id="u5879"><!-- content -->
+            <div class="fluid_height_spacer"></div>
            </div>
           </div>
          </div>
-         <div class="clearfix grpelem" id="pu3560"><!-- group -->
-          <div class="tooltip6 clip_frame grpelem" id="u3560"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3561" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="tooltip6 clearfix grpelem shared_content" id="u491-4" data-content-guid="u491-4_content"><!-- content -->
-           <p id="u491-2">کنترل سرعت فن ماینرها</p>
-          </div>
-          <div class="tooltip6 clip_frame grpelem" id="u5462"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u5458" data-orig-src="images/hashbazaar-mine.svg?crc=479624146" onload="this.style.height=(this.offsetWidth*61/54)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-mine_poster_.png?crc=3843972221" data-image-width="54" data-image-height="61" src="images/blank.gif?crc=4208392903"/>
+         <div class="clearfix grpelem shared_content" id="u10250" data-content-guid="u10250_content"><!-- group -->
+          <div class="tooltip6 museBGSize clearfix grpelem" id="u5815"><!-- group -->
+           <div class="museBGSize grpelem" id="u5821"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
+           <div class="clearfix grpelem" id="u491-4"><!-- content -->
+            <p id="u491-2">کنترل سرعت فن ماینرها</p>
+           </div>
+           <div class="tooltip6 rgba-background grpelem" id="u5938"><!-- content -->
+            <div class="fluid_height_spacer"></div>
+           </div>
           </div>
          </div>
-         <div class="clearfix grpelem" id="u3855"><!-- group -->
-          <div class="tooltip4 clip_frame grpelem" id="u3582"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3583" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*250/250)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="250" data-image-height="250" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="tooltip4 clip_frame grpelem" id="u3631"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3627" data-orig-src="images/path-31.svg?crc=3800060405" onload="this.style.height=(this.offsetWidth*50/50)+'px'" alt="" data-mu-svgfallback="images/path%2031_poster_.png?crc=4200503132" data-image-width="50" data-image-height="50" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="tooltip4 clearfix grpelem shared_content" id="u2319-4" data-content-guid="u2319-4_content"><!-- content -->
+         <div class="museBGSize clearfix grpelem shared_content" id="u5777" data-content-guid="u5777_content"><!-- group -->
+          <div class="museBGSize grpelem" id="u5783"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u2319-4"><!-- content -->
            <p id="u2319-2">کنترل مدت زمان کارکرد ماینرها</p>
+          </div>
+          <div class="tooltip4 rgba-background grpelem" id="u5885"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
          </div>
         </div>
        </div>
       </div>
      </div>
-     <div class="browser_width colelem" id="u305-bw">
-      <div id="u305"><!-- column -->
-       <div class="clearfix" id="u305_align_to_page">
-        <div class="position_content" id="u305_position_content">
+     <div id="u10761-wrapper" class="shared_content" data-content-guid="u10761-wrapper_content">
+      <div class="clearfix pinned-colelem" id="u10761"><!-- group -->
+       <div id="u846-wrapper">
+        <div id="u846"><!-- content -->
+         <div class="fluid_height_spacer"></div>
+        </div>
+       </div>
+       <div id="u860-4-wrapper">
+        <a class="nonblock nontext anim_swing clearfix" id="u860-4" href="index.html#features"><!-- content --><p>ویژگی ها</p></a>
+       </div>
+       <div id="u866-4-wrapper">
+        <a class="nonblock nontext anim_swing clearfix" id="u866-4" href="index.html#softwares"><!-- content --><p>نرم افزار ها</p></a>
+       </div>
+       <div id="u872-4-wrapper">
+        <a class="nonblock nontext anim_swing clearfix" id="u872-4" href="index.html#pricing"><!-- content --><p>قیمت</p></a>
+       </div>
+       <div id="u944-4-wrapper">
+        <a class="nonblock nontext anim_swing clearfix" id="u944-4" href="index.html#contact"><!-- content --><p>تماس با ما</p></a>
+       </div>
+       <div id="u5958-4-wrapper">
+        <a class="nonblock nontext clearfix" id="u5958-4" href="https://farmyarapp.ir/fa/authorizing"><!-- content --><p>خرید اشتراک</p></a>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu10540"><!-- group -->
+      <div class="browser_width grpelem" id="u10540-bw">
+       <div class="gradient6" id="u10540"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem shared_content" id="u305-bw" data-content-guid="u305-bw_content">
+       <div id="u305"><!-- column -->
+        <div class="clearfix" id="u305_align_to_page">
          <div class="clearfix colelem" id="pu3920-4"><!-- group -->
           <div class="Heading clearfix grpelem shared_content" id="u3920-4" data-content-guid="u3920-4_content"><!-- content -->
            <p id="u3920-2">نرم افزارهای پشتیبانی شده</p>
           </div>
-          <div class="grpelem" id="u3926"><!-- simple frame --></div>
+          <div class="grpelem shared_content" id="u3926" data-content-guid="u3926_content"><!-- simple frame --></div>
           <a class="anchor_item grpelem shared_content" id="softwares" data-content-guid="softwares_content"></a>
          </div>
-         <div class="clearfix colelem" id="pu3941"><!-- group -->
-          <div class="clip_frame grpelem" id="u3941"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3937" data-orig-src="images/hashbazaar_windows.svg?crc=4036610426" onload="this.style.height=(this.offsetWidth*143/148)+'px'" alt="" data-mu-svgfallback="images/hashbazaar_windows_poster_.png?crc=230951316" data-image-width="148" data-image-height="143" src="images/blank.gif?crc=4208392903"/>
+         <div class="clearfix colelem shared_content" id="pu6002" data-content-guid="pu6002_content"><!-- group -->
+          <div class="museBGSize grpelem" id="u6002"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
-          <div class="clip_frame grpelem" id="u3935"><!-- svg -->
-           <img class="svg svg_mar temp_no_img_src" id="u3931" data-orig-src="images/group-37.svg?crc=516017443" onload="this.style.height=(this.offsetWidth*136/258)+'px'" alt="" data-mu-svgfallback="images/group%2037_poster_.png?crc=316134026" data-image-width="258" data-image-height="136" src="images/blank.gif?crc=4208392903"/>
+          <div class="museBGSize grpelem" id="u5976"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
-         </div>
-         <div class="clearfix colelem" id="pu737"><!-- group -->
-          <div class="clearfix grpelem shared_content" id="u737" data-content-guid="u737_content"><!-- group -->
-           <div class="clearfix grpelem" id="u738-5"><!-- content -->
-            <p id="u738-3"><span id="u738">ا</span>گر در محل فارم خود کامپیوتر دارید، اقدام به دانلود فایل نصب ویندوز این نرم افزار از طریق پنل کاربری سایت نموده و نرم افزار را نصب نمایید. چگونگی نحوه ی نصب نرم افزار از طریق&nbsp; آموزش های موجود در پنل کاربری قابل دسترس است.</p>
-           </div>
-          </div>
-          <div class="clearfix grpelem shared_content" id="u798-4" data-content-guid="u798-4_content"><!-- content -->
-           <p id="u798-2">اگر در محل فارم خود کامپیوتر ندارید، لازم است اقدام به تهیه ی مینی کامپیوتر نمایید.کانفیگ های مربوطه بر روی این مینی کامپیوتر انجام و نرم افزار بر روی آن نصب شده و صرفا لازم است آن را در محل فارم خود به مودم متصل نمایید. جهت خرید با ما تماس بگیرید.</p>
+          <div class="museBGSize grpelem" id="u5986"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
          </div>
-         <div class="clearfix colelem" id="ppricing"><!-- group -->
-          <a class="anchor_item grpelem shared_content" id="pricing" data-content-guid="pricing_content"></a>
-          <div class="clearfix grpelem" id="u5557"><!-- group -->
-           <div class="rounded-corners grpelem shared_content" id="u4952" data-content-guid="u4952_content"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4956"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4964"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4973"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4979"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4985"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4991"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u4997"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u5003"><!-- simple frame --></div>
-           <div class="rounded-corners clearfix grpelem shared_content" id="u5009" data-content-guid="u5009_content"><!-- group -->
-            <div class="rounded-corners grpelem" id="u5015"><!-- simple frame --></div>
+         <div class="clearfix colelem shared_content" id="pu6049" data-content-guid="pu6049_content"><!-- group -->
+          <div class="clearfix grpelem" id="u6049"><!-- group -->
+           <div class="clearfix grpelem" id="u6050-4"><!-- content -->
+            <p>اگر در محل فارم خود کامپیوتر دارید، اقدام به دانلود فایل نصب ویندوز این نرم افزار از طریق پنل کاربری سایت نموده و نرم افزار را نصب نمایید. چگونگی نحوه ی نصب نرم افزار از طریق&nbsp; آموزش های موجود در پنل کاربری قابل دسترس است.</p>
            </div>
-           <div class="rounded-corners grpelem shared_content" id="u4960" data-content-guid="u4960_content"><!-- simple frame --></div>
           </div>
-          <div class="grpelem" id="u4226"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="u737"><!-- group -->
+           <div class="clearfix grpelem" id="u738-4"><!-- content -->
+            <p>اگر در محل فارم خود کامپیوتر دارید، اقدام به دانلود فایل نصب ویندوز این نرم افزار از طریق پنل کاربری سایت نموده و نرم افزار را نصب نمایید. چگونگی نحوه ی نصب نرم افزار از طریق&nbsp; آموزش های موجود در پنل کاربری قابل دسترس است.</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem" id="u798-4"><!-- content -->
+           <p>اگر در محل فارم خود کامپیوتر ندارید، لازم است اقدام به تهیه ی مینی کامپیوتر نمایید.کانفیگ های مربوطه بر روی این مینی کامپیوتر انجام و نرم افزار بر روی آن نصب شده و صرفا لازم است آن را در محل فارم خود به مودم متصل نمایید. جهت خرید با ما تماس بگیرید.</p>
+          </div>
          </div>
         </div>
        </div>
       </div>
+      <div class="clip_frame grpelem" id="u10596"><!-- svg -->
+       <img class="svg svg_mar temp_no_img_src" id="u10592" data-orig-src="images/2asset-1.svg?crc=37190500" onload="this.style.height=(this.offsetWidth*654/1081.8934673366832)+'px'" alt="" data-mu-svgfallback="images/2asset%201_poster_.png?crc=316098427" data-image-width="1082" data-image-height="654" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <a class="anchor_item grpelem shared_content" id="pricing" data-content-guid="pricing_content"></a>
+      <div class="clearfix grpelem shared_content" id="pu5282" data-content-guid="pu5282_content"><!-- column -->
+       <div class="size_fixed colelem shared_content" id="u5282" data-content-guid="u5282_content"><!-- custom html -->
+        
+
+       </div>
+       <div class="size_fluid_width colelem shared_content" id="u10564" data-content-guid="u10564_content"><!-- custom html -->
+        
+
+       </div>
+      </div>
+      <div class="size_fluid_width grpelem shared_content" id="u4010" data-content-guid="u4010_content"><!-- custom html -->
+       
+
+      </div>
+      <div class="size_fluid_width grpelem shared_content" id="u4065" data-content-guid="u4065_content"><!-- custom html -->
+       
+
+      </div>
+      <div class="size_fluid_width grpelem shared_content" id="u4142" data-content-guid="u4142_content"><!-- custom html -->
+       
+
+      </div>
+      <div class="size_fluid_width grpelem shared_content" id="u4185" data-content-guid="u4185_content"><!-- custom html -->
+       
+
+      </div>
+      <div class="grpelem shared_content" id="u4226" data-content-guid="u4226_content"><!-- simple frame --></div>
+      <div class="Heading clearfix grpelem shared_content" id="u4794-4" data-content-guid="u4794-4_content"><!-- content -->
+       <p>طرح های اشتراک فارم یار</p>
+      </div>
+      <div class="museBGSize grpelem shared_content" id="u10040" data-content-guid="u10040_content"><!-- content -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+      <a class="nonblock nontext rounded-corners clearfix grpelem shared_content" id="u10430-4" href="https://farmyarapp.ir/fa/authorizing" data-content-guid="u10430-4_content"><!-- content --><p id="u10430-2">خرید اشتراک</p></a>
+      <div class="clip_frame grpelem" id="u10481"><!-- svg -->
+       <img class="svg svg_mar temp_no_img_src" id="u10477" data-orig-src="images/iphone2.svg?crc=3946419038" onload="this.style.height=(this.offsetWidth*630/280)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_2.png?crc=147287360" data-image-width="280" data-image-height="630" src="images/blank.gif?crc=4208392903"/>
+      </div>
      </div>
-     <div class="browser_width colelem" id="u4924-bw">
-      <div class="image1" id="u4924"><!-- group -->
-       <div class="clearfix" id="u4924_align_to_page">
-        <div class="gradient2 clearfix grpelem" id="u4006"><!-- column -->
-         <div class="position_content" id="u4006_position_content">
-          <div class="clearfix colelem" id="u4020"><!-- group -->
-           <div class="Heading clearfix grpelem shared_content" id="u4034-4" data-content-guid="u4034-4_content"><!-- content -->
-            <p id="u4034-2">طرح طلایی</p>
-           </div>
+     <div class="clearfix colelem" id="pcontact"><!-- group -->
+      <a class="anchor_item grpelem shared_content" id="contact" data-content-guid="contact_content"></a>
+      <div class="clearfix grpelem shared_content" id="u1134-4" data-content-guid="u1134-4_content"><!-- content -->
+       <p id="u1134-2">با ما در ارتباط باشید</p>
+      </div>
+      <div class="grpelem shared_content" id="u4840" data-content-guid="u4840_content"><!-- simple frame --></div>
+     </div>
+     <div class="clearfix colelem shared_content" id="u988-4" data-content-guid="u988-4_content"><!-- content -->
+      <p id="u988-2">در صورت وجود هرگونه پرسش و یا مشکل با تیم پشتیبانی ما تماس بگیرید. کارشناسان پشتیبانی در تمامی روزهای هفته به صورت شبانه روز پاسخگوی شما خواهند بود.</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u989-4" data-content-guid="u989-4_content"><!-- content -->
+      <p>شماره تماس 09371869568</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u990-4" data-content-guid="u990-4_content"><!-- content -->
+      <p>ایمیل : support@farmyarapp.ir</p>
+     </div>
+     <div class="browser_width colelem" id="u1168-bw">
+      <div id="u1168"><!-- group -->
+       <div class="clearfix" id="u1168_align_to_page">
+        <div class="clearfix grpelem" id="ppu1180"><!-- column -->
+         <div class="clearfix colelem shared_content" id="pu1180" data-content-guid="pu1180_content"><!-- group -->
+          <div class="grpelem" id="u1180"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
-          <div class="Heading clearfix colelem shared_content" id="u4220-6" data-content-guid="u4220-6_content"><!-- content -->
-           <p>۸۰۰۰ تومان</p>
-           <p>به ازای هر ماینر</p>
+          <div class="clearfix grpelem" id="u1181-5"><!-- content -->
+           <p>فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
+           <p>&nbsp;</p>
           </div>
-          <div class="Heading clearfix colelem shared_content" id="u4249-4" data-content-guid="u4249-4_content"><!-- content -->
-           <p id="u4249-2">مدت&nbsp; اشتراک ۱ سال</p>
+         </div>
+         <div class="clearfix colelem" id="pu1173"><!-- group -->
+          <a class="nonblock nontext clip_frame grpelem" id="u1173" href="https://www.instagram.com/hashbazaar/"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1174" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575762)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="nonblock nontext clip_frame grpelem" id="u1171" href="https://www.linkedin.com/company/hashbazaar"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1172" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575762)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="nonblock nontext clip_frame grpelem" id="u1169" href="https://twitter.com/Hashbazaar_CMC"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1170" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575751)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+         </div>
+        </div>
+        <div class="clip_frame grpelem" id="u4824"><!-- svg -->
+         <img class="svg svg_mar temp_no_img_src" id="u4825" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*69/227)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="227" data-image-height="69" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <div class="clearfix grpelem shared_content" id="pu4864-4" data-content-guid="pu4864-4_content"><!-- column -->
+         <div class="clearfix colelem" id="u4864-4"><!-- content -->
+          <p id="u4864-2">دسترسی سریع</p>
+         </div>
+         <a class="nonblock nontext MuseLinkActive clearfix colelem" id="u4870-4" href="index.html"><!-- content --><p>فارم یار</p></a>
+         <a class="nonblock nontext anim_swing clearfix colelem" id="u4894-4" href="index.html#softwares"><!-- content --><p>نرم افزار ها</p></a>
+         <a class="nonblock nontext anim_swing clearfix colelem" id="u4876-4" href="index.html#features"><!-- content --><p>ویژگی ها</p></a>
+         <a class="nonblock nontext anim_swing clearfix colelem" id="u4882-4" href="index.html#pricing"><!-- content --><p>قیمت اشتراک</p></a>
+         <a class="nonblock nontext anim_swing clearfix colelem" id="u4888-4" href="index.html#contact"><!-- content --><p>ارتباط</p></a>
+        </div>
+        <div class="clearfix grpelem shared_content" id="pu4900-4" data-content-guid="pu4900-4_content"><!-- column -->
+         <div class="clearfix colelem" id="u4900-4"><!-- content -->
+          <p>راه های ارتباطی</p>
+         </div>
+         <div class="clearfix colelem" id="pu1175-4"><!-- group -->
+          <div class="clearfix grpelem" id="u1175-4"><!-- content -->
+           <p id="u1175-2">09371869568</p>
           </div>
-          <div class="clearfix colelem" id="u4283"><!-- group -->
-           <div class="clip_frame grpelem" id="u4259"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4255" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4269-4" data-content-guid="u4269-4_content"><!-- content -->
-            <p id="u4269-2">option1</p>
-           </div>
+          <div class="museBGSize grpelem" id="u1182"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
-          <div class="clearfix colelem" id="u4313"><!-- group -->
-           <div class="clip_frame grpelem" id="u4314"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4315" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4316-4" data-content-guid="u4316-4_content"><!-- content -->
-            <p id="u4316-2">option1</p>
-           </div>
+         </div>
+         <div class="clearfix colelem" id="pu1176-4"><!-- group -->
+          <div class="clearfix grpelem" id="u1176-4"><!-- content -->
+           <p id="u1176-2">support@farmyarapp.ir</p>
           </div>
-          <div class="clearfix colelem" id="u4365"><!-- group -->
-           <div class="clip_frame grpelem" id="u4366"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4367" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4368-4" data-content-guid="u4368-4_content"><!-- content -->
-            <p id="u4368-2">option1</p>
-           </div>
+          <div class="museBGSize grpelem" id="u1184"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
-          <div class="clearfix colelem" id="u5351"><!-- group -->
-           <div class="rounded-corners clearfix grpelem" id="u4447"><!-- group -->
-            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u4446-4" href="index.html#softwares" data-content-guid="u4446-4_content"><!-- content --><p id="u4446-2">خرید اشتراک</p></a>
-           </div>
+         </div>
+         <div class="clearfix colelem" id="pu1177-4"><!-- group -->
+          <div class="clearfix grpelem" id="u1177-4"><!-- content -->
+           <p id="u1177-2">&nbsp;تهران، ولنجک، بلوار دانشجو دانشگاه شهید بهشتی، بالاتر از مسجد دانشگاه&nbsp; پارک علم و فناوری</p>
+          </div>
+          <div class="museBGSize grpelem" id="u1183"><!-- content -->
+           <div class="fluid_height_spacer"></div>
           </div>
          </div>
         </div>
-        <div class="gradient3 clearfix grpelem" id="u4118"><!-- column -->
-         <div class="position_content" id="u4118_position_content">
-          <div class="clearfix colelem" id="u4113"><!-- group -->
-           <div class="Heading clearfix grpelem shared_content" id="u4136-4" data-content-guid="u4136-4_content"><!-- content -->
-            <p id="u4136-2">طرح نقره ای</p>
-           </div>
-          </div>
-          <div class="Heading clearfix colelem shared_content" id="u4461-6" data-content-guid="u4461-6_content"><!-- content -->
-           <p>۵۰۰۰ تومان</p>
-           <p>به ازای هر ماینر</p>
-          </div>
-          <div class="Heading clearfix colelem shared_content" id="u4467-4" data-content-guid="u4467-4_content"><!-- content -->
-           <p id="u4467-2">مدت&nbsp; اشتراک ۶ ماه</p>
-          </div>
-          <div class="clearfix colelem" id="u4472"><!-- group -->
-           <div class="clip_frame grpelem" id="u4473"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4474" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4475-4" data-content-guid="u4475-4_content"><!-- content -->
-            <p id="u4475-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u4497"><!-- group -->
-           <div class="clip_frame grpelem" id="u4499"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4500" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4498-4" data-content-guid="u4498-4_content"><!-- content -->
-            <p id="u4498-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u4522"><!-- group -->
-           <div class="clip_frame grpelem" id="u4523"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4524" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4525-4" data-content-guid="u4525-4_content"><!-- content -->
-            <p id="u4525-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u5397"><!-- group -->
-           <div class="rounded-corners clearfix grpelem" id="u5399"><!-- group -->
-            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u5398-4" href="index.html#softwares" data-content-guid="u5398-4_content"><!-- content --><p id="u5398-2">خرید اشتراک</p></a>
-           </div>
-          </div>
+        <div class="clearfix grpelem" id="pu10409-4"><!-- column -->
+         <div class="clearfix colelem shared_content" id="u10409-4" data-content-guid="u10409-4_content"><!-- content -->
+          <p>نرم افزار ها</p>
          </div>
-        </div>
-        <div class="gradient4 clearfix grpelem" id="u4124"><!-- column -->
-         <div class="position_content" id="u4124_position_content">
-          <div class="clearfix colelem" id="u4130"><!-- group -->
-           <div class="Heading clearfix grpelem shared_content" id="u4108-4" data-content-guid="u4108-4_content"><!-- content -->
-            <p id="u4108-2">طرح برنزی</p>
-           </div>
+         <div class="clearfix colelem" id="pu10345"><!-- group -->
+          <div class="clip_frame grpelem" id="u10345"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u10341" data-orig-src="images/android2.svg?crc=314731538" onload="this.style.height=(this.offsetWidth*50/38)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=4200769702" data-image-width="38" data-image-height="50" src="images/blank.gif?crc=4208392903"/>
           </div>
-          <div class="Heading clearfix colelem shared_content" id="u4562-6" data-content-guid="u4562-6_content"><!-- content -->
-           <p>۱۰۰۰ تومان</p>
-           <p>به ازای هر ماینر</p>
+          <div class="clip_frame grpelem" id="u10357"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u10353" data-orig-src="images/hashbazaar-windows2.svg?crc=267752047" onload="this.style.height=(this.offsetWidth*40/50)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=4088819592" data-image-width="50" data-image-height="40" src="images/blank.gif?crc=4208392903"/>
           </div>
-          <div class="Heading clearfix colelem shared_content" id="u4563-4" data-content-guid="u4563-4_content"><!-- content -->
-           <p id="u4563-2">مدت&nbsp; اشتراک ۱ ماه</p>
+          <div class="clip_frame grpelem" id="u10363"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u10359" data-orig-src="images/linux2.svg?crc=357166510" onload="this.style.height=(this.offsetWidth*49/39)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=4122080657" data-image-width="39" data-image-height="49" src="images/blank.gif?crc=4208392903"/>
           </div>
-          <div class="clearfix colelem" id="u4564"><!-- group -->
-           <div class="clip_frame grpelem" id="u4565"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4566" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4567-4" data-content-guid="u4567-4_content"><!-- content -->
-            <p id="u4567-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u4572"><!-- group -->
-           <div class="clip_frame grpelem" id="u4573"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4574" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4575-4" data-content-guid="u4575-4_content"><!-- content -->
-            <p id="u4575-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u4568"><!-- group -->
-           <div class="clip_frame grpelem" id="u4569"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4570" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4571-4" data-content-guid="u4571-4_content"><!-- content -->
-            <p id="u4571-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u5418"><!-- group -->
-           <div class="rounded-corners clearfix grpelem" id="u5420"><!-- group -->
-            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u5419-4" href="index.html#softwares" data-content-guid="u5419-4_content"><!-- content --><p id="u5419-2">خرید اشتراک</p></a>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="gradient5 clearfix grpelem" id="u4169"><!-- column -->
-         <div class="position_content" id="u4169_position_content">
-          <div class="clearfix colelem" id="u4180"><!-- group -->
-           <div class="Heading clearfix grpelem shared_content" id="u4175-4" data-content-guid="u4175-4_content"><!-- content -->
-            <p id="u4175-2">رایگان</p>
-           </div>
-          </div>
-          <div class="Heading clearfix colelem shared_content" id="u4764-6" data-content-guid="u4764-6_content"><!-- content -->
-           <p>۰ تومان</p>
-           <p>به ازای هر ماینر</p>
-          </div>
-          <div class="Heading clearfix colelem shared_content" id="u4669-4" data-content-guid="u4669-4_content"><!-- content -->
-           <p id="u4669-2">مدت&nbsp; اشتراک ۱ هفته</p>
-          </div>
-          <div class="clearfix colelem" id="u4674"><!-- group -->
-           <div class="clip_frame grpelem" id="u4676"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4677" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4675-4" data-content-guid="u4675-4_content"><!-- content -->
-            <p id="u4675-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u4699"><!-- group -->
-           <div class="clip_frame grpelem" id="u4701"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4702" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4700-4" data-content-guid="u4700-4_content"><!-- content -->
-            <p id="u4700-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u4724"><!-- group -->
-           <div class="clip_frame grpelem" id="u4726"><!-- svg -->
-            <img class="svg svg_mar temp_no_img_src" id="u4727" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*13/18)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="18" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="Heading clearfix grpelem shared_content" id="u4725-4" data-content-guid="u4725-4_content"><!-- content -->
-            <p id="u4725-2">option1</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="u5434"><!-- group -->
-           <div class="rounded-corners clearfix grpelem" id="u5435"><!-- group -->
-            <a class="nonblock nontext anim_swing clearfix grpelem shared_content" id="u5436-4" href="index.html#softwares" data-content-guid="u5436-4_content"><!-- content --><p id="u5436-2">خرید اشتراک</p></a>
-           </div>
+          <div class="clip_frame grpelem" id="u10351"><!-- svg -->
+           <img class="svg svg_mar temp_no_img_src" id="u10347" data-orig-src="images/github2.svg?crc=4125461017" onload="this.style.height=(this.offsetWidth*48/54)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=342018265" data-image-width="54" data-image-height="48" src="images/blank.gif?crc=4208392903"/>
           </div>
          </div>
         </div>
        </div>
       </div>
      </div>
+     <div class="verticalspacer" data-offset-top="4224" data-content-above-spacer="4224" data-content-below-spacer="0"></div>
     </div>
-    <div class="clearfix grpelem" id="pu4794-4"><!-- column -->
-     <div class="Heading clearfix colelem shared_content" id="u4794-4" data-content-guid="u4794-4_content"><!-- content -->
-      <p id="u4794-2">خرید اشتراک فارم یار</p>
-     </div>
-     <div class="clearfix colelem" id="pu4820"><!-- group -->
-      <div class="browser_width grpelem" id="u4820-bw">
-       <div id="u4820"><!-- column -->
-        <div class="clearfix" id="u4820_align_to_page">
-         <div class="clearfix colelem" id="pcontact"><!-- group -->
-          <a class="anchor_item grpelem shared_content" id="contact" data-content-guid="contact_content"></a>
-          <div class="clearfix grpelem shared_content" id="u1134-4" data-content-guid="u1134-4_content"><!-- content -->
-           <p id="u1134-2">با ما در ارتباط باشید</p>
-          </div>
-          <div class="grpelem shared_content" id="u4840" data-content-guid="u4840_content"><!-- simple frame --></div>
-         </div>
-         <div class="clearfix colelem shared_content" id="u988-4" data-content-guid="u988-4_content"><!-- content -->
-          <p id="u988-2">در صورت وجود هرگونه پرسش و یا مشکل با تیم پشتیبانی ما تماس بگیرید. کارشناسان پشتیبانی در تمامی روزهای هفته به صورت شبانه روز پاسخگوی شما خواهند بود.</p>
-         </div>
-         <div class="clearfix colelem shared_content" id="u989-4" data-content-guid="u989-4_content"><!-- content -->
-          <p id="u989-2">شماره تماس 09371869568</p>
-         </div>
-         <div class="clearfix colelem shared_content" id="u990-4" data-content-guid="u990-4_content"><!-- content -->
-          <p id="u990-2">ایمیل : support@farmyarapp.ir</p>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="clearfix grpelem" id="u5246"><!-- group -->
-       <div class="rounded-corners grpelem" id="u5189"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5206"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5184"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5194"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5200"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5216"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5179"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5211"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem" id="u5174"><!-- simple frame --></div>
-       <div class="rounded-corners grpelem shared_content" id="u5168" data-content-guid="u5168_content"><!-- simple frame --></div>
-      </div>
-      <div class="browser_width grpelem" id="u1168-bw">
-       <div id="u1168"><!-- group -->
-        <div class="clearfix" id="u1168_align_to_page">
-         <div class="clearfix grpelem" id="ppu1180"><!-- column -->
-          <div class="clearfix colelem shared_content" id="pu1180" data-content-guid="pu1180_content"><!-- group -->
-           <div class="grpelem" id="u1180"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-           <div class="clearfix grpelem" id="u1181-5"><!-- content -->
-            <p id="u1181-2">فارم یار ارائه دهنده کاملترین سرویس مدیریت فارم، در قالب یک بسته ی نرم افزاری به فعالین حوزه صنعت ماینینگ ارزهای دیجیتال است.</p>
-            <p id="u1181-3">&nbsp;</p>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="pu1173"><!-- group -->
-           <a class="nonblock nontext clip_frame grpelem" id="u1173" href="https://www.instagram.com/hashbazaar/"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1174" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575762)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
-           <a class="nonblock nontext clip_frame grpelem" id="u1171" href="https://www.linkedin.com/company/hashbazaar"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1172" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575762)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
-           <a class="nonblock nontext clip_frame grpelem" id="u1169" href="https://twitter.com/Hashbazaar_CMC"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1170" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*57.57575757575796/57.57575757575751)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
-          </div>
-         </div>
-         <div class="clip_frame grpelem" id="u4824"><!-- svg -->
-          <img class="svg svg_mar temp_no_img_src" id="u4825" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*69/227)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="227" data-image-height="69" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <div class="clearfix grpelem" id="pu4864-4"><!-- column -->
-          <div class="clearfix colelem shared_content" id="u4864-4" data-content-guid="u4864-4_content"><!-- content -->
-           <p id="u4864-2">دسترسی سریع</p>
-          </div>
-          <div class="clearfix colelem shared_content" id="u4870-4" data-content-guid="u4870-4_content"><!-- content -->
-           <p id="u4870-2">فارم یار</p>
-          </div>
-          <div class="clearfix colelem shared_content" id="u4894-4" data-content-guid="u4894-4_content"><!-- content -->
-           <p id="u4894-2">نرم افزار ها</p>
-          </div>
-          <div class="clearfix colelem shared_content" id="u4876-4" data-content-guid="u4876-4_content"><!-- content -->
-           <p id="u4876-2">ویژگی ها</p>
-          </div>
-          <div class="clearfix colelem shared_content" id="u4882-4" data-content-guid="u4882-4_content"><!-- content -->
-           <p id="u4882-2">قیمت اشتراک</p>
-          </div>
-          <div class="clearfix colelem shared_content" id="u4888-4" data-content-guid="u4888-4_content"><!-- content -->
-           <p id="u4888-2">ارتباط</p>
-          </div>
-         </div>
-         <div class="clearfix grpelem" id="pu4900-4"><!-- column -->
-          <div class="clearfix colelem shared_content" id="u4900-4" data-content-guid="u4900-4_content"><!-- content -->
-           <p id="u4900-2">راه های ارتباطی</p>
-          </div>
-          <div class="clearfix colelem" id="pu1175-4"><!-- group -->
-           <div class="clearfix grpelem shared_content" id="u1175-4" data-content-guid="u1175-4_content"><!-- content -->
-            <p id="u1175-2"><span id="u1175">09371869568</span></p>
-           </div>
-           <div class="museBGSize grpelem shared_content" id="u1182" data-content-guid="u1182_content"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="pu1176-4"><!-- group -->
-           <div class="clearfix grpelem shared_content" id="u1176-4" data-content-guid="u1176-4_content"><!-- content -->
-            <p id="u1176-2">support@farmyarapp.ir</p>
-           </div>
-           <div class="museBGSize grpelem shared_content" id="u1184" data-content-guid="u1184_content"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-          </div>
-          <div class="clearfix colelem" id="pu1177-4"><!-- group -->
-           <div class="clearfix grpelem shared_content" id="u1177-4" data-content-guid="u1177-4_content"><!-- content -->
-            <p id="u1177-2">&nbsp;تهران، ولنجک، بلوار دانشجو دانشگاه شهید بهشتی، بالاتر از مسجد دانشگاه&nbsp; پارک علم و فناوری</p>
-           </div>
-           <div class="museBGSize grpelem shared_content" id="u1183" data-content-guid="u1183_content"><!-- content -->
-            <div class="fluid_height_spacer"></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu3983"><!-- column -->
-     <div class="size_fixed colelem shared_content" id="u3983" data-content-guid="u3983_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u5601" data-content-guid="u5601_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fluid_width colelem shared_content" id="u3032" data-content-guid="u3032_content"><!-- custom html -->
-      
-
-     </div>
-     <div class="size_fixed colelem shared_content" id="u5282" data-content-guid="u5282_content"><!-- custom html -->
-      
-
-     </div>
-    </div>
-    <div class="verticalspacer" data-offset-top="4108" data-content-above-spacer="4108" data-content-below-spacer="0"></div>
    </div>
   </div>
-  <div class="breakpoint" id="bp_1280" data-max-width="1280"><!-- responsive breakpoint node -->
-   <div class="gradient3 clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u128_content"><!-- placeholder node --></span>
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u123_content"><!-- placeholder node --></span>
-    <div class="browser_width grpelem temp_no_id" data-orig-id="u3028-bw">
-     <div class="gradient1 temp_no_id" data-orig-id="u3028"><!-- group -->
-      <div class="clearfix temp_no_id" data-orig-id="u3028_align_to_page">
-       <div class="clearfix grpelem temp_no_id" data-orig-id="pu3075"><!-- column -->
-        <div class="clip_frame colelem temp_no_id" data-orig-id="u3075"><!-- svg -->
-         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/monitor.svg?crc=3769646142" onload="this.style.height=(this.offsetWidth*301/366)+'px'" alt="" data-mu-svgfallback="images/monitor_poster_.png?crc=4100345434" data-image-width="366" data-image-height="301" data-orig-id="u3071" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clearfix colelem temp_no_id" data-orig-id="pu3204"><!-- group -->
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3204"><!-- svg -->
-          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/android.svg?crc=160812988" onload="this.style.height=(this.offsetWidth*45.13684210526321/34.3578947368421)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=3832816048" data-image-width="34" data-image-height="45" data-orig-id="u3200" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u5333"><!-- svg -->
-          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-windows.svg?crc=281102790" onload="this.style.height=(this.offsetWidth*26.273684210526312/26.273684210526312)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=141642653" data-image-width="26" data-image-height="26" data-orig-id="u5329" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3222"><!-- svg -->
-          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/linux.svg?crc=436351347" onload="this.style.height=(this.offsetWidth*41.76842105263154/34.3578947368421)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=92053937" data-image-width="34" data-image-height="42" data-orig-id="u3218" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3210"><!-- svg -->
-          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/github.svg?crc=4290482830" onload="this.style.height=(this.offsetWidth*33.010526315789434/33.68421052631578)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=86113131" data-image-width="34" data-image-height="33" data-orig-id="u3206" src="images/blank.gif?crc=4208392903"/>
-         </div>
-        </div>
+  <div class="breakpoint" id="bp_1400" data-min-width="1281" data-max-width="1400"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="placeholder" data-placeholder-for="u10761-wrapper_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu10540"><!-- group -->
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u10540-bw">
+      <div class="gradient6 temp_no_id" data-orig-id="u10540"><!-- group -->
+       <div class="clearfix" id="u10540_align_to_page">
+        <span class="nonblock nontext rounded-corners clearfix grpelem placeholder" data-placeholder-for="u10430-4_content"><!-- placeholder node --></span>
        </div>
-       <span class="size_fixed grpelem placeholder" data-placeholder-for="u2973_content"><!-- placeholder node --></span>
-       <div class="clearfix grpelem temp_no_id" data-orig-id="pu5625"><!-- group -->
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u5625"><!-- column -->
-         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u3341-4_content"><!-- placeholder node --></span>
-         <div class="rounded-corners colelem temp_no_id" data-orig-id="u3336"><!-- simple frame --></div>
+      </div>
+     </div>
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u305-bw_content"><!-- placeholder node --></span>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u3028-bw">
+      <div class="gradient1 temp_no_id" data-orig-id="u3028"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u3028_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="pu3075"><!-- column -->
+         <div class="clip_frame colelem temp_no_id" data-orig-id="u3075"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/monitor.svg?crc=3769646142" onload="this.style.height=(this.offsetWidth*302.20430107526886/385)+'px'" alt="" data-mu-svgfallback="images/monitor_poster_.png?crc=4100345434" data-image-width="385" data-image-height="302" data-orig-id="u3071" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <span class="clearfix colelem placeholder" data-placeholder-for="pu6060_content"><!-- placeholder node --></span>
         </div>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u4441"><!-- column -->
-         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u3370-4_content"><!-- placeholder node --></span>
-         <div class="rounded-corners colelem temp_no_id" data-orig-id="u3379"><!-- simple frame --></div>
-        </div>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u5351"><!-- column -->
-         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u4446-4_content"><!-- placeholder node --></span>
-         <div class="rounded-corners colelem temp_no_id" data-orig-id="u4447"><!-- simple frame --></div>
-        </div>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u5397"><!-- column -->
-         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u5398-4_content"><!-- placeholder node --></span>
-         <div class="rounded-corners colelem temp_no_id" data-orig-id="u5399"><!-- simple frame --></div>
-        </div>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u5418"><!-- column -->
-         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u5419-4_content"><!-- placeholder node --></span>
-         <div class="rounded-corners colelem temp_no_id" data-orig-id="u5420"><!-- simple frame --></div>
-        </div>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u5434"><!-- column -->
-         <span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u5436-4_content"><!-- placeholder node --></span>
-         <div class="rounded-corners colelem temp_no_id" data-orig-id="u5435"><!-- simple frame --></div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="pu5608"><!-- column -->
+         <span class="size_fluid_width colelem placeholder" data-placeholder-for="u5608_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem" id="pu2180"><!-- group -->
+          <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u2180_content"><!-- placeholder node --></span>
+          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u97-4_content"><!-- placeholder node --></span>
+         </div>
+         <span class="clearfix colelem placeholder" data-placeholder-for="pu3341-4_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
      </div>
-    </div>
-    <span class="placeholder" data-placeholder-for="u3450-wrapper_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem" id="pu305"><!-- group -->
-     <div class="browser_width grpelem temp_no_id" data-orig-id="u305-bw">
-      <div class="temp_no_id" data-orig-id="u305"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u305_align_to_page">
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3941"><!-- svg -->
-         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar_windows.svg?crc=4036610426" onload="this.style.height=(this.offsetWidth*96.33684210526324/99.7052631578947)+'px'" alt="" data-mu-svgfallback="images/hashbazaar_windows_poster_.png?crc=230951316" data-image-width="100" data-image-height="96" data-orig-id="u3937" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clearfix grpelem" id="pu3935"><!-- column -->
-         <div class="clip_frame colelem temp_no_id" data-orig-id="u3935"><!-- svg -->
-          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/group-37.svg?crc=516017443" onload="this.style.height=(this.offsetWidth*91.621052631579/173.8105263157895)+'px'" alt="" data-mu-svgfallback="images/group%2037_poster_.png?crc=316134026" data-image-width="174" data-image-height="92" data-orig-id="u3931" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <span class="tooltip2 clearfix colelem placeholder" data-placeholder-for="u657-4_content"><!-- placeholder node --></span>
-        </div>
-       </div>
-      </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u10596"><!-- svg -->
+      <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/2asset-1.svg?crc=37190500" onload="this.style.height=(this.offsetWidth*519/858.5668341708547)+'px'" alt="" data-mu-svgfallback="images/2asset%201_poster_.png?crc=316098427" data-image-width="859" data-image-height="519" data-orig-id="u10592" src="images/blank.gif?crc=4208392903"/>
      </div>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u128_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u123_content"><!-- placeholder node --></span>
+     <span class="anchor_item grpelem placeholder" data-placeholder-for="pricing_content"><!-- placeholder node --></span>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="pu3983"><!-- column -->
+      <span class="size_fixed colelem placeholder" data-placeholder-for="u3983_content"><!-- placeholder node --></span>
+      <span class="size_fixed colelem placeholder" data-placeholder-for="u5601_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width colelem placeholder" data-placeholder-for="u3032_content"><!-- placeholder node --></span>
+      <span class="size_fixed colelem placeholder" data-placeholder-for="u5282_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width colelem placeholder" data-placeholder-for="u10564_content"><!-- placeholder node --></span>
+     </div>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u2973_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3679_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3711_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3727_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3757_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3773_content"><!-- placeholder node --></span>
      <div class="browser_width grpelem temp_no_id" data-orig-id="u3474-bw">
       <div class="museBGSize temp_no_id" data-orig-id="u3474"><!-- column -->
        <div class="clearfix temp_no_id" data-orig-id="u3474_align_to_page">
-        <span class="Heading clearfix colelem placeholder" data-placeholder-for="u97-4_content"><!-- placeholder node --></span>
-        <div class="clearfix colelem temp_no_id" data-orig-id="u3438"><!-- group -->
-         <div class="clearfix grpelem temp_no_id" data-orig-id="u3926"><!-- group -->
-          <div class="clearfix grpelem temp_no_id" data-orig-id="u4226"><!-- group -->
-           <span class="grpelem placeholder" data-placeholder-for="u4840_content"><!-- placeholder node --></span>
-          </div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u7396_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="ppu102-4"><!-- group -->
+         <span class="clearfix grpelem placeholder" data-placeholder-for="pu102-4_content"><!-- placeholder node --></span>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3458"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/iphone.svg?crc=353415937" onload="this.style.height=(this.offsetWidth*233.8730131156084/151.72314049586782)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_.png?crc=304285189" data-image-width="152" data-image-height="234" data-orig-id="u3454" src="images/blank.gif?crc=4208392903"/>
          </div>
         </div>
-        <div class="clip_frame colelem temp_no_id" data-orig-id="u3458"><!-- svg -->
-         <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/iphone.svg?crc=353415937" onload="this.style.height=(this.offsetWidth*163.03157894736833/105.76842105263154)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_.png?crc=304285189" data-image-width="106" data-image-height="163" data-orig-id="u3454" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clearfix colelem temp_no_id" data-orig-id="pu102-4"><!-- group -->
-         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u102-4_content"><!-- placeholder node --></span>
-         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u3429-4_content"><!-- placeholder node --></span>
-        </div>
-        <span class="Heading clearfix colelem placeholder" data-placeholder-for="u310-4_content"><!-- placeholder node --></span>
+        <span class="anchor_item colelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
        </div>
       </div>
      </div>
      <div class="browser_width grpelem temp_no_id" data-orig-id="u3484-bw">
-      <div class="temp_no_id" data-orig-id="u3484"><!-- column -->
+      <div class="temp_no_id" data-orig-id="u3484"><!-- group -->
        <div class="clearfix temp_no_id" data-orig-id="u3484_align_to_page">
-        <div class="position_content" id="u3484_position_content">
-         <div class="clearfix colelem temp_no_id" data-orig-id="pu3492"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-orig-id="u3492"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*65.34736842105258/214.90526315789478)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="215" data-image-height="65" data-orig-id="u3488" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u3920-4_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4034-4_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4108-4_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4175-4_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4136-4_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4220-6_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4461-6_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4249-4_content"><!-- placeholder node --></span>
-          <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4467-4_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u10260_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u10270_content"><!-- placeholder node --></span>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="pu3492"><!-- column -->
+         <div class="clip_frame colelem temp_no_id" data-orig-id="u3492"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*71.47368421052624/235.0526315789474)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="235" data-image-height="71" data-orig-id="u3488" src="images/blank.gif?crc=4208392903"/>
          </div>
-         <div class="clearfix colelem" id="pfeatures"><!-- group -->
-          <span class="anchor_item grpelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
-          <div class="tooltip6 clip_frame grpelem temp_no_id" data-orig-id="u3560"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3561" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <span class="tooltip6 clearfix grpelem placeholder" data-placeholder-for="u491-4_content"><!-- placeholder node --></span>
-          <div class="tooltip3 clip_frame grpelem temp_no_id" data-orig-id="u3539"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3540" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <span class="tooltip3 clearfix grpelem placeholder" data-placeholder-for="u352-4_content"><!-- placeholder node --></span>
-          <div class="tooltip2 clip_frame grpelem temp_no_id" data-orig-id="u3506"><!-- svg -->
-           <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.42105263157893)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3502" src="images/blank.gif?crc=4208392903"/>
-          </div>
-          <div class="clearfix grpelem temp_no_id" data-orig-id="u3855"><!-- group -->
-           <div class="tooltip4 clip_frame grpelem temp_no_id" data-orig-id="u3582"><!-- svg -->
-            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3583" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <span class="tooltip4 clearfix grpelem placeholder" data-placeholder-for="u2319-4_content"><!-- placeholder node --></span>
-           <div class="tooltip4 clip_frame grpelem temp_no_id" data-orig-id="u3631"><!-- svg -->
-            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/path-31.svg?crc=3800060405" onload="this.style.height=(this.offsetWidth*33.68421052631584/33.68421052631584)+'px'" alt="" data-mu-svgfallback="images/path%2031_poster_.png?crc=4200503132" data-image-width="34" data-image-height="34" data-orig-id="u3627" src="images/blank.gif?crc=4208392903"/>
-           </div>
-          </div>
-          <div class="clearfix grpelem temp_no_id" data-orig-id="u3839"><!-- column -->
-           <div class="tooltip5 clip_frame colelem temp_no_id" data-orig-id="u3516"><!-- svg -->
-            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/button.svg?crc=320603766" onload="this.style.height=(this.offsetWidth*168.42105263157896/168.4210526315789)+'px'" alt="" data-mu-svgfallback="images/button_poster_.png?crc=76966738" data-image-width="168" data-image-height="168" data-orig-id="u3517" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <div class="tooltip5 clip_frame colelem temp_no_id" data-orig-id="u3747"><!-- svg -->
-            <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-hash.svg?crc=3993153546" onload="this.style.height=(this.offsetWidth*33.01052631578955/35.031578947368416)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-hash_poster_.png?crc=120107722" data-image-width="35" data-image-height="33" data-orig-id="u3743" src="images/blank.gif?crc=4208392903"/>
-           </div>
-           <span class="tooltip5 clearfix colelem placeholder" data-placeholder-for="u641-4_content"><!-- placeholder node --></span>
-          </div>
+         <span class="museBGSize clearfix colelem placeholder" data-placeholder-for="u5759_content"><!-- placeholder node --></span>
+        </div>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u10250_content"><!-- placeholder node --></span>
+        <span class="museBGSize clearfix grpelem placeholder" data-placeholder-for="u5777_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4010_content"><!-- placeholder node --></span>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4065_content"><!-- placeholder node --></span>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4142_content"><!-- placeholder node --></span>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4185_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u4226_content"><!-- placeholder node --></span>
+     <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4794-4_content"><!-- placeholder node --></span>
+     <span class="museBGSize grpelem placeholder" data-placeholder-for="u10040_content"><!-- placeholder node --></span>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u10481"><!-- svg -->
+      <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/iphone2.svg?crc=3946419038" onload="this.style.height=(this.offsetWidth*464.2105263157896/206.31578947368416)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_2.png?crc=147287360" data-image-width="206" data-image-height="464" data-orig-id="u10477" src="images/blank.gif?crc=4208392903"/>
+     </div>
+    </div>
+    <span class="anchor_item colelem placeholder" data-placeholder-for="contact_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem" id="pu1134-4"><!-- group -->
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1134-4_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u4840_content"><!-- placeholder node --></span>
+    </div>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u988-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u989-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u990-4_content"><!-- placeholder node --></span>
+    <div class="browser_width colelem temp_no_id" data-orig-id="u1168-bw">
+     <div class="temp_no_id" data-orig-id="u1168"><!-- group -->
+      <div class="clearfix temp_no_id" data-orig-id="u1168_align_to_page">
+       <div class="clearfix grpelem temp_no_id" data-orig-id="ppu1180"><!-- column -->
+        <span class="clearfix colelem placeholder" data-placeholder-for="pu1180_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu1173"><!-- group -->
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.instagram.com/hashbazaar/" data-orig-id="u1173"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*42.42424242424283/42.424242424242465)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="42" data-image-height="42" data-orig-id="u1174" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.linkedin.com/company/hashbazaar" data-orig-id="u1171"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*42.42424242424283/42.42424242424245)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="42" data-image-height="42" data-orig-id="u1172" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://twitter.com/Hashbazaar_CMC" data-orig-id="u1169"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*42.42424242424283/42.424242424242365)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="42" data-image-height="42" data-orig-id="u1170" src="images/blank.gif?crc=4208392903"/></a>
+        </div>
+       </div>
+       <div class="clip_frame grpelem temp_no_id" data-orig-id="u4824"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*50.84210526315791/167.26315789473685)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="167" data-image-height="51" data-orig-id="u4825" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <span class="clearfix grpelem placeholder" data-placeholder-for="pu4864-4_content"><!-- placeholder node --></span>
+       <span class="clearfix grpelem placeholder" data-placeholder-for="pu4900-4_content"><!-- placeholder node --></span>
+       <div class="clearfix grpelem temp_no_id" data-orig-id="pu10409-4"><!-- column -->
+        <span class="clearfix colelem placeholder" data-placeholder-for="u10409-4_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem" id="pu10357"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10357"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-windows2.svg?crc=267752047" onload="this.style.height=(this.offsetWidth*34.473684210526244/43.092105263157926)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=4088819592" data-image-width="43" data-image-height="34" data-orig-id="u10353" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10363"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/linux2.svg?crc=357166510" onload="this.style.height=(this.offsetWidth*36.10526315789457/28.736842105263122)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=4122080657" data-image-width="29" data-image-height="36" data-orig-id="u10359" src="images/blank.gif?crc=4208392903"/>
+         </div>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu10345"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10345"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/android2.svg?crc=314731538" onload="this.style.height=(this.offsetWidth*36.84210526315794/28)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=4200769702" data-image-width="28" data-image-height="37" data-orig-id="u10341" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10351"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/github2.svg?crc=4125461017" onload="this.style.height=(this.offsetWidth*35.368421052631675/39.789473684210634)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=342018265" data-image-width="40" data-image-height="35" data-orig-id="u10347" src="images/blank.gif?crc=4208392903"/>
          </div>
         </div>
        </div>
       </div>
      </div>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu5608"><!-- column -->
-     <span class="size_fluid_width colelem placeholder" data-placeholder-for="u5608_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem" id="pu5246"><!-- group -->
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u5246"><!-- group -->
-       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5189"><!-- group -->
-        <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5206"><!-- group -->
-         <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5184"><!-- group -->
-          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5194"><!-- group -->
-           <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5200"><!-- group -->
-            <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5216"><!-- group -->
-             <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5179"><!-- group -->
-              <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5211"><!-- group -->
-               <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5174"><!-- group -->
-                <span class="rounded-corners grpelem placeholder" data-placeholder-for="u5168_content"><!-- placeholder node --></span>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
+    <div class="verticalspacer" data-offset-top="3768" data-content-above-spacer="3767" data-content-below-spacer="0"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_1280" data-max-width="1280"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="placeholder" data-placeholder-for="u10761-wrapper_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu3028"><!-- group -->
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u3028-bw">
+      <div class="gradient1 temp_no_id" data-orig-id="u3028"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u3028_align_to_page">
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu3075"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3075"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/monitor.svg?crc=3769646142" onload="this.style.height=(this.offsetWidth*276.3010752688172/352)+'px'" alt="" data-mu-svgfallback="images/monitor_poster_.png?crc=4100345434" data-image-width="352" data-image-height="276" data-orig-id="u3071" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pu5608"><!-- column -->
+          <span class="size_fluid_width colelem placeholder" data-placeholder-for="u5608_content"><!-- placeholder node --></span>
+          <span class="size_fluid_width colelem placeholder" data-placeholder-for="u2180_content"><!-- placeholder node --></span>
          </div>
         </div>
-       </div>
-      </div>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u4924-bw">
-       <div class="image1 temp_no_id" data-orig-id="u4924"><!-- group -->
-        <div class="clearfix temp_no_id" data-orig-id="u4924_align_to_page">
-         <div class="clearfix grpelem temp_no_id" data-orig-id="pu737"><!-- group -->
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u737_content"><!-- placeholder node --></span>
-          <div class="gradient2 clearfix grpelem temp_no_id" data-orig-id="u4006"><!-- group -->
-           <div class="gradient3 clearfix grpelem temp_no_id" data-orig-id="u4118"><!-- group -->
-            <div class="gradient4 clearfix grpelem temp_no_id" data-orig-id="u4124"><!-- group -->
-             <div class="gradient5 grpelem temp_no_id" data-orig-id="u4169"><!-- simple frame --></div>
-            </div>
-           </div>
-           <div class="grpelem temp_no_id" data-orig-id="u4020"><!-- simple frame --></div>
-           <div class="clearfix grpelem temp_no_id" data-orig-id="u4113"><!-- group -->
-            <div class="clearfix grpelem temp_no_id" data-orig-id="u4130"><!-- group -->
-             <div class="grpelem temp_no_id" data-orig-id="u4180"><!-- simple frame --></div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <span class="anchor_item grpelem placeholder" data-placeholder-for="softwares_content"><!-- placeholder node --></span>
-         <span class="anchor_item grpelem placeholder" data-placeholder-for="pricing_content"><!-- placeholder node --></span>
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u798-4_content"><!-- placeholder node --></span>
-        </div>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4283"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4269-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4259"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4255" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4472"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4475-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4473"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4474" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4365"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4368-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4366"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4367" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4522"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4525-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4523"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4524" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4313"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4316-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4314"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4315" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4497"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4498-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4499"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4500" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4562-6_content"><!-- placeholder node --></span>
-      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4764-6_content"><!-- placeholder node --></span>
-      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4563-4_content"><!-- placeholder node --></span>
-      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4669-4_content"><!-- placeholder node --></span>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4564"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4567-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4565"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4566" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4674"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4675-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4676"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4677" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4568"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4571-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4569"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4570" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4724"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4725-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4726"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4727" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4572"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4575-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4573"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4574" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u4699"><!-- column -->
-       <span class="Heading clearfix colelem placeholder" data-placeholder-for="u4700-4_content"><!-- placeholder node --></span>
-       <div class="clip_frame colelem temp_no_id" data-orig-id="u4701"><!-- svg -->
-        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/check.svg?crc=3797633560" onload="this.style.height=(this.offsetWidth*8.75789473684199/12.126315789473693)+'px'" alt="" data-mu-svgfallback="images/check_poster_.png?crc=3950231838" data-image-width="12" data-image-height="9" data-orig-id="u4702" src="images/blank.gif?crc=4208392903"/>
-       </div>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u4824"><!-- svg -->
-       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*65/215)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="215" data-image-height="65" data-orig-id="u4825" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u5557"><!-- group -->
-       <span class="rounded-corners grpelem placeholder" data-placeholder-for="u4952_content"><!-- placeholder node --></span>
-       <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4956"><!-- group -->
-        <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4964"><!-- group -->
-         <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4973"><!-- group -->
-          <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4979"><!-- group -->
-           <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4985"><!-- group -->
-            <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4991"><!-- group -->
-             <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u4997"><!-- group -->
-              <div class="rounded-corners clearfix grpelem temp_no_id" data-orig-id="u5003"><!-- group -->
-               <span class="rounded-corners clearfix grpelem placeholder" data-placeholder-for="u5009_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <span class="rounded-corners grpelem placeholder" data-placeholder-for="u4960_content"><!-- placeholder node --></span>
-      </div>
-      <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4794-4_content"><!-- placeholder node --></span>
-      <div class="tooltip6 clip_frame grpelem temp_no_id" data-orig-id="u5462"><!-- svg -->
-       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-mine.svg?crc=479624146" onload="this.style.height=(this.offsetWidth*41.09473684210525/36.378947368420995)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-mine_poster_.png?crc=3843972221" data-image-width="36" data-image-height="41" data-orig-id="u5458" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="tooltip2 clip_frame grpelem temp_no_id" data-orig-id="u5484"><!-- svg -->
-       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/path-107.svg?crc=427690683" onload="this.style.height=(this.offsetWidth*39.74736842105267/39.74736842105264)+'px'" alt="" data-mu-svgfallback="images/path%20107_poster_.png?crc=204758048" data-image-width="40" data-image-height="40" data-orig-id="u5480" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="tooltip3 clip_frame grpelem temp_no_id" data-orig-id="u5539"><!-- svg -->
-       <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/path-34.svg?crc=3900308290" onload="this.style.height=(this.offsetWidth*33.68421052631584/18.863157894736787)+'px'" alt="" data-mu-svgfallback="images/path%2034_poster_.png?crc=4247970906" data-image-width="19" data-image-height="34" data-orig-id="u5535" src="images/blank.gif?crc=4208392903"/>
-      </div>
-     </div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u4820-bw">
-      <div class="temp_no_id" data-orig-id="u4820"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u4820_align_to_page">
-        <div class="position_content" id="u4820_position_content">
-         <div class="clearfix colelem temp_no_id" data-orig-id="pcontact"><!-- group -->
-          <span class="anchor_item grpelem placeholder" data-placeholder-for="contact_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u1134-4_content"><!-- placeholder node --></span>
-         </div>
-         <span class="clearfix colelem placeholder" data-placeholder-for="u988-4_content"><!-- placeholder node --></span>
-         <span class="clearfix colelem placeholder" data-placeholder-for="u989-4_content"><!-- placeholder node --></span>
-         <span class="clearfix colelem placeholder" data-placeholder-for="u990-4_content"><!-- placeholder node --></span>
+        <span class="Heading clearfix colelem placeholder" data-placeholder-for="u97-4_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu6060"><!-- group -->
+         <span class="museBGSize grpelem placeholder" data-placeholder-for="u6060_content"><!-- placeholder node --></span>
+         <span class="museBGSize grpelem placeholder" data-placeholder-for="u6072_content"><!-- placeholder node --></span>
+         <span class="museBGSize grpelem placeholder" data-placeholder-for="u6084_content"><!-- placeholder node --></span>
+         <span class="museBGSize grpelem placeholder" data-placeholder-for="u6096_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext rounded-corners clearfix grpelem placeholder" data-placeholder-for="u3341-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext anim_swing rounded-corners clearfix grpelem placeholder" data-placeholder-for="u3370-4_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
      </div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u1168-bw">
-      <div class="temp_no_id" data-orig-id="u1168"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u1168_align_to_page">
-        <span class="clearfix grpelem placeholder" data-placeholder-for="pu1180_content"><!-- placeholder node --></span>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.instagram.com/hashbazaar/" data-orig-id="u1173"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*38.78787878787898/38.78787878787875)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="39" data-image-height="39" data-orig-id="u1174" src="images/blank.gif?crc=4208392903"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.linkedin.com/company/hashbazaar" data-orig-id="u1171"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*38.78787878787898/38.78787878787875)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="39" data-image-height="39" data-orig-id="u1172" src="images/blank.gif?crc=4208392903"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://twitter.com/Hashbazaar_CMC" data-orig-id="u1169"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*38.78787878787898/38.78787878787875)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="39" data-image-height="39" data-orig-id="u1170" src="images/blank.gif?crc=4208392903"/></a>
-        <div class="clearfix grpelem temp_no_id" data-orig-id="pu1175-4"><!-- column -->
-         <span class="clearfix colelem placeholder" data-placeholder-for="u1175-4_content"><!-- placeholder node --></span>
-         <span class="clearfix colelem placeholder" data-placeholder-for="u1176-4_content"><!-- placeholder node --></span>
-         <div class="clearfix colelem temp_no_id" data-orig-id="pu1177-4"><!-- group -->
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u1177-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4864-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4900-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4870-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4894-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4876-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4882-4_content"><!-- placeholder node --></span>
-          <span class="clearfix grpelem placeholder" data-placeholder-for="u4888-4_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u128_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u123_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="pu3983_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u2973_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3679_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3711_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3727_content"><!-- placeholder node --></span>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u3474-bw">
+      <div class="museBGSize temp_no_id" data-orig-id="u3474"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u3474_align_to_page">
+        <span class="clearfix colelem placeholder" data-placeholder-for="u7396_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="ppu102-4"><!-- group -->
+         <span class="clearfix grpelem placeholder" data-placeholder-for="pu102-4_content"><!-- placeholder node --></span>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3458"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/iphone.svg?crc=353415937" onload="this.style.height=(this.offsetWidth*213.8267548485561/138.71829988193633)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_.png?crc=304285189" data-image-width="139" data-image-height="214" data-orig-id="u3454" src="images/blank.gif?crc=4208392903"/>
          </div>
         </div>
-        <div class="clearfix grpelem" id="pu1182"><!-- column -->
-         <span class="museBGSize colelem placeholder" data-placeholder-for="u1182_content"><!-- placeholder node --></span>
-         <span class="museBGSize colelem placeholder" data-placeholder-for="u1184_content"><!-- placeholder node --></span>
-         <span class="museBGSize colelem placeholder" data-placeholder-for="u1183_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u3484-bw">
+      <div class="temp_no_id" data-orig-id="u3484"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u3484_align_to_page">
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u10260_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u10270_content"><!-- placeholder node --></span>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="pu3492"><!-- column -->
+         <div class="clip_frame colelem temp_no_id" data-orig-id="u3492"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*65.34736842105258/214.90526315789475)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="215" data-image-height="65" data-orig-id="u3488" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <span class="museBGSize clearfix colelem placeholder" data-placeholder-for="u5759_content"><!-- placeholder node --></span>
+        </div>
+        <span class="anchor_item grpelem placeholder" data-placeholder-for="features_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u10250_content"><!-- placeholder node --></span>
+        <span class="museBGSize clearfix grpelem placeholder" data-placeholder-for="u5777_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="ppsoftwares"><!-- group -->
+     <div class="clearfix grpelem" id="psoftwares"><!-- column -->
+      <span class="anchor_item colelem placeholder" data-placeholder-for="softwares_content"><!-- placeholder node --></span>
+      <span class="anchor_item colelem placeholder" data-placeholder-for="pricing_content"><!-- placeholder node --></span>
+      <span class="anchor_item colelem placeholder" data-placeholder-for="contact_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="pu5282_content"><!-- placeholder node --></span>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u10540-bw">
+      <div class="gradient6 temp_no_id" data-orig-id="u10540"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u10540_align_to_page">
+        <span class="nonblock nontext rounded-corners clearfix grpelem placeholder" data-placeholder-for="u10430-4_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u305-bw">
+      <div class="temp_no_id" data-orig-id="u305"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u305_align_to_page">
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu3920-4"><!-- group -->
+         <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u3920-4_content"><!-- placeholder node --></span>
+         <span class="grpelem placeholder" data-placeholder-for="u3926_content"><!-- placeholder node --></span>
+        </div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="pu6002_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="pu6049_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u10596"><!-- svg -->
+      <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/2asset-1.svg?crc=37190500" onload="this.style.height=(this.offsetWidth*476/787.4331658291457)+'px'" alt="" data-mu-svgfallback="images/2asset%201_poster_.png?crc=316098427" data-image-width="787" data-image-height="476" data-orig-id="u10592" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3757_content"><!-- placeholder node --></span>
+     <span class="size_fixed grpelem placeholder" data-placeholder-for="u3773_content"><!-- placeholder node --></span>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4010_content"><!-- placeholder node --></span>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4065_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u4226_content"><!-- placeholder node --></span>
+     <span class="Heading clearfix grpelem placeholder" data-placeholder-for="u4794-4_content"><!-- placeholder node --></span>
+     <span class="museBGSize grpelem placeholder" data-placeholder-for="u10040_content"><!-- placeholder node --></span>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u10481"><!-- svg -->
+      <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/iphone2.svg?crc=3946419038" onload="this.style.height=(this.offsetWidth*424.42105263157873/188.6315789473684)+'px'" alt="" data-mu-svgfallback="images/iphone_poster_2.png?crc=147287360" data-image-width="189" data-image-height="424" data-orig-id="u10477" src="images/blank.gif?crc=4208392903"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu4142"><!-- group -->
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4142_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1134-4_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u4840_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix colelem" id="pu4185"><!-- group -->
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4185_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u988-4_content"><!-- placeholder node --></span>
+    </div>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u989-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u990-4_content"><!-- placeholder node --></span>
+    <div class="browser_width colelem temp_no_id" data-orig-id="u1168-bw">
+     <div class="temp_no_id" data-orig-id="u1168"><!-- group -->
+      <div class="clearfix temp_no_id" data-orig-id="u1168_align_to_page">
+       <div class="clearfix grpelem temp_no_id" data-orig-id="ppu1180"><!-- column -->
+        <span class="clearfix colelem placeholder" data-placeholder-for="pu1180_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu1173"><!-- group -->
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.instagram.com/hashbazaar/" data-orig-id="u1173"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-instagram.svg?crc=388965492" onload="this.style.height=(this.offsetWidth*38.787878787879286/38.78787878787882)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-instagram_poster_.png?crc=375801358" data-image-width="39" data-image-height="39" data-orig-id="u1174" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.linkedin.com/company/hashbazaar" data-orig-id="u1171"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-linkedin.svg?crc=464571133" onload="this.style.height=(this.offsetWidth*38.787878787879286/38.78787878787882)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-linkedin_poster_.png?crc=4065801677" data-image-width="39" data-image-height="39" data-orig-id="u1172" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://twitter.com/Hashbazaar_CMC" data-orig-id="u1169"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-twitter.svg?crc=3825294094" onload="this.style.height=(this.offsetWidth*38.787878787879286/38.78787878787874)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-twitter_poster_.png?crc=191952573" data-image-width="39" data-image-height="39" data-orig-id="u1170" src="images/blank.gif?crc=4208392903"/></a>
+        </div>
+       </div>
+       <div class="clip_frame grpelem temp_no_id" data-orig-id="u4824"><!-- svg -->
+        <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/logo-04.svg?crc=463331889" onload="this.style.height=(this.offsetWidth*46.48421052631556/152.92631578947365)+'px'" alt="" data-mu-svgfallback="images/logo-04_poster_.png?crc=4078336048" data-image-width="153" data-image-height="46" data-orig-id="u4825" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <span class="clearfix grpelem placeholder" data-placeholder-for="pu4864-4_content"><!-- placeholder node --></span>
+       <span class="clearfix grpelem placeholder" data-placeholder-for="pu4900-4_content"><!-- placeholder node --></span>
+       <div class="clearfix grpelem temp_no_id" data-orig-id="pu10409-4"><!-- column -->
+        <span class="clearfix colelem placeholder" data-placeholder-for="u10409-4_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu10357"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10357"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/hashbazaar-windows2.svg?crc=267752047" onload="this.style.height=(this.offsetWidth*26.947368421052488/33.68421052631584)+'px'" alt="" data-mu-svgfallback="images/hashbazaar-windows_poster_.png?crc=4088819592" data-image-width="34" data-image-height="27" data-orig-id="u10353" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10363"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/linux2.svg?crc=357166510" onload="this.style.height=(this.offsetWidth*33.01052631578932/26.27368421052643)+'px'" alt="" data-mu-svgfallback="images/linux_poster_.png?crc=4122080657" data-image-width="26" data-image-height="33" data-orig-id="u10359" src="images/blank.gif?crc=4208392903"/>
+         </div>
+        </div>
+        <div class="clearfix colelem" id="pu10351"><!-- group -->
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10351"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/github2.svg?crc=4125461017" onload="this.style.height=(this.offsetWidth*32.33684210526326/36.378947368420995)+'px'" alt="" data-mu-svgfallback="images/github_poster_.png?crc=342018265" data-image-width="36" data-image-height="32" data-orig-id="u10347" src="images/blank.gif?crc=4208392903"/>
+         </div>
+         <div class="clip_frame grpelem temp_no_id" data-orig-id="u10345"><!-- svg -->
+          <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/android2.svg?crc=314731538" onload="this.style.height=(this.offsetWidth*33.68421052631588/25.59999999999991)+'px'" alt="" data-mu-svgfallback="images/android_poster_.png?crc=4200769702" data-image-width="26" data-image-height="34" data-orig-id="u10341" src="images/blank.gif?crc=4208392903"/>
+         </div>
         </div>
        </div>
       </div>
      </div>
     </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu3983"><!-- column -->
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u3983_content"><!-- placeholder node --></span>
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u5601_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem" id="pu2180"><!-- group -->
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u2180_content"><!-- placeholder node --></span>
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u3032_content"><!-- placeholder node --></span>
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4010_content"><!-- placeholder node --></span>
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4065_content"><!-- placeholder node --></span>
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4142_content"><!-- placeholder node --></span>
-      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u4185_content"><!-- placeholder node --></span>
-     </div>
-     <div class="clearfix colelem" id="pu3679"><!-- group -->
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3679_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3711_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3727_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3757_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u3773_content"><!-- placeholder node --></span>
-     </div>
-     <span class="size_fixed colelem placeholder" data-placeholder-for="u5282_content"><!-- placeholder node --></span>
-    </div>
-    <div class="verticalspacer" data-offset-top="4069" data-content-above-spacer="4069" data-content-below-spacer="0"></div>
+    <div class="verticalspacer" data-offset-top="3671" data-content-above-spacer="3670" data-content-below-spacer="0"></div>
    </div>
   </div>
   <!-- JS includes -->
-  <script src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript"></script>
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -1321,10 +1071,55 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
 </script>
   <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=4163635208" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=3849126041" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
   
   <!--HTML Widget code-->
   
+<script>
+$(".svg1").css({"fill-opacity": "0"});
+ $(".svg1").css("stroke-width", "0.5");
+
+setTimeout(function(){
+var svg1 = new Vivus('svg1', {
+type: 'delayed',
+duration: 200,
+delay: 100,
+start: 'autostart',
+forceRender: false,
+animTimingFunction: Vivus.EASE,
+pathTimingFunction: Vivus.EASE,
+file: 'assets/logo-04.svg'
+},
+function(obj){
+ $(".svg1").css({"fill-opacity": "0"});
+ $(".svg1").animate({"fill-opacity": "1"}, 1000);
+//$(".svg1").animate({"stroke-width": "0"}, 1000);
+});
+
+//$(".svg1").click(function(){
+ $(".svg1").css("stroke-width", "0.5");
+//$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
+
+//$(".svg1").mouseenter(function(){
+ $(".svg1").css("stroke-width", "0.5");
+//$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
+
+$(".play").click(function(){svg1.play();});
+$(".pause").click(function(){svg1.stop();});
+$(".restart").click(function(){
+ $(".svg1").css("stroke-width", "0.5");
+$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
+
+//$(window).resize(function(){
+ $(".svg1").css("stroke-width", "0.5");
+//$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
+},0);
+</script>
+
+<script>
+$(function(){$('.type1').typed({strings:['فارم یار، مدیریت مزارع ماینینگ'],typeSpeed:55,startDelay: 500,backSpeed:30,backDelay:500,loop:false,showCursor:true,cursorChar:'|'});});
+</script>
+
 <script src="https://cdn.jsdelivr.net/jquery.typed.js/1.1.4/typed.min.js"></script>
 
 <script>
@@ -1449,51 +1244,6 @@ new Tippy('.tooltip6', {
     followCursor: false,
     inertia: false
 })
-</script>
-
-<script>
-$(".svg1").css({"fill-opacity": "0"});
- $(".svg1").css("stroke-width", "0.5");
-
-setTimeout(function(){
-var svg1 = new Vivus('svg1', {
-type: 'delayed',
-duration: 200,
-delay: 100,
-start: 'autostart',
-forceRender: false,
-animTimingFunction: Vivus.EASE,
-pathTimingFunction: Vivus.EASE,
-file: 'assets/logo-04.svg'
-},
-function(obj){
- $(".svg1").css({"fill-opacity": "0"});
- $(".svg1").animate({"fill-opacity": "1"}, 1000);
-//$(".svg1").animate({"stroke-width": "0"}, 1000);
-});
-
-//$(".svg1").click(function(){
- $(".svg1").css("stroke-width", "0.5");
-//$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
-
-//$(".svg1").mouseenter(function(){
- $(".svg1").css("stroke-width", "0.5");
-//$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
-
-$(".play").click(function(){svg1.play();});
-$(".pause").click(function(){svg1.stop();});
-$(".restart").click(function(){
- $(".svg1").css("stroke-width", "0.5");
-$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
-
-//$(window).resize(function(){
- $(".svg1").css("stroke-width", "0.5");
-//$(".svg1").css({"fill-opacity": "0"});svg1.reset();svg1.play();});
-},0);
-</script>
-
-<script>
-$(function(){$('.type1').typed({strings:['فارم یار، مدیریت مزارع ماینینگ'],typeSpeed:55,startDelay: 500,backSpeed:30,backDelay:500,loop:false,showCursor:true,cursorChar:'|'});});
 </script>
 
 <script>

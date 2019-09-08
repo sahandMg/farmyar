@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37.161 37.251">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-1" width="37.161" height="37.251"/>
+    </clipPath>
+  </defs>
+  <g id="hashbazaar-windows" transform="translate(-0.5 -0.6)">
+    <path id="Path_94" data-name="Path 94" class="cls-1" d="M19.6,3.541C26.284,2.471,32.967,1.58,39.74.6V18.245c-6.684,0-13.367.089-20.14.178Z" transform="translate(-2.079 0)"/>
+    <path id="Path_95" data-name="Path 95" class="cls-1" d="M.5,6.25c5.08-.8,10.07-1.426,15.15-2.05V18.815c-5.08,0-10.159.089-15.15.089Z" transform="translate(0 -0.392)"/>
+    <g id="Group_67" data-name="Group 67" transform="translate(0.5 0.6)">
+      <g id="Group_66" data-name="Group 66" class="cls-2">
+        <path id="Path_96" data-name="Path 96" class="cls-1" d="M.5,22.4c5.08,0,10.07.089,15.15.089v14.7C10.57,36.48,5.58,35.767.5,35.144Z" transform="translate(-0.5 -2.973)"/>
+        <path id="Path_97" data-name="Path 97" class="cls-1" d="M19.6,22.6H39.74V40.156C33.057,39.176,26.373,38.2,19.6,37.3Z" transform="translate(-2.579 -2.994)"/>
+      </g>
+    </g>
+  </g>
+</svg>
