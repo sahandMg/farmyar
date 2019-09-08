@@ -1,8 +1,8 @@
 <aside class="menu-sidebar d-none d-lg-block">
-            <div class="logo">
+            <div class="logo" style="justify-content: center;">
                 <a href="{{route('index',['locale'=>App::getLocale()])}}">
                     <!-- <img src="{{URL::asset('remoteDashboard/images/icon/logo.png')}}" alt="Cool Admin" /> -->
-                    <img src="{{URL::asset('img/Logo_footer.png')}}" alt="HashBazaar" />
+                    <img src="{{URL::asset('img/farmyar.svg')}}" alt="HashBazaar" style="height: 51px;" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
