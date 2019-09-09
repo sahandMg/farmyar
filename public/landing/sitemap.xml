@@ -43,8 +43,20 @@
     </image:image>
   </url>
   <url>
+    <loc>http://monitor.com/assets/path.svg</loc>
+    <lastmod>2019-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://monitor.com/assets/logo-04.svg</loc>
     <lastmod>2019-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://monitor.com/assets/path-1.svg</loc>
+    <lastmod>2019-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
