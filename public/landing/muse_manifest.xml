@@ -1,13 +1,12 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1568032308097">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="monitor.com" resolutions="1x" timestamp="1568226388228">
   <folder name="assets">
     <file name="logo-04.svg" crc="463331889" seo="true" mt="1567756331000"/>
     <file name="path.svg" crc="13618501" seo="true" mt="1568013472000"/>
-    <file name="path-1.svg" crc="3877934594" seo="true" mt="1568013472000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3883928133"/>
-    <file name="index.css" crc="4287016023" ref="index"/>
-    <file name="nomq_index.css" crc="292044561" ref="index"/>
+    <file name="index.css" crc="442234220" ref="index"/>
+    <file name="nomq_index.css" crc="446905296" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="byekan.woff" crc="315374278"/>
@@ -139,8 +138,7 @@
     </file>
     <file name="cloud1.svg" crc="4127664655" ref="index"/>
     <file name="cloud1_poster_u3478.png" crc="251357319" ref="index"/>
-    <file name="iphone.svg" crc="3946419038" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="iphone.svg" crc="353415937" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -317,7 +315,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="iphone2.svg" crc="353415937" seo="true" ref="index">
+    <file name="iphone2.svg" crc="3946419038" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -337,17 +336,16 @@
     <file name="group 119-u10040-fr.png" crc="434187936" ref="index"/>
     <file name="group 119-u10040-fr2.png" crc="3931979030" ref="index"/>
     <file name="group 119-u10040-fr3.png" crc="4165169423" ref="index"/>
-    <file name="group 119-u10040-fr4.png" crc="268242256" ref="index"/>
+    <file name="group 119-u10040-fr4.png" crc="3897341362" ref="index"/>
     <file name="group 119-u10040-fr5.png" crc="506778041" ref="index"/>
     <file name="group 119-u10040-fr6.png" crc="3967303612" ref="index"/>
-    <file name="sample-02.svg" crc="525495054" ref="index"/>
-    <file name="sample-02_poster_u14277.png" crc="532691037" ref="index"/>
     <file name="group 119-u10040-fr7.png" crc="332908020" ref="index"/>
     <file name="group 119-u10040-fr8.png" crc="520122119" ref="index"/>
     <file name="group 119-u10040-fr9.png" crc="123548113" ref="index"/>
     <file name="group 119-u10040-fr10.png" crc="201391670" ref="index"/>
     <file name="group 119-u10040-fr11.png" crc="4078624429" ref="index"/>
-    <file name="group 119-u10040-fr12.png" crc="14830902" ref="index"/>
+    <file name="group 119-u10040-fr12.png" crc="475439467" ref="index"/>
+    <file name="iphone_poster_u17797.png" crc="304285189" ref="index"/>
   </folder>
-  <file name="index.html" crc="3992832102" seo="true" mt="1568032191891" redirect="true"/>
+  <file name="index.html" crc="4093301043" seo="true" mt="1568226185470" redirect="true"/>
 </manifest>

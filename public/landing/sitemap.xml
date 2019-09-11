@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://monitor.com/index.html</loc>
-    <lastmod>2019-09-09</lastmod>
+    <lastmod>2019-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -43,19 +43,13 @@
     </image:image>
   </url>
   <url>
-    <loc>http://monitor.com/assets/path.svg</loc>
-    <lastmod>2019-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://monitor.com/assets/logo-04.svg</loc>
     <lastmod>2019-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://monitor.com/assets/path-1.svg</loc>
+    <loc>http://monitor.com/assets/path.svg</loc>
     <lastmod>2019-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

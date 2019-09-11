@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7502cfec-de4d-4ed4-91f2-3dc10a1147c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/landing/css/index.css" afterPath="$PROJECT_DIR$/public/landing/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/landing/css/nomq_index.css" afterPath="$PROJECT_DIR$/public/landing/css/nomq_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/landing/index.html" afterPath="$PROJECT_DIR$/public/landing/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/landing/muse_manifest.xml" afterPath="$PROJECT_DIR$/public/landing/muse_manifest.xml" />
     </list>
     <ignored path="farmyar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -462,12 +458,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567947391747</updated>
-      <workItem from="1567947405381" duration="3363000" />
+      <workItem from="1567947405381" duration="5950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3363000" />
+    <option name="totallyTimeSpent" value="5950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
