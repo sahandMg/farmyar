@@ -29,7 +29,7 @@ class User extends Authenticatable implements MustVerifyEmail
     ];
 
     public function verifyUser(){
-        return $this->hasOne(VerifyUser::class);
+        return $this->hasOne(VerifyUser::class,'user_id');
     }
 
     public function minings(){

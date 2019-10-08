@@ -15,10 +15,10 @@ class CreateVerifyUsersTable extends Migration
     {
         Schema::create('verify_users', function (Blueprint $table) {
             $table->bigIncrements('id');
+            // $table->unsignedInteger('user_id');
+            // $table->foreign('user_id')->references('id')->on('users');
             $table->unsignedInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->unsignedInteger('remote_user_id');
-            $table->foreign('remote_user_id')->references('id')->on('remote_users');
+            $table->foreign('user_id')->references('id')->on('remote_users')->onDelete('cascade');
             $table->string('token');
             $table->timestamps();
         });

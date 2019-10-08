@@ -2,7 +2,7 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
-                            <!--<form class="form-header" action="" method="POST">-->
+                            {{--  <!--<form class="form-header" action="" method="POST">-->
                                 <!--<input class="au-input au-input&#45;&#45;xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />-->
                                 <!--<button class="au-btn&#45;&#45;submit" type="submit">-->
                                     <!--<i class="zmdi zmdi-search"></i>-->
@@ -120,8 +120,9 @@
                                             <!--</div>-->
                                         <!--</div>-->
                                     <!--</div>-->
-                                <!--</div>-->
+                                <!--</div>-->  --}}
                                 <div class="account-wrap">
+                                        @if(Auth::guard('user')->check())
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
                                             <img src="{{URL::asset('remoteDashboard/images/avatar.png')}}" alt="John Doe" />
@@ -136,12 +137,14 @@
                                                         <img src="{{URL::asset('remoteDashboard/images/avatar.png')}}" alt="John Doe" />
                                                     </a>
                                                 </div>
+
                                                 <div class="content">
                                                     <h5 class="name">
                                                         <a href="{{route('remoteDashboard',['locale'=>App::getLocale()])}}">{{Auth::guard('remote')->user()->name}}</a>
                                                     </h5>
                                                     <span class="email">{{Auth::guard('remote')->user()->email}}</span>
                                                 </div>
+
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
@@ -163,7 +166,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @endif
                                 </div>
+
                             </div>
                         </div>
                     </div>

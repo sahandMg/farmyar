@@ -131,18 +131,21 @@ return [
         ],
 
         'password' => [
-            'required' => 'Please enter your password'
+            'required' => 'کلمه عبور را وارد کنید'
         ],
         'newpass' => [
-            'required' => 'Please enter your new password'
+            'required' => 'کلمه عبور جدید را وارد کنید'
         ],
-        'confirm' => [
-            'required' => 'Please confirm your password',
-            'same'  => 'Password not matches'
+        'confirm_password' => [
+            'required' => 'تایید کلمه عبور را وارد کنید',
+            'same'  => 'کلمه عبور نادرست تکرار شده'
         ],
         'captcha' => [
-            'required' => 'Please fill captcha',
-            'captcha' => 'Wrong security code'
+            'required' => 'کد امنیتی را وارد کنید',
+            'captcha' => 'کد امنیتی نادرست است'
+        ],
+        'email' => [
+            'unique'=>'آدرس ایمیل قبلا ثبت شده'
         ]
     ],
 
@@ -157,6 +160,8 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'email'=>'ایمیل'
+    ],
 
 ];

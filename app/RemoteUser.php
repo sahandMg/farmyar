@@ -10,7 +10,7 @@ class RemoteUser extends Authenticatable implements MustVerifyEmail
     protected $fillable = ['email','password','ip','country','block','avatar','verified'];
 
     public function verifyUser(){
-        return $this->hasOne(VerifyUser::class);
+        return $this->hasOne(VerifyUser::class,'user_id');
     }
 
     public function data(){
@@ -18,10 +18,10 @@ class RemoteUser extends Authenticatable implements MustVerifyEmail
         return $this->hasMany(RemoteData::class,'remote_id');
     }
 
-    // public function user(){
+    public function user(){
 
-    //     return $this->hasMany(RemoteId::class,'user_id');
-    // }
+        return $this->hasMany(RemoteId::class,'user_id');
+    }
 
     public function antpools(){
 

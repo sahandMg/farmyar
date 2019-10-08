@@ -70,7 +70,7 @@ class AuthController extends Controller
         ];
         $token = str_random(40);
         VerifyUser::create([
-            'remote_user_id' => $user->id,
+            'user_id' => $user->id,
             'token' => $token
         ]);
 

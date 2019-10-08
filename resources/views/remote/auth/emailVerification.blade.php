@@ -1,6 +1,6 @@
-@extends('master.layout')
+@extends('remote.layout')
 @section('title')
-    <title>Login</title>
+    <title>ورود</title>
 @endsection
 @section('content')
     <div class="limiter">
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    @include('master.footer')
+    @include('email.master.footer')
     <!--===============================================================================================-->
     <!-- <script src="vendor/jquery/jquery-3.2.1.min.js"></script> -->
     <!--===============================================================================================-->

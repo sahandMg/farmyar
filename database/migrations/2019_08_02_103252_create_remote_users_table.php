@@ -11,25 +11,25 @@ class CreateRemoteUsersTable extends Migration
      *
      * @return void
      */
-//    public function up()
-//    {
-//        Schema::create('remote_users', function (Blueprint $table) {
-//            $table->increments('id');
-//            $table->string('name')->nullable();
-//            $table->string('email')->unique();
-//            $table->string('password')->nullable();
-//            $table->string('code');
-//            $table->index('code');
-//            $table->string('ip')->nullable();
-//            $table->string('country')->nullable();
-//            $table->string('avatar')->nullable();
-//            $table->boolean('block')->default(0);;
-//            $table->boolean('verified')->default(false);
-//            $table->rememberToken();
-//            $table->timestamp('email_verified_at')->nullable();
-//            $table->timestamps();
-//        });
-//    }
+   public function up()
+   {
+       Schema::create('remote_users', function (Blueprint $table) {
+           $table->increments('id');
+           $table->string('name')->nullable();
+           $table->string('email')->unique();
+           $table->string('password')->nullable();
+           $table->string('code');
+           $table->index('code');
+           $table->string('ip')->nullable();
+           $table->string('country')->nullable();
+           $table->string('avatar')->nullable();
+           $table->boolean('block')->default(0);;
+           $table->boolean('verified')->default(false);
+           $table->rememberToken();
+           $table->timestamp('email_verified_at')->nullable();
+           $table->timestamps();
+       });
+   }
 
     /**
      * Reverse the migrations.

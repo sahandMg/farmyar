@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>مدیریت</title>
+	<title>فارم یار | ورود</title>
 	<link rel="stylesheet" href="{{URL::asset('bootstrap/css/bootstrap.min.css')}}">
 @if(Config::get('app.locale') == 'fa')
     <STYLE>
@@ -42,7 +42,7 @@
 
 			   <div class="form-group">
 						 	<lable for="name">نام و نام خانوادگی</lable>
-					      <input class="form-control" pattern='[a-zA-Z0-9 آ ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی]+'  type="text" name="name"  value="{{Request::old('name')}}">
+					      <input class="form-control" pattern='[a-zA-Z0-9 آ ا ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی][' ']+'  type="text" name="name"  value="{{Request::old('name')}}">
 			   </div>
 			   <div class="form-group">
 					<label for="email">ایمیل:</label>
@@ -134,7 +134,7 @@
          background-color: white;  background-image: url({{asset('img/mining.jpg')}});
          background-repeat: no-repeat;
          background-position: center;
-         background-size: cover; 
+         background-size: cover;
       }
 	  .btnTab {
 	      border: 0px;
@@ -188,7 +188,7 @@
                             <span class="focus-input100"></span>
                     </div>
 
-					
+
 
 					<div class="container-login100-form-btn">
 						<button id="submitBtn" class="login100-form-btn">

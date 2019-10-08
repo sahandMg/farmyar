@@ -14,6 +14,7 @@
 use App\BitCoinPrice;
 use App\BitHash;
 use App\RemoteData;
+use App\VerifyUser;
 use App\Transaction;
 use App\User;
 use Carbon\Carbon;
@@ -126,7 +127,7 @@ Route::get('qr',function(){
 
 Route::get('test',function (){
 
-    // dd(Storage::directories('public'));
+    return \App\RemoteUser::find(1)->verifyUser;
     $storagePath = storage_path('app/public/landing/index.html');
 
         return File::get($storagePath);
